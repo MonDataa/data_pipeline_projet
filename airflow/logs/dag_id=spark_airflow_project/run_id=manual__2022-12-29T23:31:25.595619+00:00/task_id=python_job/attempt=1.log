@@ -1,0 +1,578 @@
+[2022-12-30T00:31:30.436+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:31:25.595619+00:00 [queued]>
+[2022-12-30T00:31:30.450+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:31:25.595619+00:00 [queued]>
+[2022-12-30T00:31:30.450+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:31:30.450+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 4
+[2022-12-30T00:31:30.450+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:31:30.466+0100] {taskinstance.py:1304} INFO - Executing <Task(SparkSubmitOperator): python_job> on 2022-12-29 23:31:25.595619+00:00
+[2022-12-30T00:31:30.472+0100] {standard_task_runner.py:55} INFO - Started process 16465 to run task
+[2022-12-30T00:31:30.485+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark_airflow_project', 'python_job', 'manual__2022-12-29T23:31:25.595619+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/spark_airflow.py', '--cfg-path', '/tmp/tmpxmhiq5wo']
+[2022-12-30T00:31:30.487+0100] {standard_task_runner.py:83} INFO - Job 67: Subtask python_job
+[2022-12-30T00:31:30.543+0100] {task_command.py:389} INFO - Running <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:31:25.595619+00:00 [running]> on host momo-VirtualBox
+[2022-12-30T00:31:30.594+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ranga
+AIRFLOW_CTX_DAG_ID=spark_airflow_project
+AIRFLOW_CTX_TASK_ID=python_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-29T23:31:25.595619+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-29T23:31:25.595619+00:00
+[2022-12-30T00:31:30.604+0100] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2022-12-30T00:31:30.606+0100] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py
+[2022-12-30T00:31:38.866+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:38 WARN Utils: Your hostname, momo-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2022-12-30T00:31:38.883+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:38 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2022-12-30T00:31:42.310+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:42 INFO SparkContext: Running Spark version 3.3.1
+[2022-12-30T00:31:42.580+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2022-12-30T00:31:42.994+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:42 INFO ResourceUtils: ==============================================================
+[2022-12-30T00:31:43.004+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2022-12-30T00:31:43.006+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO ResourceUtils: ==============================================================
+[2022-12-30T00:31:43.007+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SparkContext: Submitted application: conf pro spark
+[2022-12-30T00:31:43.124+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2022-12-30T00:31:43.195+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO ResourceProfile: Limiting resource is cpu
+[2022-12-30T00:31:43.203+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2022-12-30T00:31:43.403+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SecurityManager: Changing view acls to: momo
+[2022-12-30T00:31:43.408+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SecurityManager: Changing modify acls to: momo
+[2022-12-30T00:31:43.418+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SecurityManager: Changing view acls groups to:
+[2022-12-30T00:31:43.419+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SecurityManager: Changing modify acls groups to:
+[2022-12-30T00:31:43.424+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:43 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(momo); groups with view permissions: Set(); users  with modify permissions: Set(momo); groups with modify permissions: Set()
+[2022-12-30T00:31:44.889+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:44 INFO Utils: Successfully started service 'sparkDriver' on port 35507.
+[2022-12-30T00:31:45.240+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:45 INFO SparkEnv: Registering MapOutputTracker
+[2022-12-30T00:31:45.758+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:45 INFO SparkEnv: Registering BlockManagerMaster
+[2022-12-30T00:31:45.845+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:45 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2022-12-30T00:31:45.848+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:45 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2022-12-30T00:31:45.913+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:45 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2022-12-30T00:31:46.063+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:46 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-6a12abc4-a6c0-49a4-87dd-1ec2a377483b
+[2022-12-30T00:31:46.161+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:46 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2022-12-30T00:31:46.249+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:46 INFO SparkEnv: Registering OutputCommitCoordinator
+[2022-12-30T00:31:46.935+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:46 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2022-12-30T00:31:47.296+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO Executor: Starting executor ID driver on host 10.0.2.15
+[2022-12-30T00:31:47.313+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2022-12-30T00:31:47.369+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 41465.
+[2022-12-30T00:31:47.369+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO NettyBlockTransferService: Server created on 10.0.2.15:41465
+[2022-12-30T00:31:47.373+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2022-12-30T00:31:47.385+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 41465, None)
+[2022-12-30T00:31:47.399+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:41465 with 413.9 MiB RAM, BlockManagerId(driver, 10.0.2.15, 41465, None)
+[2022-12-30T00:31:47.413+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 41465, None)
+[2022-12-30T00:31:47.417+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:47 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 41465, None)
+[2022-12-30T00:31:49.524+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:49 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2022-12-30T00:31:49.567+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:49 INFO SharedState: Warehouse path is 'file:/home/momo/Bureau/spark-warehouse'.
+[2022-12-30T00:31:53.544+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:53 INFO InMemoryFileIndex: It took 239 ms to list leaf files for 1 paths.
+[2022-12-30T00:31:53.892+0100] {spark_submit.py:495} INFO - 22/12/30 00:31:53 INFO InMemoryFileIndex: It took 26 ms to list leaf files for 1 paths.
+[2022-12-30T00:32:01.496+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:01 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:01.501+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:01 INFO FileSourceStrategy: Post-Scan Filters: (length(trim(value#0, None)) > 0)
+[2022-12-30T00:32:01.518+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:01 INFO FileSourceStrategy: Output Data Schema: struct<value: string>
+[2022-12-30T00:32:03.883+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:03 INFO CodeGenerator: Code generated in 788.789535 ms
+[2022-12-30T00:32:04.090+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 199.6 KiB, free 413.7 MiB)
+[2022-12-30T00:32:04.343+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.7 MiB)
+[2022-12-30T00:32:04.352+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.9 MiB)
+[2022-12-30T00:32:04.370+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO SparkContext: Created broadcast 0 from csv at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:04.440+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:04.741+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO SparkContext: Starting job: csv at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:04.784+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO DAGScheduler: Got job 0 (csv at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:04.785+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO DAGScheduler: Final stage: ResultStage 0 (csv at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:04.800+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:04.803+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:04.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:04 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:05.118+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 11.8 KiB, free 413.7 MiB)
+[2022-12-30T00:32:05.123+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.9 KiB, free 413.7 MiB)
+[2022-12-30T00:32:05.125+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.0.2.15:41465 (size: 5.9 KiB, free: 413.9 MiB)
+[2022-12-30T00:32:05.128+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:05.165+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at csv at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:05.167+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:05.280+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4923 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:05.368+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2022-12-30T00:32:05.945+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:05 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:06.037+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO CodeGenerator: Code generated in 74.069337 ms
+[2022-12-30T00:32:06.182+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1792 bytes result sent to driver
+[2022-12-30T00:32:06.241+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1013 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:06.265+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:06.285+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO DAGScheduler: ResultStage 0 (csv at NativeMethodAccessorImpl.java:0) finished in 1,396 s
+[2022-12-30T00:32:06.299+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:06.300+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2022-12-30T00:32:06.315+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO DAGScheduler: Job 0 finished: csv at NativeMethodAccessorImpl.java:0, took 1,560345 s
+[2022-12-30T00:32:06.426+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO CodeGenerator: Code generated in 54.561533 ms
+[2022-12-30T00:32:06.682+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:06.682+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:06.690+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO FileSourceStrategy: Output Data Schema: struct<value: string>
+[2022-12-30T00:32:06.728+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 199.6 KiB, free 413.5 MiB)
+[2022-12-30T00:32:06.782+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.5 MiB)
+[2022-12-30T00:32:06.789+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.9 MiB)
+[2022-12-30T00:32:06.797+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO SparkContext: Created broadcast 2 from csv at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:06.808+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:06 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:07.086+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO SparkContext: Starting job: csv at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:07.088+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Got job 1 (csv at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:07.088+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Final stage: ResultStage 1 (csv at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:07.088+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:07.088+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:07.091+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at csv at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:07.228+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 25.0 KiB, free 413.4 MiB)
+[2022-12-30T00:32:07.241+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 11.8 KiB, free 413.4 MiB)
+[2022-12-30T00:32:07.242+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.0.2.15:41465 (size: 11.8 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:07.246+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:07.248+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at csv at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:07.248+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:07.252+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4923 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:07.256+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[2022-12-30T00:32:07.396+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:07.784+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1780 bytes result sent to driver
+[2022-12-30T00:32:07.807+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 551 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:07.811+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: ResultStage 1 (csv at NativeMethodAccessorImpl.java:0) finished in 0,717 s
+[2022-12-30T00:32:07.815+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:07.819+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:07.819+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[2022-12-30T00:32:07.827+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:07 INFO DAGScheduler: Job 1 finished: csv at NativeMethodAccessorImpl.java:0, took 0,735872 s
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - root
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - |-- Code du département: string (nullable = true)
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - |-- Libellé du département: string (nullable = true)
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - |-- Code de la circonscription: integer (nullable = true)
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - |-- Libellé de la circonscription: string (nullable = true)
+[2022-12-30T00:32:07.958+0100] {spark_submit.py:495} INFO - |-- Etat saisie: string (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- Inscrits: integer (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- Abstentions: integer (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Abs/Ins: double (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- Votants: integer (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Vot/Ins: double (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- Blancs: integer (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Blancs/Ins: double (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Blancs/Vot: double (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- Nuls: integer (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Nuls/Ins: double (nullable = true)
+[2022-12-30T00:32:07.959+0100] {spark_submit.py:495} INFO - |-- % Nuls/Vot: double (nullable = true)
+[2022-12-30T00:32:07.960+0100] {spark_submit.py:495} INFO - |-- Exprimés: integer (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- % Exp/Ins: double (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- % Exp/Vot: double (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- N°Panneau: integer (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- Sexe: string (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- Nom: string (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- Prénom: string (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- Voix: integer (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- % Voix/Ins: double (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - |-- % Voix/Exp: double (nullable = true)
+[2022-12-30T00:32:07.962+0100] {spark_submit.py:495} INFO - 
+[2022-12-30T00:32:08.148+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:08 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.0.2.15:41465 in memory (size: 11.8 KiB, free: 413.9 MiB)
+[2022-12-30T00:32:08.501+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:08 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:08.509+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:08 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:08.517+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:08 INFO FileSourceStrategy: Output Data Schema: struct<Code du département: string, Libellé du département: string, Code de la circonscription: int, Libellé de la circonscription: string, Etat saisie: string ... 24 more fields>
+[2022-12-30T00:32:08.614+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:08 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2022-12-30T00:32:09.235+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO CodeGenerator: Code generated in 290.3897 ms
+[2022-12-30T00:32:09.258+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 199.4 KiB, free 413.3 MiB)
+[2022-12-30T00:32:09.312+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.2 MiB)
+[2022-12-30T00:32:09.313+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:09.317+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO SparkContext: Created broadcast 4 from showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:09.328+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:09.388+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:09.390+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Got job 2 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:09.390+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Final stage: ResultStage 2 (showString at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:09.390+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:09.390+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:09.394+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[13] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:09.405+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 27.1 KiB, free 413.2 MiB)
+[2022-12-30T00:32:09.408+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 9.9 KiB, free 413.2 MiB)
+[2022-12-30T00:32:09.417+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.0.2.15:41465 (size: 9.9 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:09.418+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:09.419+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:09.419+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:09.426+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4923 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:09.426+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)
+[2022-12-30T00:32:09.457+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:09.580+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO CodeGenerator: Code generated in 87.657124 ms
+[2022-12-30T00:32:09.719+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 4513 bytes result sent to driver
+[2022-12-30T00:32:09.726+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 297 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:09.732+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: ResultStage 2 (showString at NativeMethodAccessorImpl.java:0) finished in 0,333 s
+[2022-12-30T00:32:09.733+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:09.733+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:09.737+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+[2022-12-30T00:32:09.744+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:09 INFO DAGScheduler: Job 2 finished: showString at NativeMethodAccessorImpl.java:0, took 0,350592 s
+[2022-12-30T00:32:10.033+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO CodeGenerator: Code generated in 182.747371 ms
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - +-------------------+----------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |Code du département|Libellé du département|Code de la circonscription|Libellé de la circonscription|Etat saisie|Inscrits|Abstentions|% Abs/Ins|Votants|% Vot/Ins|Blancs|% Blancs/Ins|% Blancs/Vot|Nuls|% Nuls/Ins|% Nuls/Vot|Exprimés|% Exp/Ins|% Exp/Vot|N°Panneau|Sexe|    Nom|  Prénom|Voix|% Voix/Ins|% Voix/Exp|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - +-------------------+----------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 01|                   Ain|                         1|         1ère circonscription|    Complet|   85723|      18592|    21.69|  67131|    78.31|  1154|        1.35|        1.72| 393|      0.46|      0.59|   65584|    76.51|     97.7|        1|   F|ARTHAUD|Nathalie| 317|      0.37|      0.48|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 01|                   Ain|                         2|         2ème circonscription|    Complet|   99383|      19917|    20.04|  79466|    79.96|  1367|        1.38|        1.72| 352|      0.35|      0.44|   77747|    78.23|    97.84|        1|   F|ARTHAUD|Nathalie| 354|      0.36|      0.46|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 01|                   Ain|                         3|         3ème circonscription|    Complet|   81500|      20440|    25.08|  61060|    74.92|   851|        1.04|        1.39| 290|      0.36|      0.47|   59919|    73.52|    98.13|        1|   F|ARTHAUD|Nathalie| 275|      0.34|      0.46|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 01|                   Ain|                         4|         4ème circonscription|    Complet|   94359|      19826|    21.01|  74533|    78.99|  1299|        1.38|        1.74| 474|       0.5|      0.64|   72760|    77.11|    97.62|        1|   F|ARTHAUD|Nathalie| 376|       0.4|      0.52|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 01|                   Ain|                         5|         5ème circonscription|    Complet|   77144|      18766|    24.33|  58378|    75.67|   970|        1.26|        1.66| 394|      0.51|      0.67|   57014|    73.91|    97.66|        1|   F|ARTHAUD|Nathalie| 336|      0.44|      0.59|
+[2022-12-30T00:32:10.088+0100] {spark_submit.py:495} INFO - |                 02|                 Aisne|                         1|         1ère circonscription|    Complet|   72206|      18597|    25.76|  53609|    74.24|   740|        1.02|        1.38| 404|      0.56|      0.75|   52465|    72.66|    97.87|        1|   F|ARTHAUD|Nathalie| 410|      0.57|      0.78|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 02|                 Aisne|                         2|         2ème circonscription|    Complet|   73111|      20530|    28.08|  52581|    71.92|   772|        1.06|        1.47| 403|      0.55|      0.77|   51406|    70.31|    97.77|        1|   F|ARTHAUD|Nathalie| 372|      0.51|      0.72|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 02|                 Aisne|                         3|         3ème circonscription|    Complet|   66580|      17358|    26.07|  49222|    73.93|   699|        1.05|        1.42| 398|       0.6|      0.81|   48125|    72.28|    97.77|        1|   F|ARTHAUD|Nathalie| 358|      0.54|      0.74|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 02|                 Aisne|                         4|         4ème circonscription|    Complet|   78699|      22961|    29.18|  55738|    70.82|   681|        0.87|        1.22|1143|      1.45|      2.05|   53914|    68.51|    96.73|        1|   F|ARTHAUD|Nathalie| 391|       0.5|      0.73|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 02|                 Aisne|                         5|         5ème circonscription|    Complet|   82948|      21643|    26.09|  61305|    73.91|   875|        1.05|        1.43| 480|      0.58|      0.78|   59950|    72.27|    97.79|        1|   F|ARTHAUD|Nathalie| 507|      0.61|      0.85|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 03|                Allier|                         1|         1ère circonscription|    Complet|   89193|      20597|    23.09|  68596|    76.91|  1330|        1.49|        1.94| 599|      0.67|      0.87|   66667|    74.74|    97.19|        1|   F|ARTHAUD|Nathalie| 528|      0.59|      0.79|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 03|                Allier|                         2|         2ème circonscription|    Complet|   80780|      19459|    24.09|  61321|    75.91|  1207|        1.49|        1.97| 649|       0.8|      1.06|   59465|    73.61|    96.97|        1|   F|ARTHAUD|Nathalie| 446|      0.55|      0.75|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 03|                Allier|                         3|         3ème circonscription|    Complet|   80018|      18441|    23.05|  61577|    76.95|  1212|        1.51|        1.97| 542|      0.68|      0.88|   59823|    74.76|    97.15|        1|   F|ARTHAUD|Nathalie| 385|      0.48|      0.64|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 04|  Alpes-de-Haute-Pr...|                         1|         1ère circonscription|    Complet|   61692|      13750|    22.29|  47942|    77.71|   691|        1.12|        1.44| 315|      0.51|      0.66|   46936|    76.08|     97.9|        1|   F|ARTHAUD|Nathalie| 275|      0.45|      0.59|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 04|  Alpes-de-Haute-Pr...|                         2|         2ème circonscription|    Complet|   66383|      15540|    23.41|  50843|    76.59|   787|        1.19|        1.55| 309|      0.47|      0.61|   49747|    74.94|    97.84|        1|   F|ARTHAUD|Nathalie| 230|      0.35|      0.46|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 05|          Hautes-Alpes|                         1|         1ère circonscription|    Complet|   59486|      13601|    22.86|  45885|    77.14|   731|        1.23|        1.59| 287|      0.48|      0.63|   44867|    75.42|    97.78|        1|   F|ARTHAUD|Nathalie| 234|      0.39|      0.52|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 05|          Hautes-Alpes|                         2|         2ème circonscription|    Complet|   54033|      11756|    21.76|  42277|    78.24|   664|        1.23|        1.57| 245|      0.45|      0.58|   41368|    76.56|    97.85|        1|   F|ARTHAUD|Nathalie| 194|      0.36|      0.47|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 06|       Alpes-Maritimes|                         1|         1ère circonscription|    Complet|   81800|      24731|    30.23|  57069|    69.77|   603|        0.74|        1.06| 354|      0.43|      0.62|   56112|     68.6|    98.32|        1|   F|ARTHAUD|Nathalie| 166|       0.2|       0.3|
+[2022-12-30T00:32:10.089+0100] {spark_submit.py:495} INFO - |                 06|       Alpes-Maritimes|                         2|         2ème circonscription|    Complet|   88918|      22495|     25.3|  66423|     74.7|   949|        1.07|        1.43| 341|      0.38|      0.51|   65133|    73.25|    98.06|        1|   F|ARTHAUD|Nathalie| 216|      0.24|      0.33|
+[2022-12-30T00:32:10.090+0100] {spark_submit.py:495} INFO - |                 06|       Alpes-Maritimes|                         3|         3ème circonscription|    Complet|   90956|      26607|    29.25|  64349|    70.75|   789|        0.87|        1.23| 342|      0.38|      0.53|   63218|     69.5|    98.24|        1|   F|ARTHAUD|Nathalie| 206|      0.23|      0.33|
+[2022-12-30T00:32:10.090+0100] {spark_submit.py:495} INFO - +-------------------+----------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:10.090+0100] {spark_submit.py:495} INFO - only showing top 20 rows
+[2022-12-30T00:32:10.090+0100] {spark_submit.py:495} INFO - 
+[2022-12-30T00:32:10.302+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO BlockManagerInfo: Removed broadcast_5_piece0 on 10.0.2.15:41465 in memory (size: 9.9 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:10.395+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:10.396+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:10.405+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO FileSourceStrategy: Output Data Schema: struct<Code du département: string, Libellé du département: string, Code de la circonscription: int, Libellé de la circonscription: string, Etat saisie: string ... 24 more fields>
+[2022-12-30T00:32:10.903+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:10 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:11.369+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO CodeGenerator: Code generated in 336.333544 ms
+[2022-12-30T00:32:11.391+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 199.4 KiB, free 413.0 MiB)
+[2022-12-30T00:32:11.428+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.0 MiB)
+[2022-12-30T00:32:11.438+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:11.447+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO SparkContext: Created broadcast 6 from count at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:11.457+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:11.560+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Registering RDD 17 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 0
+[2022-12-30T00:32:11.564+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Got map stage job 3 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:11.569+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Final stage: ShuffleMapStage 3 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:11.570+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:11.571+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:11.575+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Submitting ShuffleMapStage 3 (MapPartitionsRDD[17] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:11.608+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 57.4 KiB, free 412.9 MiB)
+[2022-12-30T00:32:11.611+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 22.0 KiB, free 412.9 MiB)
+[2022-12-30T00:32:11.612+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 10.0.2.15:41465 (size: 22.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:11.616+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:11.620+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[17] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:11.620+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:11.624+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 3) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4912 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:11.625+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+[2022-12-30T00:32:11.755+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO CodeGenerator: Code generated in 62.118686 ms
+[2022-12-30T00:32:11.794+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO CodeGenerator: Code generated in 14.817614 ms
+[2022-12-30T00:32:11.960+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:11 INFO CodeGenerator: Code generated in 119.573031 ms
+[2022-12-30T00:32:12.016+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:12.582+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.0.2.15:41465 in memory (size: 5.9 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:12.634+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.0.2.15:41465 in memory (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:12.681+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 10.0.2.15:41465 in memory (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:12.725+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.0.2.15:41465 in memory (size: 34.0 KiB, free: 413.9 MiB)
+[2022-12-30T00:32:12.991+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:12 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 2810 bytes result sent to driver
+[2022-12-30T00:32:13.019+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 3) in 1395 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:13.034+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: ShuffleMapStage 3 (count at NativeMethodAccessorImpl.java:0) finished in 1,447 s
+[2022-12-30T00:32:13.046+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:13.050+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:13.052+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:13.060+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:13.061+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:13.203+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO ShufflePartitionsUtil: For shuffle(0), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2022-12-30T00:32:13.387+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:13.559+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO CodeGenerator: Code generated in 78.004674 ms
+[2022-12-30T00:32:13.645+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Registering RDD 20 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 1
+[2022-12-30T00:32:13.647+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Got map stage job 4 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:13.648+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Final stage: ShuffleMapStage 5 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:13.648+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 4)
+[2022-12-30T00:32:13.648+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:13.651+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Submitting ShuffleMapStage 5 (MapPartitionsRDD[20] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:13.708+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 62.1 KiB, free 413.6 MiB)
+[2022-12-30T00:32:13.712+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 23.7 KiB, free 413.5 MiB)
+[2022-12-30T00:32:13.714+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 10.0.2.15:41465 (size: 23.7 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:13.716+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:13.720+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 5 (MapPartitionsRDD[20] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:13.720+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO TaskSchedulerImpl: Adding task set 5.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:13.789+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 4) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4442 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:13.796+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO Executor: Running task 0.0 in stage 5.0 (TID 4)
+[2022-12-30T00:32:13.884+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO ShuffleBlockFetcherIterator: Getting 1 (120.8 KiB) non-empty blocks including 1 (120.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:13.889+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:13 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 24 ms
+[2022-12-30T00:32:14.026+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO Executor: Finished task 0.0 in stage 5.0 (TID 4). 4309 bytes result sent to driver
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 4) in 305 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: ShuffleMapStage 5 (count at NativeMethodAccessorImpl.java:0) finished in 0,346 s
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:14.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:14.040+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSchedulerImpl: Removed TaskSet 5.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:14.220+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO CodeGenerator: Code generated in 43.246703 ms
+[2022-12-30T00:32:14.332+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO SparkContext: Starting job: count at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:14.335+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Got job 5 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:14.342+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Final stage: ResultStage 8 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:14.343+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 7)
+[2022-12-30T00:32:14.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:14.350+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Submitting ResultStage 8 (MapPartitionsRDD[23] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:14.363+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 11.1 KiB, free 413.5 MiB)
+[2022-12-30T00:32:14.373+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.5 KiB, free 413.5 MiB)
+[2022-12-30T00:32:14.379+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 10.0.2.15:41465 (size: 5.5 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:14.381+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:14.385+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 8 (MapPartitionsRDD[23] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:14.401+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSchedulerImpl: Adding task set 8.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:14.410+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSetManager: Starting task 0.0 in stage 8.0 (TID 5) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:14.411+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO Executor: Running task 0.0 in stage 8.0 (TID 5)
+[2022-12-30T00:32:14.416+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO ShuffleBlockFetcherIterator: Getting 1 (60.0 B) non-empty blocks including 1 (60.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:14.432+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 17 ms
+[2022-12-30T00:32:14.445+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO Executor: Finished task 0.0 in stage 8.0 (TID 5). 2656 bytes result sent to driver
+[2022-12-30T00:32:14.449+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSetManager: Finished task 0.0 in stage 8.0 (TID 5) in 43 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:14.449+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSchedulerImpl: Removed TaskSet 8.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:14.452+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: ResultStage 8 (count at NativeMethodAccessorImpl.java:0) finished in 0,099 s
+[2022-12-30T00:32:14.453+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Job 5 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:14.453+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO TaskSchedulerImpl: Killing all running tasks in stage 8: Stage finished
+[2022-12-30T00:32:14.453+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO DAGScheduler: Job 5 finished: count at NativeMethodAccessorImpl.java:0, took 0,118494 s
+[2022-12-30T00:32:14.468+0100] {spark_submit.py:495} INFO - ************Distinct count**************** :577
+[2022-12-30T00:32:14.779+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:14.780+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:14.781+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO FileSourceStrategy: Output Data Schema: struct<Code du département: string, Libellé du département: string, Code de la circonscription: int, Libellé de la circonscription: string, Etat saisie: string ... 24 more fields>
+[2022-12-30T00:32:14.954+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:14 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:15.013+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 199.4 KiB, free 413.3 MiB)
+[2022-12-30T00:32:15.044+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.3 MiB)
+[2022-12-30T00:32:15.047+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:15.051+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO SparkContext: Created broadcast 10 from showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:15.055+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:15.109+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Registering RDD 27 (showString at NativeMethodAccessorImpl.java:0) as input to shuffle 2
+[2022-12-30T00:32:15.109+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Got map stage job 6 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:15.109+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Final stage: ShuffleMapStage 9 (showString at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:15.109+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:15.109+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:15.112+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Submitting ShuffleMapStage 9 (MapPartitionsRDD[27] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:15.132+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 57.4 KiB, free 413.2 MiB)
+[2022-12-30T00:32:15.137+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 22.0 KiB, free 413.2 MiB)
+[2022-12-30T00:32:15.143+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 10.0.2.15:41465 (size: 22.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:15.145+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO SparkContext: Created broadcast 11 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:15.155+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 9 (MapPartitionsRDD[27] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:15.156+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:15.161+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 6) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4912 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:15.162+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO Executor: Running task 0.0 in stage 9.0 (TID 6)
+[2022-12-30T00:32:15.304+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO BlockManagerInfo: Removed broadcast_9_piece0 on 10.0.2.15:41465 in memory (size: 5.5 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:15.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:15.820+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO Executor: Finished task 0.0 in stage 9.0 (TID 6). 2767 bytes result sent to driver
+[2022-12-30T00:32:15.824+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 6) in 662 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: ShuffleMapStage 9 (showString at NativeMethodAccessorImpl.java:0) finished in 0,710 s
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:15.825+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:15.830+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO ShufflePartitionsUtil: For shuffle(2), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2022-12-30T00:32:15.854+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:15.942+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO CodeGenerator: Code generated in 64.616507 ms
+[2022-12-30T00:32:15.981+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO BlockManagerInfo: Removed broadcast_11_piece0 on 10.0.2.15:41465 in memory (size: 22.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:15.998+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:15 INFO SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:16.002+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Got job 7 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:16.002+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Final stage: ResultStage 11 (showString at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:16.002+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 10)
+[2022-12-30T00:32:16.002+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:16.008+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Submitting ResultStage 11 (MapPartitionsRDD[30] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:16.036+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 73.4 KiB, free 413.2 MiB)
+[2022-12-30T00:32:16.042+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 25.7 KiB, free 413.2 MiB)
+[2022-12-30T00:32:16.043+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on 10.0.2.15:41465 (size: 25.7 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:16.044+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO SparkContext: Created broadcast 12 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:16.045+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 11 (MapPartitionsRDD[30] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:16.045+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSchedulerImpl: Adding task set 11.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:16.047+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSetManager: Starting task 0.0 in stage 11.0 (TID 7) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:16.047+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO Executor: Running task 0.0 in stage 11.0 (TID 7)
+[2022-12-30T00:32:16.077+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO ShuffleBlockFetcherIterator: Getting 1 (120.8 KiB) non-empty blocks including 1 (120.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:16.078+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 8 ms
+[2022-12-30T00:32:16.176+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO Executor: Finished task 0.0 in stage 11.0 (TID 7). 7622 bytes result sent to driver
+[2022-12-30T00:32:16.184+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSetManager: Finished task 0.0 in stage 11.0 (TID 7) in 132 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:16.184+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:16.194+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: ResultStage 11 (showString at NativeMethodAccessorImpl.java:0) finished in 0,160 s
+[2022-12-30T00:32:16.194+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Job 7 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:16.194+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSchedulerImpl: Killing all running tasks in stage 11: Stage finished
+[2022-12-30T00:32:16.195+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Job 7 finished: showString at NativeMethodAccessorImpl.java:0, took 0,185687 s
+[2022-12-30T00:32:16.257+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |Code du département|Libellé du département         |Code de la circonscription|Libellé de la circonscription|Etat saisie|Inscrits|Abstentions|% Abs/Ins|Votants|% Vot/Ins|Blancs|% Blancs/Ins|% Blancs/Vot|Nuls|% Nuls/Ins|% Nuls/Vot|Exprimés|% Exp/Ins|% Exp/Vot|N°Panneau|Sexe|Nom    |Prénom  |Voix|% Voix/Ins|% Voix/Exp|
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |06                 |Alpes-Maritimes                |5                         |5ème circonscription         |Complet    |90651   |24266      |26.77    |66385  |73.23    |847   |0.93        |1.28        |843 |0.93      |1.27      |64695   |71.37    |97.45    |1        |F   |ARTHAUD|Nathalie|196 |0.22      |0.3       |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |ZZ                 |Français établis hors de France|10                        |10ème circonscription        |Complet    |103910  |63575      |61.18    |40335  |38.82    |365   |0.35        |0.9         |191 |0.18      |0.47      |39779   |38.28    |98.62    |1        |F   |ARTHAUD|Nathalie|90  |0.09      |0.23      |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |24                 |Dordogne                       |2                         |2ème circonscription         |Complet    |84067   |18394      |21.88    |65673  |78.12    |832   |0.99        |1.27        |580 |0.69      |0.88      |64261   |76.44    |97.85    |1        |F   |ARTHAUD|Nathalie|314 |0.37      |0.49      |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |2                         |2ème circonscription         |Complet    |85933   |16008      |18.63    |69925  |81.37    |877   |1.02        |1.25        |287 |0.33      |0.41      |68761   |80.02    |98.34    |1        |F   |ARTHAUD|Nathalie|220 |0.26      |0.32      |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |ZB                 |Martinique                     |1                         |1ère circonscription         |Complet    |80037   |44808      |55.98    |35229  |44.02    |1154  |1.44        |3.28        |823 |1.03      |2.34      |33252   |41.55    |94.39    |1        |F   |ARTHAUD|Nathalie|432 |0.54      |1.3       |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |ZC                 |Guyane                         |1                         |1ère circonscription         |Complet    |56628   |32823      |57.96    |23805  |42.04    |556   |0.98        |2.34        |377 |0.67      |1.58      |22872   |40.39    |96.08    |1        |F   |ARTHAUD|Nathalie|176 |0.31      |0.77      |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |01                 |Ain                            |1                         |1ère circonscription         |Complet    |85723   |18592      |21.69    |67131  |78.31    |1154  |1.35        |1.72        |393 |0.46      |0.59      |65584   |76.51    |97.7     |1        |F   |ARTHAUD|Nathalie|317 |0.37      |0.48      |
+[2022-12-30T00:32:16.258+0100] {spark_submit.py:495} INFO - |61                 |Orne                           |2                         |2ème circonscription         |Complet    |66030   |16122      |24.42    |49908  |75.58    |817   |1.24        |1.64        |278 |0.42      |0.56      |48813   |73.93    |97.81    |1        |F   |ARTHAUD|Nathalie|330 |0.5       |0.68      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |11                        |11ème circonscription        |Complet    |68878   |16249      |23.59    |52629  |76.41    |692   |1.0         |1.31        |318 |0.46      |0.6       |51619   |74.94    |98.08    |1        |F   |ARTHAUD|Nathalie|227 |0.33      |0.44      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |12                        |12ème circonscription        |Complet    |70828   |15015      |21.2     |55813  |78.8     |815   |1.15        |1.46        |233 |0.33      |0.42      |54765   |77.32    |98.12    |1        |F   |ARTHAUD|Nathalie|222 |0.31      |0.41      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |50                 |Manche                         |2                         |2ème circonscription         |Complet    |96973   |22676      |23.38    |74297  |76.62    |1262  |1.3         |1.7         |607 |0.63      |0.82      |72428   |74.69    |97.48    |1        |F   |ARTHAUD|Nathalie|524 |0.54      |0.72      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |9                         |9ème circonscription         |Complet    |92669   |21481      |23.18    |71188  |76.82    |1021  |1.1         |1.43        |361 |0.39      |0.51      |69806   |75.33    |98.06    |1        |F   |ARTHAUD|Nathalie|366 |0.39      |0.52      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |92                 |Hauts-de-Seine                 |2                         |2ème circonscription         |Complet    |69068   |13416      |19.42    |55652  |80.58    |795   |1.15        |1.43        |216 |0.31      |0.39      |54641   |79.11    |98.18    |1        |F   |ARTHAUD|Nathalie|169 |0.24      |0.31      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |60                 |Oise                           |2                         |2ème circonscription         |Complet    |88749   |21439      |24.16    |67310  |75.84    |1016  |1.14        |1.51        |1150|1.3       |1.71      |65144   |73.4     |96.78    |1        |F   |ARTHAUD|Nathalie|475 |0.54      |0.73      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |13                 |Bouches-du-Rhône               |10                        |10ème circonscription        |Complet    |108586  |24129      |22.22    |84457  |77.78    |1235  |1.14        |1.46        |448 |0.41      |0.53      |82774   |76.23    |98.01    |1        |F   |ARTHAUD|Nathalie|269 |0.25      |0.32      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |75                 |Paris                          |1                         |1ère circonscription         |Complet    |97799   |19432      |19.87    |78367  |80.13    |898   |0.92        |1.15        |416 |0.43      |0.53      |77053   |78.79    |98.32    |1        |F   |ARTHAUD|Nathalie|183 |0.19      |0.24      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |91                 |Essonne                        |9                         |9ème circonscription         |Complet    |78393   |18934      |24.15    |59459  |75.85    |870   |1.11        |1.46        |335 |0.43      |0.56      |58254   |74.31    |97.97    |1        |F   |ARTHAUD|Nathalie|265 |0.34      |0.45      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |14                 |Calvados                       |6                         |6ème circonscription         |Complet    |95726   |21470      |22.43    |74256  |77.57    |1179  |1.23        |1.59        |589 |0.62      |0.79      |72488   |75.72    |97.62    |1        |F   |ARTHAUD|Nathalie|581 |0.61      |0.8       |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |22                 |Côtes-d'Armor                  |3                         |3ème circonscription         |Complet    |88709   |17554      |19.79    |71155  |80.21    |1189  |1.34        |1.67        |645 |0.73      |0.91      |69321   |78.14    |97.42    |1        |F   |ARTHAUD|Nathalie|521 |0.59      |0.75      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - |75                 |Paris                          |10                        |10ème circonscription        |Complet    |69820   |15846      |22.7     |53974  |77.3     |641   |0.92        |1.19        |233 |0.33      |0.43      |53100   |76.05    |98.38    |1        |F   |ARTHAUD|Nathalie|206 |0.3       |0.39      |
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - only showing top 20 rows
+[2022-12-30T00:32:16.259+0100] {spark_submit.py:495} INFO - 
+[2022-12-30T00:32:16.460+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:16.464+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:16.465+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO FileSourceStrategy: Output Data Schema: struct<Code du département: string, Libellé du département: string, Code de la circonscription: int, Libellé de la circonscription: string, Etat saisie: string ... 24 more fields>
+[2022-12-30T00:32:16.622+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:16.654+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 199.4 KiB, free 413.0 MiB)
+[2022-12-30T00:32:16.678+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.0 MiB)
+[2022-12-30T00:32:16.679+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:16.680+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO SparkContext: Created broadcast 13 from count at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:16.685+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:16.721+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Registering RDD 34 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 3
+[2022-12-30T00:32:16.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Got map stage job 8 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:16.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Final stage: ShuffleMapStage 12 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:16.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:16.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:16.724+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Submitting ShuffleMapStage 12 (MapPartitionsRDD[34] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:16.730+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 57.4 KiB, free 412.9 MiB)
+[2022-12-30T00:32:16.732+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 22.0 KiB, free 412.9 MiB)
+[2022-12-30T00:32:16.737+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on 10.0.2.15:41465 (size: 22.0 KiB, free: 413.7 MiB)
+[2022-12-30T00:32:16.740+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO SparkContext: Created broadcast 14 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:16.741+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 12 (MapPartitionsRDD[34] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:16.741+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSchedulerImpl: Adding task set 12.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:16.743+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO TaskSetManager: Starting task 0.0 in stage 12.0 (TID 8) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4912 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:16.743+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO Executor: Running task 0.0 in stage 12.0 (TID 8)
+[2022-12-30T00:32:16.831+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:16.932+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO BlockManagerInfo: Removed broadcast_10_piece0 on 10.0.2.15:41465 in memory (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:16.985+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:16 INFO BlockManagerInfo: Removed broadcast_12_piece0 on 10.0.2.15:41465 in memory (size: 25.7 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:17.237+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO Executor: Finished task 0.0 in stage 12.0 (TID 8). 2767 bytes result sent to driver
+[2022-12-30T00:32:17.241+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSetManager: Finished task 0.0 in stage 12.0 (TID 8) in 499 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:17.241+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Removed TaskSet 12.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:17.243+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: ShuffleMapStage 12 (count at NativeMethodAccessorImpl.java:0) finished in 0,518 s
+[2022-12-30T00:32:17.243+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:17.243+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:17.244+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:17.244+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:17.258+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO ShufflePartitionsUtil: For shuffle(3), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2022-12-30T00:32:17.324+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:17.428+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Registering RDD 37 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 4
+[2022-12-30T00:32:17.428+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Got map stage job 9 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:17.429+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Final stage: ShuffleMapStage 14 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:17.429+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 13)
+[2022-12-30T00:32:17.437+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:17.456+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Submitting ShuffleMapStage 14 (MapPartitionsRDD[37] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:17.498+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 62.1 KiB, free 413.2 MiB)
+[2022-12-30T00:32:17.512+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 23.7 KiB, free 413.1 MiB)
+[2022-12-30T00:32:17.513+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on 10.0.2.15:41465 (size: 23.7 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:17.516+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO SparkContext: Created broadcast 15 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:17.520+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 14 (MapPartitionsRDD[37] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:17.520+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Adding task set 14.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:17.533+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSetManager: Starting task 0.0 in stage 14.0 (TID 9) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4442 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:17.534+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO Executor: Running task 0.0 in stage 14.0 (TID 9)
+[2022-12-30T00:32:17.619+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO ShuffleBlockFetcherIterator: Getting 1 (120.8 KiB) non-empty blocks including 1 (120.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:17.621+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 4 ms
+[2022-12-30T00:32:17.713+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO Executor: Finished task 0.0 in stage 14.0 (TID 9). 4309 bytes result sent to driver
+[2022-12-30T00:32:17.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSetManager: Finished task 0.0 in stage 14.0 (TID 9) in 185 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:17.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Removed TaskSet 14.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:17.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: ShuffleMapStage 14 (count at NativeMethodAccessorImpl.java:0) finished in 0,233 s
+[2022-12-30T00:32:17.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:17.722+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:17.723+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:17.723+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:17.832+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO SparkContext: Starting job: count at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:17.847+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO BlockManagerInfo: Removed broadcast_14_piece0 on 10.0.2.15:41465 in memory (size: 22.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:17.851+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Got job 10 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:17.855+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Final stage: ResultStage 17 (count at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:17.855+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 16)
+[2022-12-30T00:32:17.860+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:17.863+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Submitting ResultStage 17 (MapPartitionsRDD[40] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:17.875+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO MemoryStore: Block broadcast_16 stored as values in memory (estimated size 11.1 KiB, free 413.2 MiB)
+[2022-12-30T00:32:17.889+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 5.5 KiB, free 413.2 MiB)
+[2022-12-30T00:32:17.892+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO BlockManagerInfo: Added broadcast_16_piece0 in memory on 10.0.2.15:41465 (size: 5.5 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:17.898+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO SparkContext: Created broadcast 16 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:17.907+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 17 (MapPartitionsRDD[40] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:17.908+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Adding task set 17.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:17.910+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSetManager: Starting task 0.0 in stage 17.0 (TID 10) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:17.911+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO Executor: Running task 0.0 in stage 17.0 (TID 10)
+[2022-12-30T00:32:17.916+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO BlockManagerInfo: Removed broadcast_15_piece0 on 10.0.2.15:41465 in memory (size: 23.7 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:17.927+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO ShuffleBlockFetcherIterator: Getting 1 (60.0 B) non-empty blocks including 1 (60.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:17.929+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 6 ms
+[2022-12-30T00:32:17.939+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO Executor: Finished task 0.0 in stage 17.0 (TID 10). 2656 bytes result sent to driver
+[2022-12-30T00:32:17.948+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSetManager: Finished task 0.0 in stage 17.0 (TID 10) in 39 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:17.948+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Removed TaskSet 17.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:17.953+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: ResultStage 17 (count at NativeMethodAccessorImpl.java:0) finished in 0,081 s
+[2022-12-30T00:32:17.955+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Job 10 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:17.956+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO TaskSchedulerImpl: Killing all running tasks in stage 17: Stage finished
+[2022-12-30T00:32:17.981+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:17 INFO DAGScheduler: Job 10 finished: count at NativeMethodAccessorImpl.java:0, took 0,107416 s
+[2022-12-30T00:32:17.981+0100] {spark_submit.py:495} INFO - ****************Distinct count drop******************* :577
+[2022-12-30T00:32:18.187+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO FileSourceStrategy: Pushed Filters:
+[2022-12-30T00:32:18.187+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO FileSourceStrategy: Post-Scan Filters:
+[2022-12-30T00:32:18.192+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO FileSourceStrategy: Output Data Schema: struct<Code du département: string, Libellé du département: string, Code de la circonscription: int, Libellé de la circonscription: string, Etat saisie: string ... 24 more fields>
+[2022-12-30T00:32:18.270+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:18.296+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_17 stored as values in memory (estimated size 199.4 KiB, free 413.1 MiB)
+[2022-12-30T00:32:18.317+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 413.1 MiB)
+[2022-12-30T00:32:18.321+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO BlockManagerInfo: Added broadcast_17_piece0 in memory on 10.0.2.15:41465 (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:18.322+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO SparkContext: Created broadcast 17 from showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:18.323+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4285594 bytes, open cost is considered as scanning 4194304 bytes.
+[2022-12-30T00:32:18.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Registering RDD 44 (showString at NativeMethodAccessorImpl.java:0) as input to shuffle 5
+[2022-12-30T00:32:18.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Got map stage job 11 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:18.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Final stage: ShuffleMapStage 18 (showString at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:18.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Parents of final stage: List()
+[2022-12-30T00:32:18.344+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:18.348+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Submitting ShuffleMapStage 18 (MapPartitionsRDD[44] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:18.352+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_18 stored as values in memory (estimated size 57.4 KiB, free 413.0 MiB)
+[2022-12-30T00:32:18.364+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_18_piece0 stored as bytes in memory (estimated size 22.0 KiB, free 413.0 MiB)
+[2022-12-30T00:32:18.366+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO BlockManagerInfo: Added broadcast_18_piece0 in memory on 10.0.2.15:41465 (size: 22.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:18.380+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO SparkContext: Created broadcast 18 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:18.381+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 18 (MapPartitionsRDD[44] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:18.381+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSchedulerImpl: Adding task set 18.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:18.386+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSetManager: Starting task 0.0 in stage 18.0 (TID 11) (10.0.2.15, executor driver, partition 0, PROCESS_LOCAL, 4912 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:18.386+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO Executor: Running task 0.0 in stage 18.0 (TID 11)
+[2022-12-30T00:32:18.485+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO FileScanRDD: Reading File path: file:///home/momo/Bureau/nifi_transformer/datav1.csv, range: 0-91290, partition values: [empty row]
+[2022-12-30T00:32:18.714+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO BlockManagerInfo: Removed broadcast_16_piece0 on 10.0.2.15:41465 in memory (size: 5.5 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:18.774+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO BlockManagerInfo: Removed broadcast_13_piece0 on 10.0.2.15:41465 in memory (size: 34.0 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:18.851+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO Executor: Finished task 0.0 in stage 18.0 (TID 11). 2767 bytes result sent to driver
+[2022-12-30T00:32:18.854+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSetManager: Finished task 0.0 in stage 18.0 (TID 11) in 471 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:18.854+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSchedulerImpl: Removed TaskSet 18.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:18.857+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: ShuffleMapStage 18 (showString at NativeMethodAccessorImpl.java:0) finished in 0,508 s
+[2022-12-30T00:32:18.857+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: looking for newly runnable stages
+[2022-12-30T00:32:18.857+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: running: Set()
+[2022-12-30T00:32:18.857+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: waiting: Set()
+[2022-12-30T00:32:18.857+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: failed: Set()
+[2022-12-30T00:32:18.863+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO ShufflePartitionsUtil: For shuffle(5), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2022-12-30T00:32:18.889+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2022-12-30T00:32:18.928+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO SparkContext: Starting job: showString at NativeMethodAccessorImpl.java:0
+[2022-12-30T00:32:18.934+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Got job 12 (showString at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2022-12-30T00:32:18.934+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Final stage: ResultStage 20 (showString at NativeMethodAccessorImpl.java:0)
+[2022-12-30T00:32:18.934+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 19)
+[2022-12-30T00:32:18.934+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Missing parents: List()
+[2022-12-30T00:32:18.939+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Submitting ResultStage 20 (MapPartitionsRDD[47] at showString at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2022-12-30T00:32:18.960+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_19 stored as values in memory (estimated size 73.4 KiB, free 413.2 MiB)
+[2022-12-30T00:32:18.961+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO MemoryStore: Block broadcast_19_piece0 stored as bytes in memory (estimated size 25.6 KiB, free 413.1 MiB)
+[2022-12-30T00:32:18.962+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO BlockManagerInfo: Added broadcast_19_piece0 in memory on 10.0.2.15:41465 (size: 25.6 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:18.963+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO SparkContext: Created broadcast 19 from broadcast at DAGScheduler.scala:1513
+[2022-12-30T00:32:18.963+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 20 (MapPartitionsRDD[47] at showString at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2022-12-30T00:32:18.963+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSchedulerImpl: Adding task set 20.0 with 1 tasks resource profile 0
+[2022-12-30T00:32:18.965+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO TaskSetManager: Starting task 0.0 in stage 20.0 (TID 12) (10.0.2.15, executor driver, partition 0, NODE_LOCAL, 4453 bytes) taskResourceAssignments Map()
+[2022-12-30T00:32:18.966+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO Executor: Running task 0.0 in stage 20.0 (TID 12)
+[2022-12-30T00:32:18.985+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO ShuffleBlockFetcherIterator: Getting 1 (120.8 KiB) non-empty blocks including 1 (120.8 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2022-12-30T00:32:18.986+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:18 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 7 ms
+[2022-12-30T00:32:19.023+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO Executor: Finished task 0.0 in stage 20.0 (TID 12). 7622 bytes result sent to driver
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO TaskSetManager: Finished task 0.0 in stage 20.0 (TID 12) in 61 ms on 10.0.2.15 (executor driver) (1/1)
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO TaskSchedulerImpl: Removed TaskSet 20.0, whose tasks have all completed, from pool
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO DAGScheduler: ResultStage 20 (showString at NativeMethodAccessorImpl.java:0) finished in 0,083 s
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO DAGScheduler: Job 12 is finished. Cancelling potential speculative or zombie tasks for this job
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO TaskSchedulerImpl: Killing all running tasks in stage 20: Stage finished
+[2022-12-30T00:32:19.028+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO DAGScheduler: Job 12 finished: showString at NativeMethodAccessorImpl.java:0, took 0,095641 s
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |Code du département|Libellé du département         |Code de la circonscription|Libellé de la circonscription|Etat saisie|Inscrits|Abstentions|% Abs/Ins|Votants|% Vot/Ins|Blancs|% Blancs/Ins|% Blancs/Vot|Nuls|% Nuls/Ins|% Nuls/Vot|Exprimés|% Exp/Ins|% Exp/Vot|N°Panneau|Sexe|Nom    |Prénom  |Voix|% Voix/Ins|% Voix/Exp|
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |06                 |Alpes-Maritimes                |5                         |5ème circonscription         |Complet    |90651   |24266      |26.77    |66385  |73.23    |847   |0.93        |1.28        |843 |0.93      |1.27      |64695   |71.37    |97.45    |1        |F   |ARTHAUD|Nathalie|196 |0.22      |0.3       |
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |ZZ                 |Français établis hors de France|10                        |10ème circonscription        |Complet    |103910  |63575      |61.18    |40335  |38.82    |365   |0.35        |0.9         |191 |0.18      |0.47      |39779   |38.28    |98.62    |1        |F   |ARTHAUD|Nathalie|90  |0.09      |0.23      |
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |24                 |Dordogne                       |2                         |2ème circonscription         |Complet    |84067   |18394      |21.88    |65673  |78.12    |832   |0.99        |1.27        |580 |0.69      |0.88      |64261   |76.44    |97.85    |1        |F   |ARTHAUD|Nathalie|314 |0.37      |0.49      |
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |2                         |2ème circonscription         |Complet    |85933   |16008      |18.63    |69925  |81.37    |877   |1.02        |1.25        |287 |0.33      |0.41      |68761   |80.02    |98.34    |1        |F   |ARTHAUD|Nathalie|220 |0.26      |0.32      |
+[2022-12-30T00:32:19.089+0100] {spark_submit.py:495} INFO - |ZB                 |Martinique                     |1                         |1ère circonscription         |Complet    |80037   |44808      |55.98    |35229  |44.02    |1154  |1.44        |3.28        |823 |1.03      |2.34      |33252   |41.55    |94.39    |1        |F   |ARTHAUD|Nathalie|432 |0.54      |1.3       |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |ZC                 |Guyane                         |1                         |1ère circonscription         |Complet    |56628   |32823      |57.96    |23805  |42.04    |556   |0.98        |2.34        |377 |0.67      |1.58      |22872   |40.39    |96.08    |1        |F   |ARTHAUD|Nathalie|176 |0.31      |0.77      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |01                 |Ain                            |1                         |1ère circonscription         |Complet    |85723   |18592      |21.69    |67131  |78.31    |1154  |1.35        |1.72        |393 |0.46      |0.59      |65584   |76.51    |97.7     |1        |F   |ARTHAUD|Nathalie|317 |0.37      |0.48      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |61                 |Orne                           |2                         |2ème circonscription         |Complet    |66030   |16122      |24.42    |49908  |75.58    |817   |1.24        |1.64        |278 |0.42      |0.56      |48813   |73.93    |97.81    |1        |F   |ARTHAUD|Nathalie|330 |0.5       |0.68      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |11                        |11ème circonscription        |Complet    |68878   |16249      |23.59    |52629  |76.41    |692   |1.0         |1.31        |318 |0.46      |0.6       |51619   |74.94    |98.08    |1        |F   |ARTHAUD|Nathalie|227 |0.33      |0.44      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |12                        |12ème circonscription        |Complet    |70828   |15015      |21.2     |55813  |78.8     |815   |1.15        |1.46        |233 |0.33      |0.42      |54765   |77.32    |98.12    |1        |F   |ARTHAUD|Nathalie|222 |0.31      |0.41      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |50                 |Manche                         |2                         |2ème circonscription         |Complet    |96973   |22676      |23.38    |74297  |76.62    |1262  |1.3         |1.7         |607 |0.63      |0.82      |72428   |74.69    |97.48    |1        |F   |ARTHAUD|Nathalie|524 |0.54      |0.72      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |78                 |Yvelines                       |9                         |9ème circonscription         |Complet    |92669   |21481      |23.18    |71188  |76.82    |1021  |1.1         |1.43        |361 |0.39      |0.51      |69806   |75.33    |98.06    |1        |F   |ARTHAUD|Nathalie|366 |0.39      |0.52      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |92                 |Hauts-de-Seine                 |2                         |2ème circonscription         |Complet    |69068   |13416      |19.42    |55652  |80.58    |795   |1.15        |1.43        |216 |0.31      |0.39      |54641   |79.11    |98.18    |1        |F   |ARTHAUD|Nathalie|169 |0.24      |0.31      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |60                 |Oise                           |2                         |2ème circonscription         |Complet    |88749   |21439      |24.16    |67310  |75.84    |1016  |1.14        |1.51        |1150|1.3       |1.71      |65144   |73.4     |96.78    |1        |F   |ARTHAUD|Nathalie|475 |0.54      |0.73      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |13                 |Bouches-du-Rhône               |10                        |10ème circonscription        |Complet    |108586  |24129      |22.22    |84457  |77.78    |1235  |1.14        |1.46        |448 |0.41      |0.53      |82774   |76.23    |98.01    |1        |F   |ARTHAUD|Nathalie|269 |0.25      |0.32      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |75                 |Paris                          |1                         |1ère circonscription         |Complet    |97799   |19432      |19.87    |78367  |80.13    |898   |0.92        |1.15        |416 |0.43      |0.53      |77053   |78.79    |98.32    |1        |F   |ARTHAUD|Nathalie|183 |0.19      |0.24      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |91                 |Essonne                        |9                         |9ème circonscription         |Complet    |78393   |18934      |24.15    |59459  |75.85    |870   |1.11        |1.46        |335 |0.43      |0.56      |58254   |74.31    |97.97    |1        |F   |ARTHAUD|Nathalie|265 |0.34      |0.45      |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |14                 |Calvados                       |6                         |6ème circonscription         |Complet    |95726   |21470      |22.43    |74256  |77.57    |1179  |1.23        |1.59        |589 |0.62      |0.79      |72488   |75.72    |97.62    |1        |F   |ARTHAUD|Nathalie|581 |0.61      |0.8       |
+[2022-12-30T00:32:19.090+0100] {spark_submit.py:495} INFO - |22                 |Côtes-d'Armor                  |3                         |3ème circonscription         |Complet    |88709   |17554      |19.79    |71155  |80.21    |1189  |1.34        |1.67        |645 |0.73      |0.91      |69321   |78.14    |97.42    |1        |F   |ARTHAUD|Nathalie|521 |0.59      |0.75      |
+[2022-12-30T00:32:19.091+0100] {spark_submit.py:495} INFO - |75                 |Paris                          |10                        |10ème circonscription        |Complet    |69820   |15846      |22.7     |53974  |77.3     |641   |0.92        |1.19        |233 |0.33      |0.43      |53100   |76.05    |98.38    |1        |F   |ARTHAUD|Nathalie|206 |0.3       |0.39      |
+[2022-12-30T00:32:19.091+0100] {spark_submit.py:495} INFO - +-------------------+-------------------------------+--------------------------+-----------------------------+-----------+--------+-----------+---------+-------+---------+------+------------+------------+----+----------+----------+--------+---------+---------+---------+----+-------+--------+----+----------+----------+
+[2022-12-30T00:32:19.091+0100] {spark_submit.py:495} INFO - only showing top 20 rows
+[2022-12-30T00:32:19.091+0100] {spark_submit.py:495} INFO - 
+[2022-12-30T00:32:19.104+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO BlockManagerInfo: Removed broadcast_19_piece0 on 10.0.2.15:41465 in memory (size: 25.6 KiB, free: 413.8 MiB)
+[2022-12-30T00:32:19.252+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO SparkContext: Invoking stop() from shutdown hook
+[2022-12-30T00:32:19.302+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+[2022-12-30T00:32:19.351+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2022-12-30T00:32:19.431+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO MemoryStore: MemoryStore cleared
+[2022-12-30T00:32:19.437+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO BlockManager: BlockManager stopped
+[2022-12-30T00:32:19.453+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2022-12-30T00:32:19.457+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2022-12-30T00:32:19.492+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO SparkContext: Successfully stopped SparkContext
+[2022-12-30T00:32:19.493+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO ShutdownHookManager: Shutdown hook called
+[2022-12-30T00:32:19.493+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO ShutdownHookManager: Deleting directory /tmp/spark-0b1011fd-e01a-4946-8291-1715b72b5607
+[2022-12-30T00:32:19.525+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO ShutdownHookManager: Deleting directory /tmp/spark-0b1011fd-e01a-4946-8291-1715b72b5607/pyspark-fd7fcb0a-3fea-4083-a510-5a8a0256c3e2
+[2022-12-30T00:32:19.536+0100] {spark_submit.py:495} INFO - 22/12/30 00:32:19 INFO ShutdownHookManager: Deleting directory /tmp/spark-2d3c89e9-5bfb-46b4-ad01-dbc6777651b8
+[2022-12-30T00:32:19.670+0100] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=spark_airflow_project, task_id=python_job, execution_date=20221229T233125, start_date=20221229T233130, end_date=20221229T233219
+[2022-12-30T00:32:19.736+0100] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-30T00:32:19.761+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

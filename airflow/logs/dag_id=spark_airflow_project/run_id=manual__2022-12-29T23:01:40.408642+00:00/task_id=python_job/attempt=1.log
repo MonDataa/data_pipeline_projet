@@ -1,0 +1,40 @@
+[2022-12-30T00:01:46.674+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:01:40.408642+00:00 [queued]>
+[2022-12-30T00:01:46.754+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:01:40.408642+00:00 [queued]>
+[2022-12-30T00:01:46.754+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:01:46.754+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 4
+[2022-12-30T00:01:46.754+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:01:46.792+0100] {taskinstance.py:1304} INFO - Executing <Task(SparkSubmitOperator): python_job> on 2022-12-29 23:01:40.408642+00:00
+[2022-12-30T00:01:46.819+0100] {standard_task_runner.py:55} INFO - Started process 14046 to run task
+[2022-12-30T00:01:46.827+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark_airflow_project', 'python_job', 'manual__2022-12-29T23:01:40.408642+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/spark_airflow.py', '--cfg-path', '/tmp/tmpo662i6v7']
+[2022-12-30T00:01:46.832+0100] {standard_task_runner.py:83} INFO - Job 61: Subtask python_job
+[2022-12-30T00:01:46.915+0100] {task_command.py:389} INFO - Running <TaskInstance: spark_airflow_project.python_job manual__2022-12-29T23:01:40.408642+00:00 [running]> on host momo-VirtualBox
+[2022-12-30T00:01:47.005+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ranga
+AIRFLOW_CTX_DAG_ID=spark_airflow_project
+AIRFLOW_CTX_TASK_ID=python_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-29T23:01:40.408642+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-29T23:01:40.408642+00:00
+[2022-12-30T00:01:47.010+0100] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2022-12-30T00:01:47.011+0100] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py
+[2022-12-30T00:01:52.910+0100] {spark_submit.py:495} INFO - 22/12/30 00:01:52 WARN Utils: Your hostname, momo-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2022-12-30T00:01:52.918+0100] {spark_submit.py:495} INFO - 22/12/30 00:01:52 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2022-12-30T00:01:54.547+0100] {spark_submit.py:495} INFO - Traceback (most recent call last):
+[2022-12-30T00:01:54.547+0100] {spark_submit.py:495} INFO - File "/home/momo/Bureau/spark_d2.py", line 9, in <module>
+[2022-12-30T00:01:54.547+0100] {spark_submit.py:495} INFO - sc.stop()
+[2022-12-30T00:01:54.548+0100] {spark_submit.py:495} INFO - NameError: name 'sc' is not defined
+[2022-12-30T00:01:54.588+0100] {spark_submit.py:495} INFO - 22/12/30 00:01:54 INFO ShutdownHookManager: Shutdown hook called
+[2022-12-30T00:01:54.589+0100] {spark_submit.py:495} INFO - 22/12/30 00:01:54 INFO ShutdownHookManager: Deleting directory /tmp/spark-27318913-c531-4b64-a7de-065be49e3910
+[2022-12-30T00:01:54.633+0100] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 426, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py. Error code is: 1.
+[2022-12-30T00:01:54.636+0100] {taskinstance.py:1322} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_airflow_project, task_id=python_job, execution_date=20221229T230140, start_date=20221229T230146, end_date=20221229T230154
+[2022-12-30T00:01:54.652+0100] {standard_task_runner.py:100} ERROR - Failed to execute job 61 for task python_job (Cannot execute: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py. Error code is: 1.; 14046)
+[2022-12-30T00:01:54.665+0100] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-30T00:01:54.672+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

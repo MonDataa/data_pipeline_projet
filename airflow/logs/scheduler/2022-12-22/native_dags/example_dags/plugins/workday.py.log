@@ -1,0 +1,810 @@
+[2022-12-22T21:51:28.077+0100] {processor.py:153} INFO - Started process (PID=11130) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:51:28.078+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:51:28.078+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:28.078+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:51:28.081+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:51:28.091+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T21:52:13.306+0100] {processor.py:153} INFO - Started process (PID=11399) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:13.312+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:52:13.313+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:13.313+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:13.315+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:13.329+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2022-12-22T21:52:57.350+0100] {processor.py:153} INFO - Started process (PID=11537) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:57.359+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:52:57.360+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:57.360+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:57.362+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:52:57.386+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2022-12-22T21:53:39.346+0100] {processor.py:153} INFO - Started process (PID=11577) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:53:39.347+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:53:39.348+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:39.348+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:53:39.350+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:53:39.361+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2022-12-22T21:54:23.860+0100] {processor.py:153} INFO - Started process (PID=11697) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:54:23.862+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:54:23.863+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:23.863+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:54:23.866+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:54:23.875+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T21:55:07.377+0100] {processor.py:153} INFO - Started process (PID=11740) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:07.384+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:55:07.385+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:07.385+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:07.387+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:07.396+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2022-12-22T21:55:50.630+0100] {processor.py:153} INFO - Started process (PID=11778) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:50.632+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:55:50.632+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:50.632+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:50.634+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:55:50.644+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2022-12-22T21:56:33.491+0100] {processor.py:153} INFO - Started process (PID=11850) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:56:33.494+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:56:33.495+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:33.495+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:56:33.501+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:56:33.522+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2022-12-22T21:57:18.979+0100] {processor.py:153} INFO - Started process (PID=14234) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:57:18.983+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:57:18.991+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:18.984+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:57:18.997+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:57:19.076+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.100 seconds
+[2022-12-22T21:58:02.002+0100] {processor.py:153} INFO - Started process (PID=14280) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:02.008+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:58:02.009+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:02.008+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:02.010+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:02.020+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2022-12-22T21:58:42.651+0100] {processor.py:153} INFO - Started process (PID=14319) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:42.652+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:58:42.652+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:42.652+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:42.655+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:58:42.665+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T21:59:23.386+0100] {processor.py:153} INFO - Started process (PID=14451) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:59:23.393+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T21:59:23.393+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:23.393+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:59:23.395+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T21:59:23.412+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2022-12-22T22:00:07.887+0100] {processor.py:153} INFO - Started process (PID=14558) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:07.890+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:00:07.891+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:07.891+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:07.893+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:07.903+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2022-12-22T22:00:58.342+0100] {processor.py:153} INFO - Started process (PID=14603) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:58.350+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:00:58.351+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:58.351+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:58.352+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:00:58.366+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2022-12-22T22:01:35.793+0100] {processor.py:153} INFO - Started process (PID=14641) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:01:35.799+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:01:35.800+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:35.800+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:01:35.802+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:01:35.814+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:02:18.932+0100] {processor.py:153} INFO - Started process (PID=14680) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:02:18.933+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:02:18.934+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:18.934+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:02:18.937+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:02:18.947+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2022-12-22T22:03:00.250+0100] {processor.py:153} INFO - Started process (PID=14718) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:00.253+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:03:00.254+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:00.254+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:00.260+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:00.271+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2022-12-22T22:03:39.496+0100] {processor.py:153} INFO - Started process (PID=14757) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:39.502+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:03:39.503+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:39.503+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:39.505+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:03:39.515+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T22:04:20.721+0100] {processor.py:153} INFO - Started process (PID=14796) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:04:20.723+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:04:20.724+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:20.724+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:04:20.726+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:04:20.738+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2022-12-22T22:05:01.284+0100] {processor.py:153} INFO - Started process (PID=14846) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:01.288+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:05:01.291+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:01.291+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:01.298+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:01.328+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2022-12-22T22:05:41.299+0100] {processor.py:153} INFO - Started process (PID=14894) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:41.305+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:05:41.306+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:41.306+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:41.308+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:05:41.319+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2022-12-22T22:06:23.882+0100] {processor.py:153} INFO - Started process (PID=15025) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:06:23.890+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:06:23.891+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:23.891+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:06:23.893+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:06:23.903+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:07:05.472+0100] {processor.py:153} INFO - Started process (PID=15076) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:05.475+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:07:05.480+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:05.480+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:05.489+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:05.539+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.070 seconds
+[2022-12-22T22:07:45.891+0100] {processor.py:153} INFO - Started process (PID=15119) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:45.897+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:07:45.898+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:45.898+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:45.900+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:07:45.911+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2022-12-22T22:08:27.819+0100] {processor.py:153} INFO - Started process (PID=15169) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:08:27.825+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:08:27.826+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:27.826+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:08:27.828+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:08:27.846+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T22:09:09.125+0100] {processor.py:153} INFO - Started process (PID=15208) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:09.127+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:09:09.127+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:09.127+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:09.129+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:09.138+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2022-12-22T22:09:48.545+0100] {processor.py:153} INFO - Started process (PID=15250) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:48.546+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:09:48.547+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:48.547+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:48.550+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:09:48.559+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T22:10:34.962+0100] {processor.py:153} INFO - Started process (PID=15290) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:10:34.965+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:10:34.966+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:34.966+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:10:34.968+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:10:34.994+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T22:11:18.691+0100] {processor.py:153} INFO - Started process (PID=15331) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:11:18.701+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:11:18.702+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:18.702+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:11:18.704+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:11:18.729+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.043 seconds
+[2022-12-22T22:12:01.738+0100] {processor.py:153} INFO - Started process (PID=15375) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:01.739+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:12:01.740+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:01.740+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:01.742+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:01.753+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T22:12:46.458+0100] {processor.py:153} INFO - Started process (PID=15413) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:46.470+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:12:46.470+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:46.470+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:46.472+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:12:46.482+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2022-12-22T22:13:27.503+0100] {processor.py:153} INFO - Started process (PID=15453) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:13:27.505+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:13:27.506+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:27.506+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:13:27.508+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:13:27.518+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T22:14:09.914+0100] {processor.py:153} INFO - Started process (PID=15495) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:09.916+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:14:09.917+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:09.917+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:09.920+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:09.937+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2022-12-22T22:14:50.531+0100] {processor.py:153} INFO - Started process (PID=15536) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:50.537+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:14:50.538+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:50.538+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:50.540+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:14:50.550+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2022-12-22T22:15:36.819+0100] {processor.py:153} INFO - Started process (PID=15576) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:15:36.821+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:15:36.822+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:36.821+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:15:36.824+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:15:36.835+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2022-12-22T22:16:18.458+0100] {processor.py:153} INFO - Started process (PID=15615) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:18.460+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:16:18.460+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:18.460+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:18.462+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:18.472+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2022-12-22T22:16:56.608+0100] {processor.py:153} INFO - Started process (PID=15654) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:56.615+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:16:56.615+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:56.615+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:56.617+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:16:56.627+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2022-12-22T22:17:36.041+0100] {processor.py:153} INFO - Started process (PID=15695) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:17:36.042+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:17:36.043+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:36.042+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:17:36.044+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:17:36.055+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T22:18:19.272+0100] {processor.py:153} INFO - Started process (PID=15765) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:18:19.276+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:18:19.276+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:19.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:18:19.279+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:18:19.302+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2022-12-22T22:19:02.606+0100] {processor.py:153} INFO - Started process (PID=15836) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:02.612+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:19:02.613+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:02.613+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:02.615+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:02.635+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-12-22T22:19:48.149+0100] {processor.py:153} INFO - Started process (PID=15908) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:48.155+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:19:48.156+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:48.156+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:48.157+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:19:48.179+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T22:20:33.399+0100] {processor.py:153} INFO - Started process (PID=16003) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:20:33.409+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:20:33.410+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:33.410+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:20:33.412+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:20:33.432+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.041 seconds
+[2022-12-22T22:21:15.889+0100] {processor.py:153} INFO - Started process (PID=16118) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:15.896+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:21:15.897+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:15.897+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:15.899+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:15.916+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2022-12-22T22:21:55.435+0100] {processor.py:153} INFO - Started process (PID=16220) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:55.436+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:21:55.438+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:55.438+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:55.440+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:21:55.461+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.035 seconds
+[2022-12-22T22:22:40.512+0100] {processor.py:153} INFO - Started process (PID=16373) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:22:40.513+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:22:40.514+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:40.514+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:22:40.515+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:22:40.532+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:23:20.070+0100] {processor.py:153} INFO - Started process (PID=16417) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:23:20.071+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:23:20.072+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:20.072+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:23:20.074+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:23:20.085+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2022-12-22T22:24:00.503+0100] {processor.py:153} INFO - Started process (PID=16476) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:00.509+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:24:00.510+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:00.510+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:00.513+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:00.526+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2022-12-22T22:24:44.026+0100] {processor.py:153} INFO - Started process (PID=17168) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:44.032+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:24:44.034+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:44.034+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:44.039+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:24:44.049+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2022-12-22T22:25:25.097+0100] {processor.py:153} INFO - Started process (PID=17460) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:25:25.099+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:25:25.100+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:25.100+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:25:25.107+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:25:25.136+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.042 seconds
+[2022-12-22T22:26:05.029+0100] {processor.py:153} INFO - Started process (PID=17537) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:05.030+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:26:05.030+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:05.030+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:05.032+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:05.041+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.015 seconds
+[2022-12-22T22:26:45.434+0100] {processor.py:153} INFO - Started process (PID=17607) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:45.440+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:26:45.441+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:45.441+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:45.443+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:26:45.454+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2022-12-22T22:27:25.233+0100] {processor.py:153} INFO - Started process (PID=17691) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:27:25.235+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:27:25.236+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:25.235+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:27:25.238+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:27:25.250+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2022-12-22T22:28:03.589+0100] {processor.py:153} INFO - Started process (PID=17802) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:03.590+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:28:03.591+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:03.591+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:03.593+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:03.614+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2022-12-22T22:28:44.107+0100] {processor.py:153} INFO - Started process (PID=17905) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:44.108+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:28:44.109+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:44.109+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:44.111+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:28:44.153+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.049 seconds
+[2022-12-22T22:29:25.512+0100] {processor.py:153} INFO - Started process (PID=17981) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:29:25.518+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:29:25.519+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:25.519+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:29:25.521+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:29:25.535+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2022-12-22T22:30:05.675+0100] {processor.py:153} INFO - Started process (PID=18069) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:05.677+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:30:05.678+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:05.678+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:05.680+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:05.694+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2022-12-22T22:30:48.772+0100] {processor.py:153} INFO - Started process (PID=18412) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:48.775+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:30:48.781+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:48.781+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:48.783+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:30:48.796+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2022-12-22T22:31:29.708+0100] {processor.py:153} INFO - Started process (PID=18631) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:31:29.714+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:31:29.801+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:29.800+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:31:29.807+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:31:29.842+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.140 seconds
+[2022-12-22T22:32:13.194+0100] {processor.py:153} INFO - Started process (PID=19298) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:13.199+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:32:13.199+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:13.199+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:13.206+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:13.225+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T22:32:53.435+0100] {processor.py:153} INFO - Started process (PID=19855) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:53.441+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:32:53.442+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:53.442+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:53.445+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:32:53.455+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:33:34.523+0100] {processor.py:153} INFO - Started process (PID=19942) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:33:34.530+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:33:34.531+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:34.530+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:33:34.534+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:33:34.544+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:34:18.721+0100] {processor.py:153} INFO - Started process (PID=19993) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:18.724+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:34:18.725+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:18.725+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:18.782+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:18.808+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.090 seconds
+[2022-12-22T22:34:59.095+0100] {processor.py:153} INFO - Started process (PID=20036) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:59.096+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:34:59.097+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:59.097+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:59.100+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:34:59.115+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.024 seconds
+[2022-12-22T22:35:39.650+0100] {processor.py:153} INFO - Started process (PID=20076) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:35:39.656+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:35:39.657+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:39.657+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:35:39.659+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:35:39.669+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
+[2022-12-22T22:36:19.253+0100] {processor.py:153} INFO - Started process (PID=20116) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:19.254+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:36:19.255+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:19.255+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:19.257+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:19.266+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.016 seconds
+[2022-12-22T22:36:58.256+0100] {processor.py:153} INFO - Started process (PID=20155) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:58.258+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:36:58.259+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:58.259+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:58.261+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:36:58.272+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.020 seconds
+[2022-12-22T22:37:40.204+0100] {processor.py:153} INFO - Started process (PID=20194) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:37:40.206+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:37:40.206+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:40.206+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:37:40.208+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:37:40.228+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2022-12-22T22:38:21.147+0100] {processor.py:153} INFO - Started process (PID=20233) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:38:21.148+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:38:21.149+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:21.149+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:38:21.151+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:38:21.169+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.026 seconds
+[2022-12-22T22:39:00.313+0100] {processor.py:153} INFO - Started process (PID=20271) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:00.314+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:39:00.315+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:00.314+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:00.316+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:00.327+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.017 seconds
+[2022-12-22T22:39:41.859+0100] {processor.py:153} INFO - Started process (PID=20343) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:41.862+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:39:41.863+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:41.863+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:41.866+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:39:41.898+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.044 seconds
+[2022-12-22T22:40:23.985+0100] {processor.py:153} INFO - Started process (PID=20383) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:40:23.986+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:40:23.987+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:23.987+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:40:23.989+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:40:24.000+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2022-12-22T22:41:05.894+0100] {processor.py:153} INFO - Started process (PID=20449) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:05.895+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:41:05.896+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:05.896+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:05.898+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:05.909+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.019 seconds
+[2022-12-22T22:41:47.600+0100] {processor.py:153} INFO - Started process (PID=21270) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:47.601+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:41:47.602+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:47.602+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:47.604+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:41:47.614+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.018 seconds
+[2022-12-22T22:42:31.109+0100] {processor.py:153} INFO - Started process (PID=21308) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:42:31.111+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T22:42:31.112+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:31.112+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:42:31.115+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T22:42:31.131+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2022-12-22T23:31:41.398+0100] {processor.py:153} INFO - Started process (PID=21425) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:31:41.416+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:31:41.420+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:31:41.419+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:31:41.428+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:31:41.470+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.090 seconds
+[2022-12-22T23:32:34.095+0100] {processor.py:153} INFO - Started process (PID=21463) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:32:34.101+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:32:34.105+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:34.104+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:32:34.114+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:32:34.138+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.059 seconds
+[2022-12-22T23:33:17.963+0100] {processor.py:153} INFO - Started process (PID=21498) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:17.966+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:33:17.969+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:17.968+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:17.975+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:18.009+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2022-12-22T23:33:58.731+0100] {processor.py:153} INFO - Started process (PID=21529) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:58.734+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:33:58.737+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:58.737+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:58.742+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:33:58.766+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.047 seconds
+[2022-12-22T23:34:40.147+0100] {processor.py:153} INFO - Started process (PID=21565) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:34:40.151+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:34:40.154+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:40.153+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:34:40.160+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:34:40.194+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2022-12-22T23:35:21.435+0100] {processor.py:153} INFO - Started process (PID=21598) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:35:21.438+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:35:21.441+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:21.440+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:35:21.447+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:35:21.485+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2022-12-22T23:36:02.460+0100] {processor.py:153} INFO - Started process (PID=21628) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:02.464+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:36:02.466+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:02.466+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:02.472+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:02.501+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2022-12-22T23:36:43.695+0100] {processor.py:153} INFO - Started process (PID=21666) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:43.698+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:36:43.701+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:43.701+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:43.706+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:36:43.734+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.050 seconds
+[2022-12-22T23:37:42.834+0100] {processor.py:153} INFO - Started process (PID=21711) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:37:42.839+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:37:42.843+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:42.842+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:37:42.858+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:37:42.894+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.079 seconds
+[2022-12-22T23:38:40.302+0100] {processor.py:153} INFO - Started process (PID=21755) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:38:40.305+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:38:40.307+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:40.306+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:38:40.313+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:38:40.345+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2022-12-22T23:39:22.295+0100] {processor.py:153} INFO - Started process (PID=21811) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:39:22.297+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:39:22.299+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:22.299+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:39:22.303+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:39:22.325+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2022-12-22T23:40:14.171+0100] {processor.py:153} INFO - Started process (PID=21866) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:40:14.178+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:40:14.180+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:14.180+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:40:14.184+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:40:14.207+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.043 seconds
+[2022-12-22T23:41:11.272+0100] {processor.py:153} INFO - Started process (PID=21920) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:41:11.274+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:41:11.276+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:11.275+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:41:11.279+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:41:11.294+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2022-12-22T23:42:03.869+0100] {processor.py:153} INFO - Started process (PID=21963) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:03.873+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:42:03.876+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:03.875+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:03.884+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:03.926+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.070 seconds
+[2022-12-22T23:42:59.950+0100] {processor.py:153} INFO - Started process (PID=22008) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:59.953+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:42:59.954+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:59.954+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:59.961+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:42:59.995+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.068 seconds
+[2022-12-22T23:43:54.492+0100] {processor.py:153} INFO - Started process (PID=22051) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:43:54.496+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:43:54.498+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:54.498+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:43:54.517+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:43:54.548+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.070 seconds
+[2022-12-22T23:44:43.792+0100] {processor.py:153} INFO - Started process (PID=22096) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:44:43.795+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:44:43.797+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:43.796+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:44:43.801+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:44:43.824+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-22T23:45:31.976+0100] {processor.py:153} INFO - Started process (PID=22136) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:45:31.982+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:45:31.983+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:31.983+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:45:31.987+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:45:32.003+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.053 seconds
+[2022-12-22T23:46:24.894+0100] {processor.py:153} INFO - Started process (PID=22183) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:46:24.897+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:46:24.899+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:24.899+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:46:24.906+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:46:24.923+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.049 seconds
+[2022-12-22T23:47:03.739+0100] {processor.py:153} INFO - Started process (PID=22214) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:03.743+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:47:03.745+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:03.745+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:03.750+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:03.768+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2022-12-22T23:47:42.429+0100] {processor.py:153} INFO - Started process (PID=22246) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:42.433+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:47:42.436+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:42.435+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:42.444+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:47:42.485+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.069 seconds
+[2022-12-22T23:48:30.904+0100] {processor.py:153} INFO - Started process (PID=22301) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:48:30.906+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:48:30.908+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:30.907+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:48:30.912+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:48:30.934+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-12-22T23:49:11.187+0100] {processor.py:153} INFO - Started process (PID=22336) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:49:11.190+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:49:11.191+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:11.191+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:49:11.195+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:49:11.218+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-12-22T23:50:03.797+0100] {processor.py:153} INFO - Started process (PID=22379) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:03.805+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:50:03.807+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:03.807+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:03.817+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:03.838+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.055 seconds
+[2022-12-22T23:50:54.606+0100] {processor.py:153} INFO - Started process (PID=22434) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:54.611+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:50:54.612+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:54.612+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:54.621+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:50:54.636+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2022-12-22T23:51:34.747+0100] {processor.py:153} INFO - Started process (PID=22473) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:51:34.750+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:51:34.751+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:34.751+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:51:34.754+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:51:34.770+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2022-12-22T23:52:14.813+0100] {processor.py:153} INFO - Started process (PID=22536) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:14.821+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:52:14.822+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:14.822+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:14.833+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:14.877+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.076 seconds
+[2022-12-22T23:52:56.075+0100] {processor.py:153} INFO - Started process (PID=22630) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:56.083+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:52:56.084+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:56.084+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:56.091+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:52:56.171+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.108 seconds
+[2022-12-22T23:53:44.848+0100] {processor.py:153} INFO - Started process (PID=22719) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:53:44.852+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:53:44.854+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:44.853+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:53:44.861+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:53:44.925+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.091 seconds
+[2022-12-22T23:54:43.257+0100] {processor.py:153} INFO - Started process (PID=22817) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:54:43.266+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:54:43.267+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:43.267+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:54:43.307+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:54:43.396+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.160 seconds
+[2022-12-22T23:55:53.106+0100] {processor.py:153} INFO - Started process (PID=22894) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:55:53.113+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:55:53.116+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:55:53.115+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:55:53.130+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:55:53.172+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.101 seconds
+[2022-12-22T23:56:40.519+0100] {processor.py:153} INFO - Started process (PID=22935) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:56:40.526+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:56:40.527+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:40.527+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:56:40.530+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:56:40.547+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.036 seconds
+[2022-12-22T23:57:20.402+0100] {processor.py:153} INFO - Started process (PID=23034) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:57:20.406+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:57:20.408+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:20.408+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:57:20.413+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:57:20.431+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.044 seconds
+[2022-12-22T23:58:02.386+0100] {processor.py:153} INFO - Started process (PID=23105) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:02.391+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:58:02.394+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:02.393+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:02.407+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:02.425+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.053 seconds
+[2022-12-22T23:58:45.351+0100] {processor.py:153} INFO - Started process (PID=23223) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:45.353+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:58:45.355+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:45.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:45.359+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:58:45.382+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-12-22T23:59:30.312+0100] {processor.py:153} INFO - Started process (PID=23333) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:59:30.314+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-22T23:59:30.316+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:30.316+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:59:30.320+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-22T23:59:30.343+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-12-23T00:00:27.915+0100] {processor.py:153} INFO - Started process (PID=23434) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:00:27.923+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:00:27.925+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:27.924+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:00:27.929+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:00:27.952+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2022-12-23T00:01:12.548+0100] {processor.py:153} INFO - Started process (PID=23554) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:01:12.551+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:01:12.552+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:12.552+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:01:12.555+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:01:12.611+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.084 seconds
+[2022-12-23T00:02:06.003+0100] {processor.py:153} INFO - Started process (PID=23614) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:02:06.013+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:02:06.014+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:02:06.014+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:02:06.043+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:02:06.150+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.169 seconds
+[2022-12-23T00:03:25.407+0100] {processor.py:153} INFO - Started process (PID=23722) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:03:25.409+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:03:25.411+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:25.410+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:03:25.416+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:03:25.434+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2022-12-23T00:04:13.060+0100] {processor.py:153} INFO - Started process (PID=23762) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:13.062+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:04:13.065+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:04:13.064+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:13.072+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:13.108+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2022-12-23T00:04:58.998+0100] {processor.py:153} INFO - Started process (PID=23801) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:59.005+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:04:59.006+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:04:59.006+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:59.018+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:04:59.045+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.087 seconds
+[2022-12-23T00:05:58.538+0100] {processor.py:153} INFO - Started process (PID=23859) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:05:58.541+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:05:58.543+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:58.542+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:05:58.552+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:05:58.569+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds
+[2022-12-23T00:06:51.076+0100] {processor.py:153} INFO - Started process (PID=23905) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:06:51.079+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:06:51.080+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:51.080+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:06:51.086+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:06:51.116+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.045 seconds
+[2022-12-23T00:07:50.270+0100] {processor.py:153} INFO - Started process (PID=23953) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:07:50.277+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:07:50.279+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:07:50.278+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:07:50.313+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:07:50.354+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.139 seconds
+[2022-12-23T00:08:40.582+0100] {processor.py:153} INFO - Started process (PID=23995) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:08:40.586+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:08:40.589+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:40.589+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:08:40.603+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:08:40.638+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.067 seconds
+[2022-12-23T00:09:36.373+0100] {processor.py:153} INFO - Started process (PID=24072) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:09:36.380+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:09:36.381+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:36.381+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:09:36.434+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:09:36.516+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.172 seconds
+[2022-12-23T00:10:40.063+0100] {processor.py:153} INFO - Started process (PID=24179) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:10:40.070+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:10:40.071+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:10:40.071+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:10:40.082+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:10:40.131+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.085 seconds
+[2022-12-23T00:12:18.707+0100] {processor.py:153} INFO - Started process (PID=24466) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:12:18.724+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:12:18.725+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:12:18.725+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:12:18.779+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:12:18.921+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.246 seconds
+[2022-12-23T00:18:41.959+0100] {processor.py:153} INFO - Started process (PID=24553) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:18:44.462+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:18:53.081+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:18:49.872+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:19:06.182+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:21:31.839+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 171.609 seconds
+[2022-12-23T00:25:16.631+0100] {processor.py:153} INFO - Started process (PID=24940) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:25:16.669+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:25:16.672+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:16.672+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:25:16.687+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:25:16.799+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.226 seconds
+[2022-12-23T00:26:52.318+0100] {processor.py:153} INFO - Started process (PID=24998) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:26:52.342+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:26:52.345+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:26:52.344+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:26:52.489+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:26:52.604+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.339 seconds
+[2022-12-23T00:29:05.212+0100] {processor.py:153} INFO - Started process (PID=25200) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:29:05.219+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:29:05.229+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:05.228+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:29:05.255+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:29:05.353+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.159 seconds
+[2022-12-23T00:30:32.669+0100] {processor.py:153} INFO - Started process (PID=25443) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:30:32.706+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:30:32.728+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:30:32.707+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:30:32.759+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:30:32.843+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.265 seconds
+[2022-12-23T00:31:52.392+0100] {processor.py:153} INFO - Started process (PID=25594) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:31:52.398+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:31:52.404+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:31:52.400+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:31:52.420+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:31:52.495+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.136 seconds
+[2022-12-23T00:32:49.305+0100] {processor.py:153} INFO - Started process (PID=25802) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:32:49.310+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:32:49.311+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:49.311+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:32:49.316+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:32:49.339+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.046 seconds
+[2022-12-23T00:33:44.386+0100] {processor.py:153} INFO - Started process (PID=25872) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:33:44.392+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:33:44.395+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:44.395+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:33:44.405+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:33:44.454+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.088 seconds
+[2022-12-23T00:34:32.452+0100] {processor.py:153} INFO - Started process (PID=25906) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:34:32.455+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:34:32.457+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:32.457+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:34:32.461+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:34:32.484+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.047 seconds
+[2022-12-23T00:35:19.376+0100] {processor.py:153} INFO - Started process (PID=25939) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:35:19.384+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:35:19.386+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:19.386+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:35:19.390+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:35:19.413+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.049 seconds
+[2022-12-23T00:36:05.454+0100] {processor.py:153} INFO - Started process (PID=25973) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:36:05.459+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:36:05.464+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:05.463+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:36:05.473+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:36:05.498+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.062 seconds
+[2022-12-23T00:37:03.375+0100] {processor.py:153} INFO - Started process (PID=26014) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:03.380+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:37:03.384+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:03.383+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:03.395+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:03.447+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.109 seconds
+[2022-12-23T00:37:52.121+0100] {processor.py:153} INFO - Started process (PID=26051) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:52.126+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:37:52.131+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:52.130+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:52.139+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:37:52.191+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.086 seconds
+[2022-12-23T00:38:37.614+0100] {processor.py:153} INFO - Started process (PID=26089) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:38:37.616+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:38:37.618+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:37.617+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:38:37.623+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:38:37.645+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.039 seconds
+[2022-12-23T00:39:23.062+0100] {processor.py:153} INFO - Started process (PID=26123) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:39:23.072+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:39:23.077+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:23.076+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:39:23.086+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:39:23.133+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.090 seconds
+[2022-12-23T00:40:10.828+0100] {processor.py:153} INFO - Started process (PID=26156) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:40:10.833+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:40:10.835+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:10.834+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:40:10.841+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:40:10.865+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.064 seconds
+[2022-12-23T00:41:01.655+0100] {processor.py:153} INFO - Started process (PID=26192) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:01.658+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:41:01.660+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:41:01.659+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:01.664+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:01.690+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.043 seconds
+[2022-12-23T00:41:50.429+0100] {processor.py:153} INFO - Started process (PID=26227) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:50.432+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:41:50.434+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:41:50.434+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:50.440+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:41:50.463+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.053 seconds
+[2022-12-23T00:42:41.005+0100] {processor.py:153} INFO - Started process (PID=26263) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:42:41.014+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:42:41.016+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:41.015+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:42:41.022+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:42:41.048+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.058 seconds
+[2022-12-23T00:43:38.956+0100] {processor.py:153} INFO - Started process (PID=26303) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:43:38.962+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:43:38.966+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:38.965+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:43:38.976+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:43:39.026+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.086 seconds
+[2022-12-23T00:44:28.918+0100] {processor.py:153} INFO - Started process (PID=26339) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:44:28.923+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:44:28.928+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:28.927+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:44:28.937+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:44:28.981+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.080 seconds
+[2022-12-23T00:45:14.322+0100] {processor.py:153} INFO - Started process (PID=26374) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:14.328+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:45:14.330+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:14.330+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:14.337+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:14.367+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.062 seconds
+[2022-12-23T00:45:57.064+0100] {processor.py:153} INFO - Started process (PID=26406) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:57.069+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:45:57.073+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:57.072+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:57.078+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:45:57.102+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.056 seconds
+[2022-12-23T00:46:44.827+0100] {processor.py:153} INFO - Started process (PID=26439) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:46:44.838+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:46:44.842+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:44.841+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:46:44.853+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:46:44.903+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.093 seconds
+[2022-12-23T00:47:35.048+0100] {processor.py:153} INFO - Started process (PID=26476) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:47:35.051+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:47:35.054+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:35.053+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:47:35.059+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:47:35.090+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.054 seconds
+[2022-12-23T00:48:28.327+0100] {processor.py:153} INFO - Started process (PID=26514) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:48:28.332+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:48:28.335+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:28.335+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:48:28.343+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:48:28.386+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.075 seconds
+[2022-12-23T00:49:25.271+0100] {processor.py:153} INFO - Started process (PID=26552) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:49:25.274+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:49:25.276+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:25.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:49:25.283+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:49:25.340+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.079 seconds
+[2022-12-23T00:50:07.380+0100] {processor.py:153} INFO - Started process (PID=26584) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:07.385+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:50:07.389+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:07.388+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:07.401+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:07.447+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.082 seconds
+[2022-12-23T00:50:54.513+0100] {processor.py:153} INFO - Started process (PID=26618) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:54.516+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:50:54.518+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:54.518+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:54.522+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:50:54.546+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2022-12-23T00:51:39.457+0100] {processor.py:153} INFO - Started process (PID=26651) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:51:39.460+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:51:39.462+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:39.462+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:51:39.468+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:51:39.498+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.057 seconds
+[2022-12-23T00:52:27.567+0100] {processor.py:153} INFO - Started process (PID=26687) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:52:27.569+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:52:27.571+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:27.570+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:52:27.575+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:52:27.598+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.038 seconds
+[2022-12-23T00:53:19.204+0100] {processor.py:153} INFO - Started process (PID=26729) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:53:19.208+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:53:19.211+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:19.210+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:53:19.223+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:53:19.265+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.079 seconds
+[2022-12-23T00:54:18.650+0100] {processor.py:153} INFO - Started process (PID=26766) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:54:18.659+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:54:18.661+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:18.661+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:54:18.665+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:54:18.688+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.082 seconds
+[2022-12-23T00:55:11.977+0100] {processor.py:153} INFO - Started process (PID=26804) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:11.979+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:55:11.982+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:55:11.981+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:11.987+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:12.011+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.065 seconds
+[2022-12-23T00:55:59.509+0100] {processor.py:153} INFO - Started process (PID=26838) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:59.513+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:55:59.514+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:55:59.514+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:59.522+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:55:59.555+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.062 seconds
+[2022-12-23T00:56:47.381+0100] {processor.py:153} INFO - Started process (PID=26872) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:56:47.384+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:56:47.386+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:47.385+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:56:47.390+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:56:47.412+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.043 seconds
+[2022-12-23T00:57:30.693+0100] {processor.py:153} INFO - Started process (PID=26905) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:57:30.698+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:57:30.702+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:30.701+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:57:30.712+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:57:30.771+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.097 seconds
+[2022-12-23T00:58:16.383+0100] {processor.py:153} INFO - Started process (PID=26940) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:58:16.386+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:58:16.388+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:16.388+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:58:16.392+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:58:16.415+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.048 seconds
+[2022-12-23T00:59:07.160+0100] {processor.py:153} INFO - Started process (PID=26977) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:59:07.163+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2022-12-23T00:59:07.164+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:07.164+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:59:07.168+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py
+[2022-12-23T00:59:07.190+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/plugins/workday.py took 0.037 seconds

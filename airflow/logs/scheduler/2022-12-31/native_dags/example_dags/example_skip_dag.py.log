@@ -1,0 +1,7 @@
+[2022-12-31T03:17:42.844+0100] {processor.py:153} INFO - Started process (PID=22096) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-31T03:17:42.891+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-12-31T03:17:42.913+0100] {logging_mixin.py:137} INFO - [2022-12-31T03:17:42.912+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-31T03:17:43.308+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-12-31T03:17:43.841+0100] {logging_mixin.py:137} INFO - [2022-12-31T03:17:43.834+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-31T03:17:44.320+0100] {logging_mixin.py:137} INFO - [2022-12-31T03:17:44.313+0100] {dag.py:3423} INFO - Setting next_dagrun for example_skip_dag to 2022-12-30T02:17:44.305633+00:00, run_after=2022-12-31T02:17:44.305633+00:00
+[2022-12-31T03:17:44.954+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_skip_dag.py took 2.176 seconds

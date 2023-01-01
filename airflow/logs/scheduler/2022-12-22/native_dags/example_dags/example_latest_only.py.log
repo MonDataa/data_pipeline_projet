@@ -1,0 +1,1005 @@
+[2022-12-22T21:51:46.678+0100] {processor.py:153} INFO - Started process (PID=11273) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:51:46.679+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:51:46.679+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.679+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:51:46.693+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:51:46.820+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.820+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:latest_only
+[2022-12-22T21:51:46.832+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.832+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:latest_only
+[2022-12-22T21:51:46.843+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.843+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:latest_only
+[2022-12-22T21:51:46.843+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.843+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:51:46.854+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.854+0100] {dag.py:2697} INFO - Creating ORM DAG for latest_only
+[2022-12-22T21:51:46.885+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:46.885+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:51:46.885294+00:00, run_after=2022-12-22T20:51:46.885294+00:00
+[2022-12-22T21:51:46.905+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.230 seconds
+[2022-12-22T21:52:30.276+0100] {processor.py:153} INFO - Started process (PID=11494) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:52:30.282+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:52:30.283+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:30.283+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:52:30.299+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:52:30.328+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:30.328+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:52:30.352+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:30.350+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:52:30.350740+00:00, run_after=2022-12-22T20:52:30.350740+00:00
+[2022-12-22T21:52:30.399+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2022-12-22T21:53:15.539+0100] {processor.py:153} INFO - Started process (PID=11553) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:15.548+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:53:15.548+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:15.548+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:15.566+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:15.598+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:15.598+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:53:15.621+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:15.621+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:53:15.620811+00:00, run_after=2022-12-22T20:53:15.620811+00:00
+[2022-12-22T21:53:15.646+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2022-12-22T21:53:56.760+0100] {processor.py:153} INFO - Started process (PID=11618) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:56.761+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:53:56.761+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:56.761+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:56.777+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:53:56.802+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:56.802+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:53:56.824+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:56.824+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:53:56.824305+00:00, run_after=2022-12-22T20:53:56.824305+00:00
+[2022-12-22T21:53:56.852+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2022-12-22T21:54:40.968+0100] {processor.py:153} INFO - Started process (PID=11717) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:54:40.982+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:54:40.983+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:40.983+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:54:41.029+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:54:41.183+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:41.183+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:54:41.312+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:41.312+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:54:41.312127+00:00, run_after=2022-12-22T20:54:41.312127+00:00
+[2022-12-22T21:54:41.355+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.407 seconds
+[2022-12-22T21:55:24.742+0100] {processor.py:153} INFO - Started process (PID=11756) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:55:24.749+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:55:24.749+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:24.749+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:55:24.765+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:55:24.790+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:24.789+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:55:24.815+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:24.815+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:55:24.815017+00:00, run_after=2022-12-22T20:55:24.815017+00:00
+[2022-12-22T21:55:24.845+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2022-12-22T21:56:07.275+0100] {processor.py:153} INFO - Started process (PID=11794) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:07.276+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:56:07.277+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:07.277+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:07.297+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:07.322+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:07.322+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:56:07.353+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:07.352+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:56:07.352146+00:00, run_after=2022-12-22T20:56:07.352146+00:00
+[2022-12-22T21:56:07.399+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2022-12-22T21:56:55.263+0100] {processor.py:153} INFO - Started process (PID=14187) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:55.267+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:56:55.267+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:55.267+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:55.364+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:56:55.525+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:55.525+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:56:55.633+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:55.630+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:56:55.630448+00:00, run_after=2022-12-22T20:56:55.630448+00:00
+[2022-12-22T21:56:55.717+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.463 seconds
+[2022-12-22T21:57:37.215+0100] {processor.py:153} INFO - Started process (PID=14251) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:57:37.217+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:57:37.225+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:37.225+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:57:37.248+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:57:37.275+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:37.275+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:57:37.297+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:37.297+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:57:37.296513+00:00, run_after=2022-12-22T20:57:37.296513+00:00
+[2022-12-22T21:57:37.395+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.184 seconds
+[2022-12-22T21:58:19.586+0100] {processor.py:153} INFO - Started process (PID=14296) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:19.592+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:58:19.593+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:19.592+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:19.606+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:19.631+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:19.631+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:58:19.651+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:19.651+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:58:19.651035+00:00, run_after=2022-12-22T20:58:19.651035+00:00
+[2022-12-22T21:58:19.678+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.096 seconds
+[2022-12-22T21:58:59.893+0100] {processor.py:153} INFO - Started process (PID=14424) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:59.899+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:58:59.899+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:59.899+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:59.915+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:58:59.941+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:59.941+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:58:59.962+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:59.961+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:58:59.961733+00:00, run_after=2022-12-22T20:58:59.961733+00:00
+[2022-12-22T21:58:59.995+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2022-12-22T21:59:43.934+0100] {processor.py:153} INFO - Started process (PID=14527) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:59:43.935+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T21:59:43.936+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:43.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:59:43.951+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T21:59:43.977+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:43.977+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:59:43.997+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:43.997+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T16:59:43.997594+00:00, run_after=2022-12-22T20:59:43.997594+00:00
+[2022-12-22T21:59:44.050+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.120 seconds
+[2022-12-22T22:00:26.563+0100] {processor.py:153} INFO - Started process (PID=14574) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:00:26.567+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:00:26.568+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:26.568+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:00:26.645+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:00:26.690+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:26.690+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:00:26.740+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:26.740+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:00:26.740199+00:00, run_after=2022-12-22T21:00:26.740199+00:00
+[2022-12-22T22:00:26.782+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.231 seconds
+[2022-12-22T22:01:13.869+0100] {processor.py:153} INFO - Started process (PID=14619) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:13.875+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:01:13.875+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:13.875+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:13.890+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:13.914+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:13.914+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:01:13.935+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:13.934+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:01:13.934237+00:00, run_after=2022-12-22T21:01:13.934237+00:00
+[2022-12-22T22:01:13.957+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2022-12-22T22:01:54.595+0100] {processor.py:153} INFO - Started process (PID=14658) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:54.597+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:01:54.598+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:54.598+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:54.613+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:01:54.636+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:54.636+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:01:54.657+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:54.657+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:01:54.657072+00:00, run_after=2022-12-22T21:01:54.657072+00:00
+[2022-12-22T22:01:54.685+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2022-12-22T22:02:35.622+0100] {processor.py:153} INFO - Started process (PID=14696) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:02:35.628+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:02:35.629+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:35.629+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:02:35.645+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:02:35.669+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:35.669+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:02:35.690+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:35.690+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:02:35.690573+00:00, run_after=2022-12-22T21:02:35.690573+00:00
+[2022-12-22T22:02:35.717+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2022-12-22T22:03:16.805+0100] {processor.py:153} INFO - Started process (PID=14735) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:16.806+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:03:16.806+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:16.806+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:16.821+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:16.849+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:16.849+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:03:16.872+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:16.871+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:03:16.871581+00:00, run_after=2022-12-22T21:03:16.871581+00:00
+[2022-12-22T22:03:16.894+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2022-12-22T22:03:56.191+0100] {processor.py:153} INFO - Started process (PID=14773) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:56.193+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:03:56.194+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:56.194+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:56.210+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:03:56.236+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:56.236+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:03:56.256+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:56.256+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:03:56.255610+00:00, run_after=2022-12-22T21:03:56.255610+00:00
+[2022-12-22T22:03:56.282+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2022-12-22T22:04:36.510+0100] {processor.py:153} INFO - Started process (PID=14818) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:04:36.517+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:04:36.518+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:36.518+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:04:36.531+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:04:36.556+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:36.555+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:04:36.580+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:36.580+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:04:36.580067+00:00, run_after=2022-12-22T21:04:36.580067+00:00
+[2022-12-22T22:04:36.605+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2022-12-22T22:05:18.659+0100] {processor.py:153} INFO - Started process (PID=14865) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:18.661+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:05:18.662+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:18.662+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:18.677+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:18.703+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:18.703+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:05:18.725+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:18.724+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:05:18.724333+00:00, run_after=2022-12-22T21:05:18.724333+00:00
+[2022-12-22T22:05:18.752+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.100 seconds
+[2022-12-22T22:05:58.457+0100] {processor.py:153} INFO - Started process (PID=14910) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:58.458+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:05:58.459+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:58.459+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:58.473+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:05:58.502+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:58.502+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:05:58.524+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:58.524+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:05:58.524225+00:00, run_after=2022-12-22T21:05:58.524225+00:00
+[2022-12-22T22:05:58.552+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2022-12-22T22:06:40.743+0100] {processor.py:153} INFO - Started process (PID=15054) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:06:40.749+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:06:40.750+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:40.750+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:06:40.767+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:06:40.792+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:40.792+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:06:40.817+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:40.817+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:06:40.817141+00:00, run_after=2022-12-22T21:06:40.817141+00:00
+[2022-12-22T22:06:40.842+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2022-12-22T22:07:22.256+0100] {processor.py:153} INFO - Started process (PID=15092) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:07:22.260+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:07:22.261+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:22.261+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:07:22.276+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:07:22.303+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:22.302+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:07:22.324+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:22.323+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:07:22.323573+00:00, run_after=2022-12-22T21:07:22.323573+00:00
+[2022-12-22T22:07:22.369+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2022-12-22T22:08:03.811+0100] {processor.py:153} INFO - Started process (PID=15141) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:03.812+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:08:03.813+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:03.813+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:03.829+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:03.854+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:03.854+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:08:03.875+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:03.875+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:08:03.875149+00:00, run_after=2022-12-22T21:08:03.875149+00:00
+[2022-12-22T22:08:03.902+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2022-12-22T22:08:45.406+0100] {processor.py:153} INFO - Started process (PID=15186) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:45.413+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:08:45.414+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:45.414+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:45.428+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:08:45.454+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:45.454+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:08:45.478+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:45.478+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:08:45.477889+00:00, run_after=2022-12-22T21:08:45.477889+00:00
+[2022-12-22T22:08:45.506+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2022-12-22T22:09:24.928+0100] {processor.py:153} INFO - Started process (PID=15228) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:09:24.929+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:09:24.931+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:24.930+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:09:24.949+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:09:24.977+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:24.976+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:09:25.002+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:25.002+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:09:25.001674+00:00, run_after=2022-12-22T21:09:25.001674+00:00
+[2022-12-22T22:09:25.028+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2022-12-22T22:10:06.719+0100] {processor.py:153} INFO - Started process (PID=15268) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:06.728+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:10:06.729+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:06.729+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:06.745+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:06.772+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:06.772+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:10:06.791+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:06.791+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:10:06.790779+00:00, run_after=2022-12-22T21:10:06.790779+00:00
+[2022-12-22T22:10:06.816+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.102 seconds
+[2022-12-22T22:10:52.848+0100] {processor.py:153} INFO - Started process (PID=15309) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:52.850+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:10:52.851+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:52.851+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:52.869+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:10:52.895+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:52.895+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:10:52.915+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:52.915+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:10:52.915121+00:00, run_after=2022-12-22T21:10:52.915121+00:00
+[2022-12-22T22:10:52.942+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2022-12-22T22:11:36.705+0100] {processor.py:153} INFO - Started process (PID=15349) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:11:36.706+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:11:36.707+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:36.707+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:11:36.721+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:11:36.747+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:36.747+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:11:36.769+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:36.769+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:11:36.768727+00:00, run_after=2022-12-22T21:11:36.768727+00:00
+[2022-12-22T22:11:36.796+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2022-12-22T22:12:19.339+0100] {processor.py:153} INFO - Started process (PID=15391) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:12:19.353+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:12:19.354+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:19.354+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:12:19.371+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:12:19.436+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:19.436+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:12:19.459+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:19.459+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:12:19.458068+00:00, run_after=2022-12-22T21:12:19.458068+00:00
+[2022-12-22T22:12:19.479+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.144 seconds
+[2022-12-22T22:13:02.586+0100] {processor.py:153} INFO - Started process (PID=15430) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:02.589+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:13:02.590+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:02.590+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:02.608+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:02.648+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:02.647+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:13:02.680+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:02.680+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:13:02.680452+00:00, run_after=2022-12-22T21:13:02.680452+00:00
+[2022-12-22T22:13:02.710+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.128 seconds
+[2022-12-22T22:13:44.847+0100] {processor.py:153} INFO - Started process (PID=15469) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:44.848+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:13:44.849+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:44.849+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:44.866+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:13:44.896+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:44.896+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:13:44.938+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:44.938+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:13:44.938120+00:00, run_after=2022-12-22T21:13:44.938120+00:00
+[2022-12-22T22:13:44.969+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2022-12-22T22:14:26.705+0100] {processor.py:153} INFO - Started process (PID=15514) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:14:26.712+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:14:26.712+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:26.712+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:14:26.728+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:14:26.755+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:26.755+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:14:26.777+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:26.777+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:14:26.777258+00:00, run_after=2022-12-22T21:14:26.777258+00:00
+[2022-12-22T22:14:26.805+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2022-12-22T22:15:08.913+0100] {processor.py:153} INFO - Started process (PID=15552) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:08.915+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:15:08.922+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:08.919+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:08.981+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:09.063+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:09.063+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:15:09.130+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:09.130+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:15:09.129362+00:00, run_after=2022-12-22T21:15:09.129362+00:00
+[2022-12-22T22:15:09.236+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.336 seconds
+[2022-12-22T22:15:54.958+0100] {processor.py:153} INFO - Started process (PID=15592) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:54.965+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:15:54.965+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:54.965+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:54.980+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:15:55.002+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:55.002+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:15:55.022+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:55.022+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:15:55.022337+00:00, run_after=2022-12-22T21:15:55.022337+00:00
+[2022-12-22T22:15:55.045+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2022-12-22T22:16:34.267+0100] {processor.py:153} INFO - Started process (PID=15632) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:16:34.269+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:16:34.270+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:34.269+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:16:34.286+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:16:34.313+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:34.312+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:16:34.336+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:34.336+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:16:34.336494+00:00, run_after=2022-12-22T21:16:34.336494+00:00
+[2022-12-22T22:16:34.364+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2022-12-22T22:17:12.517+0100] {processor.py:153} INFO - Started process (PID=15673) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:12.519+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:17:12.520+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:12.520+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:12.536+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:12.562+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:12.562+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:17:12.586+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:12.586+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:17:12.585720+00:00, run_after=2022-12-22T21:17:12.585720+00:00
+[2022-12-22T22:17:12.611+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2022-12-22T22:17:52.189+0100] {processor.py:153} INFO - Started process (PID=15713) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:52.196+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:17:52.197+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:52.197+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:52.210+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:17:52.237+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:52.237+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:17:52.258+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:52.258+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:17:52.258326+00:00, run_after=2022-12-22T21:17:52.258326+00:00
+[2022-12-22T22:17:52.307+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.122 seconds
+[2022-12-22T22:18:36.197+0100] {processor.py:153} INFO - Started process (PID=15806) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:18:36.198+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:18:36.198+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:36.198+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:18:36.239+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:18:36.327+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:36.327+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:18:36.374+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:36.373+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:18:36.373758+00:00, run_after=2022-12-22T21:18:36.373758+00:00
+[2022-12-22T22:18:36.417+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.223 seconds
+[2022-12-22T22:19:21.469+0100] {processor.py:153} INFO - Started process (PID=15877) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:19:21.474+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:19:21.474+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:21.474+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:19:21.544+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:19:21.619+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:21.619+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:19:21.666+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:21.666+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:19:21.666227+00:00, run_after=2022-12-22T21:19:21.666227+00:00
+[2022-12-22T22:19:21.718+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.252 seconds
+[2022-12-22T22:20:06.186+0100] {processor.py:153} INFO - Started process (PID=15931) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:06.192+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:20:06.193+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:06.193+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:06.225+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:06.317+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:06.317+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:20:06.397+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:06.396+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:20:06.396475+00:00, run_after=2022-12-22T21:20:06.396475+00:00
+[2022-12-22T22:20:06.449+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.269 seconds
+[2022-12-22T22:20:51.738+0100] {processor.py:153} INFO - Started process (PID=16091) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:51.742+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:20:51.742+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:51.742+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:51.776+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:20:51.856+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:51.855+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:20:51.904+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:51.904+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:20:51.903942+00:00, run_after=2022-12-22T21:20:51.903942+00:00
+[2022-12-22T22:20:51.965+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.234 seconds
+[2022-12-22T22:21:30.461+0100] {processor.py:153} INFO - Started process (PID=16142) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:21:30.467+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:21:30.468+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:30.468+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:21:30.484+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:21:30.513+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:30.513+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:21:30.535+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:30.535+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:21:30.534807+00:00, run_after=2022-12-22T21:21:30.534807+00:00
+[2022-12-22T22:21:30.566+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.110 seconds
+[2022-12-22T22:22:14.748+0100] {processor.py:153} INFO - Started process (PID=16278) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:14.754+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:22:14.755+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:14.755+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:14.772+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:14.808+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:14.808+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:22:14.845+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:14.845+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:22:14.845501+00:00, run_after=2022-12-22T21:22:14.845501+00:00
+[2022-12-22T22:22:14.881+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.137 seconds
+[2022-12-22T22:22:57.058+0100] {processor.py:153} INFO - Started process (PID=16390) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:57.059+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:22:57.066+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:57.066+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:57.083+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:22:57.110+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:57.110+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:22:57.133+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:57.132+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:22:57.132685+00:00, run_after=2022-12-22T21:22:57.132685+00:00
+[2022-12-22T22:22:57.159+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2022-12-22T22:23:35.868+0100] {processor.py:153} INFO - Started process (PID=16439) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:23:35.874+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:23:35.875+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:35.875+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:23:35.893+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:23:35.921+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:35.921+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:23:35.943+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:35.943+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:23:35.943388+00:00, run_after=2022-12-22T21:23:35.943388+00:00
+[2022-12-22T22:23:36.011+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.148 seconds
+[2022-12-22T22:24:17.046+0100] {processor.py:153} INFO - Started process (PID=16537) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:24:17.053+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:24:17.055+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:17.055+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:24:17.087+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:24:17.149+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:17.149+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:24:17.190+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:17.190+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:24:17.190499+00:00, run_after=2022-12-22T21:24:17.190499+00:00
+[2022-12-22T22:24:17.240+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.201 seconds
+[2022-12-22T22:25:01.480+0100] {processor.py:153} INFO - Started process (PID=17375) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:01.486+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:25:01.487+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:01.487+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:01.516+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:01.545+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:01.544+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:25:01.567+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:01.567+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:25:01.567096+00:00, run_after=2022-12-22T21:25:01.567096+00:00
+[2022-12-22T22:25:01.589+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2022-12-22T22:25:42.038+0100] {processor.py:153} INFO - Started process (PID=17489) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:42.039+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:25:42.040+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:42.040+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:42.067+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:25:42.095+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:42.095+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:25:42.118+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:42.117+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:25:42.117586+00:00, run_after=2022-12-22T21:25:42.117586+00:00
+[2022-12-22T22:25:42.143+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2022-12-22T22:26:22.452+0100] {processor.py:153} INFO - Started process (PID=17569) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:26:22.458+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:26:22.459+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:22.459+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:26:22.477+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:26:22.516+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:22.516+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:26:22.558+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:22.558+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:26:22.557787+00:00, run_after=2022-12-22T21:26:22.557787+00:00
+[2022-12-22T22:26:22.583+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.136 seconds
+[2022-12-22T22:27:01.812+0100] {processor.py:153} INFO - Started process (PID=17639) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:01.814+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:27:01.814+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:01.814+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:01.831+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:01.857+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:01.856+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:27:01.877+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:01.877+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:27:01.876749+00:00, run_after=2022-12-22T21:27:01.876749+00:00
+[2022-12-22T22:27:01.905+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2022-12-22T22:27:41.254+0100] {processor.py:153} INFO - Started process (PID=17732) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:41.258+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:27:41.262+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:41.261+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:41.302+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:27:41.326+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:41.326+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:27:41.348+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:41.348+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:27:41.347919+00:00, run_after=2022-12-22T21:27:41.347919+00:00
+[2022-12-22T22:27:41.375+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.129 seconds
+[2022-12-22T22:28:20.512+0100] {processor.py:153} INFO - Started process (PID=17839) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:28:20.518+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:28:20.519+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:20.519+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:28:20.545+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:28:20.580+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:20.580+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:28:20.600+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:20.600+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:28:20.600028+00:00, run_after=2022-12-22T21:28:20.600028+00:00
+[2022-12-22T22:28:20.638+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.130 seconds
+[2022-12-22T22:29:01.967+0100] {processor.py:153} INFO - Started process (PID=17933) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:01.969+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:29:01.970+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:01.969+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:01.985+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:02.022+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:02.022+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:29:02.043+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:02.042+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:29:02.042601+00:00, run_after=2022-12-22T21:29:02.042601+00:00
+[2022-12-22T22:29:02.070+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2022-12-22T22:29:42.319+0100] {processor.py:153} INFO - Started process (PID=18025) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:42.320+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:29:42.321+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:42.321+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:42.337+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:29:42.362+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:42.362+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:29:42.384+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:42.384+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:29:42.384399+00:00, run_after=2022-12-22T21:29:42.384399+00:00
+[2022-12-22T22:29:42.407+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2022-12-22T22:30:21.906+0100] {processor.py:153} INFO - Started process (PID=18129) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:30:21.910+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:30:21.911+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:21.911+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:30:21.939+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:30:21.999+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:21.999+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:30:22.046+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:22.046+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:30:22.041529+00:00, run_after=2022-12-22T21:30:22.041529+00:00
+[2022-12-22T22:30:22.089+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds
+[2022-12-22T22:31:06.249+0100] {processor.py:153} INFO - Started process (PID=18531) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:06.252+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:31:06.253+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:06.253+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:06.272+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:06.308+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:06.308+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:31:06.330+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:06.330+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:31:06.330184+00:00, run_after=2022-12-22T21:31:06.330184+00:00
+[2022-12-22T22:31:06.366+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.120 seconds
+[2022-12-22T22:31:47.901+0100] {processor.py:153} INFO - Started process (PID=18819) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:47.902+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:31:47.903+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:47.903+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:47.919+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:31:47.944+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:47.943+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:31:47.964+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:47.964+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:31:47.963897+00:00, run_after=2022-12-22T21:31:47.963897+00:00
+[2022-12-22T22:31:47.989+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2022-12-22T22:32:30.111+0100] {processor.py:153} INFO - Started process (PID=19546) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:32:30.117+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:32:30.122+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:30.121+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:32:30.207+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:32:30.288+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:30.288+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:32:30.350+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:30.349+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:32:30.343345+00:00, run_after=2022-12-22T21:32:30.343345+00:00
+[2022-12-22T22:32:30.405+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.301 seconds
+[2022-12-22T22:33:10.908+0100] {processor.py:153} INFO - Started process (PID=19900) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:10.914+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:33:10.915+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:10.915+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:10.929+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:10.951+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:10.951+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:33:10.985+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:10.984+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:33:10.984717+00:00, run_after=2022-12-22T21:33:10.984717+00:00
+[2022-12-22T22:33:11.032+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2022-12-22T22:33:51.705+0100] {processor.py:153} INFO - Started process (PID=19971) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:51.712+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:33:51.712+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:51.712+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:51.741+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:33:51.769+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:51.769+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:33:51.793+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:51.793+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:33:51.792514+00:00, run_after=2022-12-22T21:33:51.792514+00:00
+[2022-12-22T22:33:51.829+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.127 seconds
+[2022-12-22T22:34:34.436+0100] {processor.py:153} INFO - Started process (PID=20012) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:34:34.442+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:34:34.442+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:34.442+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:34:34.457+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:34:34.483+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:34.483+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:34:34.506+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:34.506+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:34:34.506024+00:00, run_after=2022-12-22T21:34:34.506024+00:00
+[2022-12-22T22:34:34.543+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2022-12-22T22:35:16.260+0100] {processor.py:153} INFO - Started process (PID=20054) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:16.261+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:35:16.262+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:16.262+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:16.277+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:16.305+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:16.305+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:35:16.333+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:16.333+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:35:16.333403+00:00, run_after=2022-12-22T21:35:16.333403+00:00
+[2022-12-22T22:35:16.361+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2022-12-22T22:35:57.148+0100] {processor.py:153} INFO - Started process (PID=20094) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:57.149+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:35:57.150+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:57.150+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:57.163+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:35:57.185+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:57.185+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:35:57.203+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:57.202+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:35:57.202664+00:00, run_after=2022-12-22T21:35:57.202664+00:00
+[2022-12-22T22:35:57.223+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2022-12-22T22:36:34.958+0100] {processor.py:153} INFO - Started process (PID=20133) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:36:34.959+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:36:34.960+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:34.960+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:36:34.976+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:36:35.001+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:35.001+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:36:35.023+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:35.023+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:36:35.022781+00:00, run_after=2022-12-22T21:36:35.022781+00:00
+[2022-12-22T22:36:35.046+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2022-12-22T22:37:16.274+0100] {processor.py:153} INFO - Started process (PID=20172) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:16.275+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:37:16.276+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:16.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:16.290+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:16.315+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:16.315+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:37:16.336+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:16.336+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:37:16.336197+00:00, run_after=2022-12-22T21:37:16.336197+00:00
+[2022-12-22T22:37:16.359+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2022-12-22T22:37:56.616+0100] {processor.py:153} INFO - Started process (PID=20211) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:56.617+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:37:56.618+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:56.617+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:56.634+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:37:56.661+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:56.660+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:37:56.681+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:56.681+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:37:56.681278+00:00, run_after=2022-12-22T21:37:56.681278+00:00
+[2022-12-22T22:37:56.706+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2022-12-22T22:38:37.943+0100] {processor.py:153} INFO - Started process (PID=20249) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:38:37.945+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:38:37.946+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:37.945+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:38:37.962+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:38:37.987+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:37.987+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:38:38.007+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:38.007+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:38:38.006779+00:00, run_after=2022-12-22T21:38:38.006779+00:00
+[2022-12-22T22:38:38.026+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2022-12-22T22:39:17.258+0100] {processor.py:153} INFO - Started process (PID=20312) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:17.259+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:39:17.260+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:17.260+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:17.292+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:17.349+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:17.345+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:39:17.396+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:17.396+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:39:17.395747+00:00, run_after=2022-12-22T21:39:17.395747+00:00
+[2022-12-22T22:39:17.439+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.190 seconds
+[2022-12-22T22:39:58.037+0100] {processor.py:153} INFO - Started process (PID=20359) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:58.043+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:39:58.045+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:58.045+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:58.075+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:39:58.116+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:58.116+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:39:58.150+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:58.150+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:39:58.150252+00:00, run_after=2022-12-22T21:39:58.150252+00:00
+[2022-12-22T22:39:58.184+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.157 seconds
+[2022-12-22T22:40:42.060+0100] {processor.py:153} INFO - Started process (PID=20399) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:40:42.067+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:40:42.068+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:42.068+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:40:42.084+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:40:42.109+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:42.109+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:40:42.129+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:42.129+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:40:42.129090+00:00, run_after=2022-12-22T21:40:42.129090+00:00
+[2022-12-22T22:40:42.167+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2022-12-22T22:41:25.150+0100] {processor.py:153} INFO - Started process (PID=21156) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:41:25.156+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:41:25.157+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:25.157+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:41:25.190+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:41:25.242+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:25.241+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:41:25.285+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:25.285+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:41:25.281152+00:00, run_after=2022-12-22T21:41:25.281152+00:00
+[2022-12-22T22:41:25.324+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.185 seconds
+[2022-12-22T22:42:06.600+0100] {processor.py:153} INFO - Started process (PID=21286) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:06.606+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:42:06.607+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:06.607+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:06.632+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:06.656+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:06.656+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:42:06.676+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:06.676+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:42:06.675950+00:00, run_after=2022-12-22T21:42:06.675950+00:00
+[2022-12-22T22:42:06.700+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2022-12-22T22:42:50.851+0100] {processor.py:153} INFO - Started process (PID=21324) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:50.854+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T22:42:50.856+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:50.856+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:50.883+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T22:42:50.930+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:50.930+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:42:50.969+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:50.969+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T17:42:50.968525+00:00, run_after=2022-12-22T21:42:50.968525+00:00
+[2022-12-22T22:42:51.026+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.180 seconds
+[2022-12-22T23:32:03.583+0100] {processor.py:153} INFO - Started process (PID=21441) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:32:03.592+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:32:03.594+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:03.593+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:32:03.652+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:32:03.712+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:03.711+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:32:03.761+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:03.760+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:32:03.760099+00:00, run_after=2022-12-22T22:32:03.760099+00:00
+[2022-12-22T23:32:03.813+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.242 seconds
+[2022-12-22T23:33:06.472+0100] {processor.py:153} INFO - Started process (PID=21488) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:33:06.475+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:33:06.478+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:06.477+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:33:06.515+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:33:06.591+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:06.590+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:33:06.670+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:06.668+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:33:06.667455+00:00, run_after=2022-12-22T22:33:06.667455+00:00
+[2022-12-22T23:33:06.737+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.275 seconds
+[2022-12-22T23:34:10.188+0100] {processor.py:153} INFO - Started process (PID=21543) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:34:10.191+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:34:10.194+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:10.193+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:34:10.242+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:34:10.316+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:10.315+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:34:10.365+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:10.365+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:34:10.364464+00:00, run_after=2022-12-22T22:34:10.364464+00:00
+[2022-12-22T23:34:10.420+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.247 seconds
+[2022-12-22T23:35:09.208+0100] {processor.py:153} INFO - Started process (PID=21589) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:35:09.213+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:35:09.216+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:09.215+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:35:09.267+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:35:09.391+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:09.390+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:35:09.451+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:09.451+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:35:09.450487+00:00, run_after=2022-12-22T22:35:09.450487+00:00
+[2022-12-22T23:35:09.518+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.334 seconds
+[2022-12-22T23:36:10.534+0100] {processor.py:153} INFO - Started process (PID=21640) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:36:10.545+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:36:10.549+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:10.549+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:36:10.597+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:36:10.674+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:10.674+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:36:10.739+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:10.739+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:36:10.738236+00:00, run_after=2022-12-22T22:36:10.738236+00:00
+[2022-12-22T23:36:10.809+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.319 seconds
+[2022-12-22T23:37:10.212+0100] {processor.py:153} INFO - Started process (PID=21686) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:37:10.218+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:37:10.221+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:10.221+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:37:10.290+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:37:10.351+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:10.350+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:37:10.403+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:10.402+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:37:10.401793+00:00, run_after=2022-12-22T22:37:10.401793+00:00
+[2022-12-22T23:37:10.467+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.272 seconds
+[2022-12-22T23:38:06.739+0100] {processor.py:153} INFO - Started process (PID=21730) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:38:06.743+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:38:06.747+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:06.746+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:38:06.836+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:38:06.911+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:06.910+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:38:06.962+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:06.961+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:38:06.961244+00:00, run_after=2022-12-22T22:38:06.961244+00:00
+[2022-12-22T23:38:07.018+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.293 seconds
+[2022-12-22T23:39:10.686+0100] {processor.py:153} INFO - Started process (PID=21791) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:39:10.688+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:39:10.689+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:10.689+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:39:10.726+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:39:10.762+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:10.762+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:39:10.793+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:10.793+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:39:10.793093+00:00, run_after=2022-12-22T22:39:10.793093+00:00
+[2022-12-22T23:39:10.828+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.151 seconds
+[2022-12-22T23:40:03.479+0100] {processor.py:153} INFO - Started process (PID=21848) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:03.481+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:40:03.482+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:03.482+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:03.506+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:03.545+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:03.545+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:40:03.589+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:03.589+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:40:03.588664+00:00, run_after=2022-12-22T22:40:03.588664+00:00
+[2022-12-22T23:40:03.643+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.170 seconds
+[2022-12-22T23:40:59.765+0100] {processor.py:153} INFO - Started process (PID=21907) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:59.767+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:40:59.768+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:59.768+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:59.790+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:40:59.827+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:59.827+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:40:59.855+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:59.854+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:40:59.854354+00:00, run_after=2022-12-22T22:40:59.854354+00:00
+[2022-12-22T23:40:59.889+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.145 seconds
+[2022-12-22T23:41:53.534+0100] {processor.py:153} INFO - Started process (PID=21955) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:41:53.542+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:41:53.544+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:53.544+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:41:53.570+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:41:53.606+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:53.606+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:41:53.634+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:53.634+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:41:53.633864+00:00, run_after=2022-12-22T22:41:53.633864+00:00
+[2022-12-22T23:41:53.681+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.158 seconds
+[2022-12-22T23:42:49.296+0100] {processor.py:153} INFO - Started process (PID=21999) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:42:49.298+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:42:49.299+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:49.299+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:42:49.324+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:42:49.377+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:49.377+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:42:49.457+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:49.457+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:42:49.456598+00:00, run_after=2022-12-22T22:42:49.456598+00:00
+[2022-12-22T23:42:49.492+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.202 seconds
+[2022-12-22T23:43:43.634+0100] {processor.py:153} INFO - Started process (PID=22043) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:43:43.637+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:43:43.640+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:43.639+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:43:43.680+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:43:43.721+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:43.721+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:43:43.752+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:43.752+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:43:43.751796+00:00, run_after=2022-12-22T22:43:43.751796+00:00
+[2022-12-22T23:43:43.789+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.165 seconds
+[2022-12-22T23:44:34.742+0100] {processor.py:153} INFO - Started process (PID=22088) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:44:34.750+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:44:34.751+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:34.751+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:44:34.827+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:44:34.960+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:34.960+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:44:34.997+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:34.997+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:44:34.996734+00:00, run_after=2022-12-22T22:44:34.996734+00:00
+[2022-12-22T23:44:35.040+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.311 seconds
+[2022-12-22T23:45:23.580+0100] {processor.py:153} INFO - Started process (PID=22129) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:45:23.583+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:45:23.585+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:23.585+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:45:23.613+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:45:23.650+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:23.649+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:45:23.679+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:23.679+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:45:23.679021+00:00, run_after=2022-12-22T22:45:23.679021+00:00
+[2022-12-22T23:45:23.723+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.163 seconds
+[2022-12-22T23:46:14.376+0100] {processor.py:153} INFO - Started process (PID=22175) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:46:14.385+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:46:14.389+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:14.388+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:46:14.472+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:46:14.525+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:14.525+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:46:14.577+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:14.577+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:46:14.573659+00:00, run_after=2022-12-22T22:46:14.573659+00:00
+[2022-12-22T23:46:14.624+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.268 seconds
+[2022-12-22T23:47:11.978+0100] {processor.py:153} INFO - Started process (PID=22220) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:47:11.981+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:47:11.983+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:11.983+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:47:12.010+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:47:12.046+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:12.046+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:47:12.076+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:12.076+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:47:12.076041+00:00, run_after=2022-12-22T22:47:12.076041+00:00
+[2022-12-22T23:47:12.117+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.153 seconds
+[2022-12-22T23:48:04.889+0100] {processor.py:153} INFO - Started process (PID=22265) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:04.893+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:48:04.896+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:04.896+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:04.934+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:04.971+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:04.971+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:48:05.003+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:05.002+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:48:05.002527+00:00, run_after=2022-12-22T22:48:05.002527+00:00
+[2022-12-22T23:48:05.039+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.164 seconds
+[2022-12-22T23:48:58.001+0100] {processor.py:153} INFO - Started process (PID=22325) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:58.004+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:48:58.005+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:58.005+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:58.040+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:48:58.103+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:58.102+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:48:58.134+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:58.134+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:48:58.134084+00:00, run_after=2022-12-22T22:48:58.134084+00:00
+[2022-12-22T23:48:58.178+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.187 seconds
+[2022-12-22T23:49:52.838+0100] {processor.py:153} INFO - Started process (PID=22370) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:49:52.843+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:49:52.845+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:52.844+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:49:52.911+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:49:52.987+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:52.987+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:49:53.015+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:53.015+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:49:53.015178+00:00, run_after=2022-12-22T22:49:53.015178+00:00
+[2022-12-22T23:49:53.047+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.226 seconds
+[2022-12-22T23:50:42.777+0100] {processor.py:153} INFO - Started process (PID=22423) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:50:42.784+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:50:42.785+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:42.785+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:50:42.826+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:50:42.888+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:42.888+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:50:42.927+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:42.926+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:50:42.926477+00:00, run_after=2022-12-22T22:50:42.926477+00:00
+[2022-12-22T23:50:42.975+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.206 seconds
+[2022-12-22T23:51:43.657+0100] {processor.py:153} INFO - Started process (PID=22480) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:51:43.661+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:51:43.665+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:43.664+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:51:43.785+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:51:43.836+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:43.835+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:51:43.881+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:43.881+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:51:43.880847+00:00, run_after=2022-12-22T22:51:43.880847+00:00
+[2022-12-22T23:51:43.928+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.288 seconds
+[2022-12-22T23:52:42.634+0100] {processor.py:153} INFO - Started process (PID=22587) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:52:42.639+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:52:42.641+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:42.641+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:52:42.671+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:52:42.709+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:42.708+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:52:42.742+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:42.741+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:52:42.741424+00:00, run_after=2022-12-22T22:52:42.741424+00:00
+[2022-12-22T23:52:42.779+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.158 seconds
+[2022-12-22T23:53:53.489+0100] {processor.py:153} INFO - Started process (PID=22750) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:53:53.492+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:53:53.493+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:53.493+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:53:53.542+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:53:53.633+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:53.633+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:53:53.741+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:53.740+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:53:53.736080+00:00, run_after=2022-12-22T22:53:53.736080+00:00
+[2022-12-22T23:53:53.803+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.338 seconds
+[2022-12-22T23:54:53.479+0100] {processor.py:153} INFO - Started process (PID=22841) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:54:53.526+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:54:53.527+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:53.527+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:54:53.731+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:54:54.097+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:54.097+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:54:54.287+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:54.284+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:54:54.273496+00:00, run_after=2022-12-22T22:54:54.273496+00:00
+[2022-12-22T23:54:54.500+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.047 seconds
+[2022-12-22T23:56:00.581+0100] {processor.py:153} INFO - Started process (PID=22900) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:56:00.589+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:56:00.591+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:00.590+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:56:00.630+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:56:00.677+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:00.677+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:56:00.722+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:00.722+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:56:00.721737+00:00, run_after=2022-12-22T22:56:00.721737+00:00
+[2022-12-22T23:56:00.779+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.207 seconds
+[2022-12-22T23:57:06.946+0100] {processor.py:153} INFO - Started process (PID=22958) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:57:06.961+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:57:06.970+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:06.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:57:07.165+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:57:07.226+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:07.226+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:57:07.260+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:07.260+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:57:07.259886+00:00, run_after=2022-12-22T22:57:07.259886+00:00
+[2022-12-22T23:57:07.356+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.436 seconds
+[2022-12-22T23:58:08.389+0100] {processor.py:153} INFO - Started process (PID=23110) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:58:08.393+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:58:08.399+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:08.394+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:58:08.431+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:58:08.476+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:08.476+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:58:08.513+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:08.513+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:58:08.512949+00:00, run_after=2022-12-22T22:58:08.512949+00:00
+[2022-12-22T23:58:08.577+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.206 seconds
+[2022-12-22T23:59:17.313+0100] {processor.py:153} INFO - Started process (PID=23304) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:59:17.317+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-22T23:59:17.320+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:17.319+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:59:17.352+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-22T23:59:17.388+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:17.388+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:59:17.415+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:17.415+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T18:59:17.414772+00:00, run_after=2022-12-22T22:59:17.414772+00:00
+[2022-12-22T23:59:17.452+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.154 seconds
+[2022-12-23T00:00:13.365+0100] {processor.py:153} INFO - Started process (PID=23422) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:00:13.376+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:00:13.379+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:13.379+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:00:13.459+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:00:13.514+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:13.514+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:00:13.545+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:13.544+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:00:13.544502+00:00, run_after=2022-12-22T23:00:13.544502+00:00
+[2022-12-23T00:00:13.602+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.257 seconds
+[2022-12-23T00:01:19.166+0100] {processor.py:153} INFO - Started process (PID=23559) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:01:19.173+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:01:19.175+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:19.174+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:01:19.250+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:01:19.384+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:19.383+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:01:19.455+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:19.455+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:01:19.455084+00:00, run_after=2022-12-22T23:01:19.455084+00:00
+[2022-12-23T00:01:19.555+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.417 seconds
+[2022-12-23T00:02:18.602+0100] {processor.py:153} INFO - Started process (PID=23643) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:02:18.620+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:02:18.628+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:02:18.627+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:02:18.740+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:02:18.978+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:02:18.972+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:02:19.118+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:02:19.118+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:02:19.103366+00:00, run_after=2022-12-22T23:02:19.103366+00:00
+[2022-12-23T00:02:19.232+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.652 seconds
+[2022-12-23T00:03:31.387+0100] {processor.py:153} INFO - Started process (PID=23727) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:03:31.391+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:03:31.394+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:31.393+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:03:31.434+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:03:31.501+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:31.500+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:03:31.573+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:31.572+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:03:31.571407+00:00, run_after=2022-12-22T23:03:31.571407+00:00
+[2022-12-23T00:03:31.655+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.278 seconds
+[2022-12-23T00:04:31.197+0100] {processor.py:153} INFO - Started process (PID=23779) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:04:31.202+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:04:31.206+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:04:31.205+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:04:31.335+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:04:31.399+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:04:31.398+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:04:31.431+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:04:31.431+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:04:31.430707+00:00, run_after=2022-12-22T23:04:31.430707+00:00
+[2022-12-23T00:04:31.466+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.287 seconds
+[2022-12-23T00:05:32.847+0100] {processor.py:153} INFO - Started process (PID=23829) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:05:32.857+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:05:32.858+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:32.858+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:05:32.938+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:05:33.027+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:33.026+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:05:33.089+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:33.089+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:05:33.085937+00:00, run_after=2022-12-22T23:05:33.085937+00:00
+[2022-12-23T00:05:33.158+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.318 seconds
+[2022-12-23T00:06:30.715+0100] {processor.py:153} INFO - Started process (PID=23888) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:06:30.719+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:06:30.721+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:30.721+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:06:30.782+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:06:30.873+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:30.873+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:06:30.953+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:30.953+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:06:30.952893+00:00, run_after=2022-12-22T23:06:30.952893+00:00
+[2022-12-23T00:06:31.022+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.320 seconds
+[2022-12-23T00:07:32.747+0100] {processor.py:153} INFO - Started process (PID=23940) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:07:32.750+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:07:32.751+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:07:32.751+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:07:32.782+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:07:32.839+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:07:32.838+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:07:32.994+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:07:32.992+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:07:32.983492+00:00, run_after=2022-12-22T23:07:32.983492+00:00
+[2022-12-23T00:07:33.078+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.337 seconds
+[2022-12-23T00:08:25.917+0100] {processor.py:153} INFO - Started process (PID=23985) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:08:25.924+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:08:25.929+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:25.927+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:08:26.081+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:08:26.227+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:26.226+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:08:26.309+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:26.308+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:08:26.298629+00:00, run_after=2022-12-22T23:08:26.298629+00:00
+[2022-12-23T00:08:26.363+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.468 seconds
+[2022-12-23T00:09:22.474+0100] {processor.py:153} INFO - Started process (PID=24046) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:09:22.487+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:09:22.488+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:22.488+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:09:22.658+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:09:23.022+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:22.999+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:09:23.683+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:23.673+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:09:23.662510+00:00, run_after=2022-12-22T23:09:23.662510+00:00
+[2022-12-23T00:09:24.167+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.751 seconds
+[2022-12-23T00:11:00.043+0100] {processor.py:153} INFO - Started process (PID=24268) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:11:00.048+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:11:00.050+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:00.049+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:11:00.171+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:11:00.290+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:00.290+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:11:00.432+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:00.431+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:11:00.431597+00:00, run_after=2022-12-22T23:11:00.431597+00:00
+[2022-12-23T00:11:00.542+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.524 seconds
+[2022-12-23T00:13:51.310+0100] {processor.py:153} INFO - Started process (PID=24487) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:13:51.320+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:13:51.326+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:13:51.326+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:13:51.979+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:13:53.105+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:13:53.046+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:13:56.328+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:13:56.248+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:13:56.090238+00:00, run_after=2022-12-22T23:13:56.090238+00:00
+[2022-12-23T00:14:02.997+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 11.740 seconds
+[2022-12-23T00:25:53.077+0100] {processor.py:153} INFO - Started process (PID=24971) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:25:53.098+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:25:53.103+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:53.102+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:25:53.573+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:25:54.170+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:54.164+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:25:54.481+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:54.480+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:25:54.456284+00:00, run_after=2022-12-22T23:25:54.456284+00:00
+[2022-12-23T00:25:54.868+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.853 seconds
+[2022-12-23T00:29:44.360+0100] {processor.py:153} INFO - Started process (PID=25314) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:29:44.372+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:29:44.374+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:44.374+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:29:44.631+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:29:44.970+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:44.970+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:29:45.209+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:45.208+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:29:45.203507+00:00, run_after=2022-12-22T23:29:45.203507+00:00
+[2022-12-23T00:29:45.497+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.159 seconds
+[2022-12-23T00:32:18.630+0100] {processor.py:153} INFO - Started process (PID=25743) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:32:18.639+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:32:18.641+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:18.640+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:32:18.726+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:32:18.857+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:18.856+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:32:18.987+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:18.987+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:32:18.986650+00:00, run_after=2022-12-22T23:32:18.986650+00:00
+[2022-12-23T00:32:19.110+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.496 seconds
+[2022-12-23T00:33:21.333+0100] {processor.py:153} INFO - Started process (PID=25828) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:33:21.359+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:33:21.363+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:21.362+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:33:21.489+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:33:21.632+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:21.631+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:33:21.730+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:21.729+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:33:21.729220+00:00, run_after=2022-12-22T23:33:21.729220+00:00
+[2022-12-23T00:33:21.786+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.470 seconds
+[2022-12-23T00:34:33.745+0100] {processor.py:153} INFO - Started process (PID=25907) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:34:33.747+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:34:33.749+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:33.749+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:34:33.781+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:34:33.841+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:33.840+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:34:33.896+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:33.895+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:34:33.895061+00:00, run_after=2022-12-22T23:34:33.895061+00:00
+[2022-12-23T00:34:33.950+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.226 seconds
+[2022-12-23T00:35:45.739+0100] {processor.py:153} INFO - Started process (PID=25958) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:35:45.743+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:35:45.747+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:45.747+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:35:45.826+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:35:45.948+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:45.947+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:35:46.011+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:46.011+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:35:46.010595+00:00, run_after=2022-12-22T23:35:46.010595+00:00
+[2022-12-23T00:35:46.075+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.350 seconds
+[2022-12-23T00:36:51.389+0100] {processor.py:153} INFO - Started process (PID=26006) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:36:51.394+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:36:51.399+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:51.398+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:36:51.485+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:36:51.547+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:51.547+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:36:51.596+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:51.595+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:36:51.595292+00:00, run_after=2022-12-22T23:36:51.595292+00:00
+[2022-12-23T00:36:51.649+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.276 seconds
+[2022-12-23T00:37:40.504+0100] {processor.py:153} INFO - Started process (PID=26043) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:37:40.509+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:37:40.513+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:40.512+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:37:40.591+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:37:40.728+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:40.728+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:37:40.781+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:40.781+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:37:40.780765+00:00, run_after=2022-12-22T23:37:40.780765+00:00
+[2022-12-23T00:37:40.855+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.366 seconds
+[2022-12-23T00:38:49.624+0100] {processor.py:153} INFO - Started process (PID=26098) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:38:49.626+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:38:49.626+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:49.626+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:38:49.644+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:38:49.674+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:49.674+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:38:49.702+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:49.702+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:38:49.702308+00:00, run_after=2022-12-22T23:38:49.702308+00:00
+[2022-12-23T00:38:49.746+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2022-12-23T00:39:58.271+0100] {processor.py:153} INFO - Started process (PID=26148) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:39:58.277+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:39:58.282+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:58.281+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:39:58.372+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:39:58.529+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:58.528+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:39:58.625+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:58.625+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:39:58.624974+00:00, run_after=2022-12-22T23:39:58.624974+00:00
+[2022-12-23T00:39:58.683+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.431 seconds
+[2022-12-23T00:40:51.135+0100] {processor.py:153} INFO - Started process (PID=26186) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:40:51.140+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:40:51.143+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:51.143+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:40:51.237+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:40:51.311+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:51.311+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:40:51.361+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:51.361+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:40:51.360582+00:00, run_after=2022-12-22T23:40:51.360582+00:00
+[2022-12-23T00:40:51.419+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.301 seconds
+[2022-12-23T00:42:05.767+0100] {processor.py:153} INFO - Started process (PID=26238) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:42:05.773+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:42:05.777+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:05.776+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:42:05.855+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:42:05.991+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:05.990+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:42:06.060+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:06.059+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:42:06.057671+00:00, run_after=2022-12-22T23:42:06.057671+00:00
+[2022-12-23T00:42:06.130+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.381 seconds
+[2022-12-23T00:43:27.051+0100] {processor.py:153} INFO - Started process (PID=26295) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:43:27.056+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:43:27.060+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:27.059+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:43:27.187+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:43:27.277+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:27.276+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:43:27.323+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:27.322+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:43:27.321985+00:00, run_after=2022-12-22T23:43:27.321985+00:00
+[2022-12-23T00:43:27.383+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.348 seconds
+[2022-12-23T00:44:20.274+0100] {processor.py:153} INFO - Started process (PID=26333) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:44:20.280+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:44:20.284+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:20.283+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:44:20.367+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:44:20.433+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:20.432+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:44:20.486+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:20.486+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:44:20.485085+00:00, run_after=2022-12-22T23:44:20.485085+00:00
+[2022-12-23T00:44:20.566+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.314 seconds
+[2022-12-23T00:45:27.378+0100] {processor.py:153} INFO - Started process (PID=26385) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:45:27.380+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:45:27.381+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:27.381+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:45:27.415+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:45:27.475+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:27.475+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:45:27.530+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:27.530+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:45:27.529514+00:00, run_after=2022-12-22T23:45:27.529514+00:00
+[2022-12-23T00:45:27.586+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.224 seconds
+[2022-12-23T00:46:35.840+0100] {processor.py:153} INFO - Started process (PID=26433) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:46:35.843+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:46:35.844+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:35.844+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:46:35.879+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:46:35.972+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:35.971+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:46:36.024+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:36.023+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:46:36.023193+00:00, run_after=2022-12-22T23:46:36.023193+00:00
+[2022-12-23T00:46:36.079+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.255 seconds
+[2022-12-23T00:47:50.256+0100] {processor.py:153} INFO - Started process (PID=26487) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:47:50.260+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:47:50.264+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:50.263+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:47:50.333+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:47:50.434+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:50.434+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:47:50.484+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:50.483+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:47:50.483286+00:00, run_after=2022-12-22T23:47:50.483286+00:00
+[2022-12-23T00:47:50.539+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.300 seconds
+[2022-12-23T00:48:46.480+0100] {processor.py:153} INFO - Started process (PID=26525) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:48:46.485+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:48:46.489+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:46.488+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:48:46.569+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:48:46.637+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:46.637+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:48:46.690+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:46.690+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:48:46.689095+00:00, run_after=2022-12-22T23:48:46.689095+00:00
+[2022-12-23T00:48:46.749+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.284 seconds
+[2022-12-23T00:49:39.305+0100] {processor.py:153} INFO - Started process (PID=26563) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:49:39.310+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:49:39.317+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:39.316+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:49:39.373+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:49:39.432+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:39.432+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:49:39.486+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:39.485+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:49:39.484952+00:00, run_after=2022-12-22T23:49:39.484952+00:00
+[2022-12-23T00:49:39.538+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.250 seconds
+[2022-12-23T00:50:43.898+0100] {processor.py:153} INFO - Started process (PID=26610) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:50:43.903+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:50:43.907+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:43.906+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:50:43.990+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:50:44.114+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:44.113+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:50:44.190+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:44.189+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:50:44.189112+00:00, run_after=2022-12-22T23:50:44.189112+00:00
+[2022-12-23T00:50:44.241+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.359 seconds
+[2022-12-23T00:51:52.231+0100] {processor.py:153} INFO - Started process (PID=26660) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:51:52.251+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:51:52.255+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:52.254+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:51:52.332+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:51:52.428+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:52.428+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:51:52.494+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:52.493+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:51:52.492701+00:00, run_after=2022-12-22T23:51:52.492701+00:00
+[2022-12-23T00:51:52.548+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.365 seconds
+[2022-12-23T00:53:05.739+0100] {processor.py:153} INFO - Started process (PID=26721) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:53:05.744+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:53:05.748+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:05.747+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:53:05.834+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:53:05.972+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:05.971+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:53:06.084+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:06.083+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:53:06.082542+00:00, run_after=2022-12-22T23:53:06.082542+00:00
+[2022-12-23T00:53:06.214+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.491 seconds
+[2022-12-23T00:54:04.648+0100] {processor.py:153} INFO - Started process (PID=26757) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:04.651+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:54:04.652+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:04.652+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:04.687+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:04.747+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:04.746+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:54:04.801+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:04.801+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:54:04.800340+00:00, run_after=2022-12-22T23:54:04.800340+00:00
+[2022-12-23T00:54:04.857+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.218 seconds
+[2022-12-23T00:54:58.170+0100] {processor.py:153} INFO - Started process (PID=26795) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:58.173+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:54:58.174+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:58.174+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:58.209+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:54:58.270+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:58.269+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:54:58.358+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:58.358+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:54:58.356988+00:00, run_after=2022-12-22T23:54:58.356988+00:00
+[2022-12-23T00:54:58.417+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.258 seconds
+[2022-12-23T00:56:12.535+0100] {processor.py:153} INFO - Started process (PID=26847) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:56:12.538+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:56:12.540+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:12.540+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:56:12.575+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:56:12.635+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:12.635+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:56:12.758+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:12.758+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:56:12.757571+00:00, run_after=2022-12-22T23:56:12.757571+00:00
+[2022-12-23T00:56:12.810+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.289 seconds
+[2022-12-23T00:57:18.727+0100] {processor.py:153} INFO - Started process (PID=26896) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:57:18.729+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:57:18.730+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:18.730+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:57:18.763+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:57:18.848+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:18.848+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:57:18.903+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:18.902+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:57:18.902106+00:00, run_after=2022-12-22T23:57:18.902106+00:00
+[2022-12-23T00:57:18.963+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.243 seconds
+[2022-12-23T00:58:27.484+0100] {processor.py:153} INFO - Started process (PID=26949) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:58:27.489+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:58:27.492+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:27.491+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:58:27.550+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:58:27.611+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:27.611+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:58:27.662+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:27.661+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:58:27.661041+00:00, run_after=2022-12-22T23:58:27.661041+00:00
+[2022-12-23T00:58:27.733+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.264 seconds
+[2022-12-23T00:59:18.960+0100] {processor.py:153} INFO - Started process (PID=26986) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:59:18.964+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2022-12-23T00:59:18.966+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:18.966+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:59:19.004+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2022-12-23T00:59:19.065+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:19.064+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:59:19.115+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:19.114+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only to 2022-12-22T19:59:19.113904+00:00, run_after=2022-12-22T23:59:19.113904+00:00
+[2022-12-23T00:59:19.171+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.230 seconds

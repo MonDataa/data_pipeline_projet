@@ -1,0 +1,581 @@
+[2022-12-23T01:00:47.994+0100] {processor.py:153} INFO - Started process (PID=27046) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:00:47.998+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:00:48.001+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:00:48.000+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:00:48.122+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:00:48.186+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:00:48.186+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:00:48.276+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:00:48.275+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:00:48.447+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.470 seconds
+[2022-12-23T01:01:33.192+0100] {processor.py:153} INFO - Started process (PID=27079) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:01:33.194+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:01:33.196+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:01:33.196+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:01:33.254+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:01:33.312+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:01:33.312+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:01:33.361+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:01:33.361+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:01:33.417+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.232 seconds
+[2022-12-23T01:02:20.892+0100] {processor.py:153} INFO - Started process (PID=27114) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:02:20.897+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:02:20.902+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:02:20.901+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:02:21.032+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:02:21.174+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:02:21.173+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:02:21.222+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:02:21.222+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:02:21.271+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.395 seconds
+[2022-12-23T01:03:08.987+0100] {processor.py:153} INFO - Started process (PID=27151) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:08.992+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:03:08.996+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:08.995+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:09.224+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:09.310+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:09.310+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:03:09.412+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:09.412+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:03:09.467+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.497 seconds
+[2022-12-23T01:03:53.625+0100] {processor.py:153} INFO - Started process (PID=27184) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:53.627+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:03:53.630+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:53.629+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:53.697+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:03:53.765+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:53.764+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:03:53.886+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:03:53.885+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:03:54.296+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.681 seconds
+[2022-12-23T01:04:44.308+0100] {processor.py:153} INFO - Started process (PID=27217) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:04:44.313+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:04:44.316+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:04:44.315+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:04:44.400+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:04:44.460+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:04:44.460+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:04:44.742+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:04:44.742+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:04:44.821+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.531 seconds
+[2022-12-23T01:05:41.205+0100] {processor.py:153} INFO - Started process (PID=27255) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:05:41.208+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:05:41.209+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:05:41.209+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:05:41.268+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:05:41.328+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:05:41.327+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:05:41.377+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:05:41.376+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:05:41.429+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.246 seconds
+[2022-12-23T01:06:28.999+0100] {processor.py:153} INFO - Started process (PID=27289) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:06:29.007+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:06:29.016+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:06:29.012+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:06:29.130+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:06:29.190+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:06:29.190+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:06:29.239+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:06:29.239+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:06:29.294+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.328 seconds
+[2022-12-23T01:07:17.259+0100] {processor.py:153} INFO - Started process (PID=27323) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:07:17.262+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:07:17.265+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:07:17.264+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:07:17.354+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:07:17.454+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:07:17.453+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:07:17.513+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:07:17.513+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:07:17.567+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.322 seconds
+[2022-12-23T01:08:00.313+0100] {processor.py:153} INFO - Started process (PID=27355) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:00.325+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:08:00.332+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:00.331+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:00.394+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:00.450+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:00.450+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:08:00.498+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:00.498+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:08:00.575+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.323 seconds
+[2022-12-23T01:08:46.134+0100] {processor.py:153} INFO - Started process (PID=27395) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:46.139+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:08:46.141+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:46.140+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:46.216+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:08:46.282+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:46.282+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:08:46.339+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:08:46.339+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:08:46.430+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.312 seconds
+[2022-12-23T01:09:43.290+0100] {processor.py:153} INFO - Started process (PID=27432) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:09:43.293+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:09:43.295+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:09:43.295+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:09:43.381+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:09:43.443+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:09:43.442+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:09:43.495+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:09:43.494+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:09:43.789+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.517 seconds
+[2022-12-23T01:10:47.072+0100] {processor.py:153} INFO - Started process (PID=27471) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:10:47.077+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:10:47.080+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:10:47.080+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:10:47.203+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:10:47.263+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:10:47.263+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:10:47.316+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:10:47.315+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:10:47.371+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.314 seconds
+[2022-12-23T01:11:38.521+0100] {processor.py:153} INFO - Started process (PID=27508) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:11:38.527+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:11:38.530+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:11:38.529+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:11:38.616+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:11:38.677+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:11:38.677+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:11:38.726+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:11:38.725+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:11:38.780+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.275 seconds
+[2022-12-23T01:12:23.041+0100] {processor.py:153} INFO - Started process (PID=27542) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:12:23.049+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:12:23.051+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:12:23.051+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:12:23.128+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:12:23.193+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:12:23.193+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:12:23.265+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:12:23.264+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:12:23.317+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.290 seconds
+[2022-12-23T01:13:09.641+0100] {processor.py:153} INFO - Started process (PID=27579) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:09.645+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:13:09.649+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:09.649+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:09.780+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:09.963+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:09.963+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:13:10.012+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:10.011+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:13:10.063+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.439 seconds
+[2022-12-23T01:13:55.228+0100] {processor.py:153} INFO - Started process (PID=27611) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:55.233+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:13:55.237+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:55.237+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:55.369+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:13:55.520+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:55.519+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:13:55.568+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:13:55.567+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:13:55.620+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.407 seconds
+[2022-12-23T01:14:46.647+0100] {processor.py:153} INFO - Started process (PID=27647) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:14:46.652+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:14:46.655+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:14:46.655+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:14:46.791+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:14:46.885+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:14:46.884+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:14:46.948+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:14:46.948+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:14:47.513+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.882 seconds
+[2022-12-23T01:15:42.877+0100] {processor.py:153} INFO - Started process (PID=27683) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:15:42.881+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:15:42.884+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:15:42.883+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:15:42.990+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:15:43.047+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:15:43.047+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:15:43.333+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:15:43.333+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:15:43.381+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.518 seconds
+[2022-12-23T01:16:44.899+0100] {processor.py:153} INFO - Started process (PID=27723) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:16:44.904+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:16:44.906+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:16:44.905+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:16:44.968+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:16:45.142+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:16:45.140+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:16:45.303+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:16:45.303+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:16:45.350+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.464 seconds
+[2022-12-23T01:17:32.825+0100] {processor.py:153} INFO - Started process (PID=27817) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:17:32.830+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:17:32.831+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:17:32.831+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:17:32.972+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:17:33.059+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:17:33.058+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:17:33.122+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:17:33.121+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:17:33.203+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.393 seconds
+[2022-12-23T01:18:18.184+0100] {processor.py:153} INFO - Started process (PID=27906) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:18:18.188+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:18:18.189+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:18:18.189+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:18:18.256+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:18:18.337+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:18:18.336+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:18:18.409+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:18:18.409+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:18:18.488+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.312 seconds
+[2022-12-23T01:19:02.697+0100] {processor.py:153} INFO - Started process (PID=27949) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:02.704+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:19:02.706+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:02.705+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:02.759+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:02.815+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:02.815+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:19:02.860+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:02.855+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:19:02.919+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.243 seconds
+[2022-12-23T01:19:46.221+0100] {processor.py:153} INFO - Started process (PID=28001) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:46.228+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:19:46.229+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:46.229+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:46.314+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:19:46.437+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:46.436+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:19:46.507+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:19:46.507+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:19:46.936+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.729 seconds
+[2022-12-23T01:20:43.329+0100] {processor.py:153} INFO - Started process (PID=28119) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:20:43.335+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:20:43.338+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:20:43.338+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:20:43.426+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:20:43.499+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:20:43.499+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:20:43.543+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:20:43.541+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:20:44.051+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.736 seconds
+[2022-12-23T01:21:44.256+0100] {processor.py:153} INFO - Started process (PID=28172) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:21:44.263+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:21:44.264+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:21:44.264+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:21:44.369+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:21:44.466+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:21:44.466+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:21:45.058+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:21:45.058+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:21:45.123+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.878 seconds
+[2022-12-23T01:22:33.933+0100] {processor.py:153} INFO - Started process (PID=28216) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:22:33.935+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:22:33.936+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:22:33.935+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:22:33.978+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:22:34.022+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:22:34.022+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:22:34.053+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:22:34.053+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:22:34.093+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.167 seconds
+[2022-12-23T01:23:21.484+0100] {processor.py:153} INFO - Started process (PID=28268) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:23:21.489+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:23:21.491+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:23:21.490+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:23:21.636+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:23:21.795+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:23:21.795+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:23:21.919+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:23:21.919+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:23:22.025+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.559 seconds
+[2022-12-23T01:24:13.051+0100] {processor.py:153} INFO - Started process (PID=28399) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:24:13.062+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:24:13.063+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:24:13.063+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:24:13.226+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:24:13.378+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:24:13.377+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:24:13.506+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:24:13.506+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:24:13.650+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.623 seconds
+[2022-12-23T01:43:34.541+0100] {processor.py:153} INFO - Started process (PID=5143) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:43:34.545+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:43:34.547+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:43:34.546+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:43:34.600+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:43:34.636+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:43:34.636+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:43:34.666+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:43:34.666+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:43:34.700+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.168 seconds
+[2022-12-23T01:44:21.887+0100] {processor.py:153} INFO - Started process (PID=5190) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:44:21.894+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:44:21.896+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:21.896+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:44:21.931+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:44:21.965+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:21.965+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:44:21.991+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:21.991+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:44:22.044+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.164 seconds
+[2022-12-23T01:45:10.582+0100] {processor.py:153} INFO - Started process (PID=5233) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:45:10.583+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:45:10.584+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:10.584+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:45:10.609+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:45:10.638+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:10.637+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:45:10.667+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:10.667+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:45:10.698+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.120 seconds
+[2022-12-23T01:46:02.784+0100] {processor.py:153} INFO - Started process (PID=5277) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:02.786+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:46:02.787+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:02.787+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:02.872+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:02.941+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:02.941+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:46:03.018+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:03.018+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:46:03.056+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.286 seconds
+[2022-12-23T01:46:41.716+0100] {processor.py:153} INFO - Started process (PID=5311) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:41.719+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:46:41.721+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:41.720+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:41.776+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:46:41.834+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:41.834+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:46:41.878+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:41.878+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:46:41.920+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.210 seconds
+[2022-12-23T01:47:23.371+0100] {processor.py:153} INFO - Started process (PID=5345) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:47:23.373+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:47:23.374+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:23.374+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:47:23.457+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:47:23.531+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:23.531+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:47:23.582+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:23.582+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:47:23.625+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.263 seconds
+[2022-12-23T01:48:06.194+0100] {processor.py:153} INFO - Started process (PID=5380) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:06.202+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:48:06.206+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:06.205+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:06.336+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:06.492+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:06.492+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:48:06.551+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:06.550+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:48:06.663+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.485 seconds
+[2022-12-23T01:48:47.530+0100] {processor.py:153} INFO - Started process (PID=5413) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:47.533+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:48:47.534+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:47.534+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:47.606+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:48:47.686+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:47.686+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:48:47.751+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:47.750+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:48:47.805+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.282 seconds
+[2022-12-23T01:49:28.857+0100] {processor.py:153} INFO - Started process (PID=5446) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:49:28.860+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:49:28.862+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:28.861+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:49:28.942+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:49:29.019+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:29.019+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:49:29.065+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:29.065+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:49:29.104+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.254 seconds
+[2022-12-23T01:50:10.602+0100] {processor.py:153} INFO - Started process (PID=5479) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:10.606+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:50:10.607+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:10.607+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:10.665+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:10.717+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:10.717+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:50:10.754+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:10.754+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:50:10.789+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.192 seconds
+[2022-12-23T01:50:52.202+0100] {processor.py:153} INFO - Started process (PID=5515) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:52.207+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:50:52.209+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:52.209+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:52.282+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:50:52.354+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:52.353+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:50:52.415+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:52.414+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:50:52.471+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.284 seconds
+[2022-12-23T01:51:32.672+0100] {processor.py:153} INFO - Started process (PID=5553) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:51:32.677+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:51:32.679+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:32.678+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:51:32.741+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:51:32.802+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:32.802+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:51:32.854+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:32.853+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:51:32.911+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.248 seconds
+[2022-12-23T01:52:13.755+0100] {processor.py:153} INFO - Started process (PID=5635) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:13.767+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:52:13.772+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:13.771+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:13.842+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:13.912+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:13.912+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:52:13.953+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:13.953+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:52:14.007+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.270 seconds
+[2022-12-23T01:52:54.669+0100] {processor.py:153} INFO - Started process (PID=5672) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:54.674+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:52:54.677+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:54.676+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:54.726+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:52:54.760+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:54.760+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:52:54.789+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:54.789+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:52:54.826+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.170 seconds
+[2022-12-23T01:53:36.342+0100] {processor.py:153} INFO - Started process (PID=5706) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:53:36.344+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:53:36.346+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:36.346+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:53:36.407+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:53:36.457+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:36.457+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:53:36.488+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:36.488+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:53:36.519+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.184 seconds
+[2022-12-23T01:54:16.753+0100] {processor.py:153} INFO - Started process (PID=5739) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:54:16.757+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:54:16.760+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:16.760+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:54:16.804+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:54:16.838+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:16.838+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:54:16.865+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:16.865+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:54:16.899+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.160 seconds
+[2022-12-23T01:55:07.229+0100] {processor.py:153} INFO - Started process (PID=5782) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:07.235+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:55:07.240+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:07.240+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:07.291+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:07.326+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:07.325+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:55:07.352+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:07.352+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:55:07.388+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.172 seconds
+[2022-12-23T01:55:59.132+0100] {processor.py:153} INFO - Started process (PID=5828) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:59.139+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:55:59.140+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:59.140+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:59.184+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:55:59.228+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:59.226+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:55:59.262+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:59.262+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:55:59.314+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.187 seconds
+[2022-12-23T01:56:38.220+0100] {processor.py:153} INFO - Started process (PID=5861) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:56:38.225+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:56:38.229+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:38.228+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:56:38.326+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:56:38.362+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:38.362+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:56:38.392+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:38.392+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:56:38.431+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.227 seconds
+[2022-12-23T01:57:19.273+0100] {processor.py:153} INFO - Started process (PID=5895) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:57:19.278+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:57:19.281+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:19.280+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:57:19.335+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:57:19.369+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:19.369+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:57:19.415+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:19.414+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:57:19.463+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.203 seconds
+[2022-12-23T01:58:00.765+0100] {processor.py:153} INFO - Started process (PID=5933) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:00.767+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:58:00.769+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:00.769+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:00.824+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:00.875+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:00.875+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:58:00.901+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:00.901+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:58:00.936+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.178 seconds
+[2022-12-23T01:58:45.100+0100] {processor.py:153} INFO - Started process (PID=5972) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:45.104+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:58:45.107+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:45.107+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:45.166+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:58:45.206+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:45.206+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:58:45.233+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:45.233+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:58:45.270+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.183 seconds
+[2022-12-23T01:59:25.829+0100] {processor.py:153} INFO - Started process (PID=6009) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:59:25.833+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T01:59:25.836+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:25.835+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:59:25.929+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T01:59:25.968+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:25.968+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T01:59:26.007+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:26.007+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T01:59:26.051+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.235 seconds
+[2022-12-23T02:00:07.545+0100] {processor.py:153} INFO - Started process (PID=6048) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:07.546+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:00:07.547+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:07.547+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:07.594+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:07.630+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:07.630+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:00:07.656+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:07.656+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:00:07.717+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.184 seconds
+[2022-12-23T02:00:46.315+0100] {processor.py:153} INFO - Started process (PID=6081) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:46.318+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:00:46.319+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:46.319+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:46.352+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:00:46.386+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:46.386+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:00:46.414+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:46.414+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:00:46.455+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.147 seconds
+[2022-12-23T02:01:28.790+0100] {processor.py:153} INFO - Started process (PID=6119) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:01:28.793+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:01:28.794+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:28.794+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:01:28.843+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:01:28.879+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:28.879+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:01:28.908+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:28.908+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:01:28.951+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.168 seconds
+[2022-12-23T02:02:12.606+0100] {processor.py:153} INFO - Started process (PID=6154) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:12.608+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:02:12.611+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:12.611+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:12.660+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:12.702+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:12.702+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:02:12.754+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:12.754+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:02:12.820+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.220 seconds
+[2022-12-23T02:02:54.005+0100] {processor.py:153} INFO - Started process (PID=6189) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:54.007+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:02:54.008+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:54.007+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:54.044+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:02:54.084+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:54.083+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:02:54.114+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:54.114+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:02:54.148+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.150 seconds
+[2022-12-23T02:03:32.266+0100] {processor.py:153} INFO - Started process (PID=6222) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:03:32.271+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:03:32.273+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:32.273+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:03:32.350+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:03:32.385+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:32.385+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:03:32.411+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:32.411+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:03:32.444+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.223 seconds
+[2022-12-23T02:04:28.278+0100] {processor.py:153} INFO - Started process (PID=6272) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:04:28.280+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:04:28.281+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:28.281+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:04:28.320+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:04:28.355+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:28.355+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:04:28.383+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:28.383+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:04:28.422+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.152 seconds
+[2022-12-23T02:05:09.900+0100] {processor.py:153} INFO - Started process (PID=6306) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:09.909+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:05:09.912+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:09.912+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:10.002+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:10.077+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:10.076+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:05:10.135+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:10.134+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:05:10.194+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.310 seconds
+[2022-12-23T02:05:52.157+0100] {processor.py:153} INFO - Started process (PID=6341) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:52.164+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:05:52.165+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:52.165+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:52.204+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:05:52.236+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:52.236+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:05:52.265+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:52.265+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:05:52.299+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.166 seconds
+[2022-12-23T02:06:48.297+0100] {processor.py:153} INFO - Started process (PID=6394) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:06:48.309+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:06:48.312+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:48.311+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:06:48.361+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:06:48.399+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:48.398+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:06:48.428+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:48.428+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:06:48.463+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2022-12-23T02:07:30.652+0100] {processor.py:153} INFO - Started process (PID=6429) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:07:30.657+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:07:30.659+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:30.659+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:07:30.713+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:07:30.767+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:30.766+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:07:30.800+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:30.800+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:07:30.857+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.210 seconds
+[2022-12-23T02:08:10.984+0100] {processor.py:153} INFO - Started process (PID=6464) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:11.016+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:08:11.017+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:11.017+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:11.386+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:11.840+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:11.840+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:08:12.058+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:12.058+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:08:12.109+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 1.147 seconds
+[2022-12-23T02:08:56.284+0100] {processor.py:153} INFO - Started process (PID=6501) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:56.287+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:08:56.289+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:56.288+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:56.361+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:08:56.400+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:56.399+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:08:56.427+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:56.427+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:08:56.461+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.186 seconds
+[2022-12-23T02:09:36.381+0100] {processor.py:153} INFO - Started process (PID=6536) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:09:36.383+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:09:36.384+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:36.384+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:09:36.417+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:09:36.452+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:36.452+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:09:36.478+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:36.478+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:09:36.511+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.136 seconds
+[2022-12-23T02:10:16.309+0100] {processor.py:153} INFO - Started process (PID=6575) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:16.319+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:10:16.320+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:16.320+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:16.382+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:16.441+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:16.440+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:10:16.499+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:16.498+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:10:16.557+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.256 seconds
+[2022-12-23T02:10:59.778+0100] {processor.py:153} INFO - Started process (PID=6613) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:59.782+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:10:59.783+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:59.783+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:59.846+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:10:59.922+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:59.922+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:10:59.979+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:59.979+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:11:00.036+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.267 seconds
+[2022-12-23T02:11:42.889+0100] {processor.py:153} INFO - Started process (PID=6650) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:11:42.893+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:11:42.897+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:42.896+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:11:42.955+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:11:43.012+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:43.012+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:11:43.042+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:43.041+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:11:43.075+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.200 seconds
+[2022-12-23T02:12:22.872+0100] {processor.py:153} INFO - Started process (PID=6685) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:12:22.880+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:12:22.881+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:22.881+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:12:22.932+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:12:23.013+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:23.013+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:12:23.038+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:23.038+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:12:23.065+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.200 seconds
+[2022-12-23T02:13:01.346+0100] {processor.py:153} INFO - Started process (PID=6716) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:01.351+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:13:01.353+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:01.353+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:01.418+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:01.476+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:01.476+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:13:01.519+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:01.518+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:13:01.563+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.232 seconds
+[2022-12-23T02:13:42.936+0100] {processor.py:153} INFO - Started process (PID=6750) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:42.940+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:13:42.943+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:42.942+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:43.006+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:13:43.040+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:43.039+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:13:43.068+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:43.068+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:13:43.096+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.180 seconds
+[2022-12-23T02:14:25.945+0100] {processor.py:153} INFO - Started process (PID=6785) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:14:25.950+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:14:25.953+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:25.952+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:14:26.070+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:14:26.108+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:26.108+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:14:26.135+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:26.135+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:14:26.171+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.241 seconds
+[2022-12-23T02:15:09.395+0100] {processor.py:153} INFO - Started process (PID=6824) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:09.397+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:15:09.399+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:09.399+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:09.458+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:09.515+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:09.514+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:15:09.559+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:09.559+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:15:09.596+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.213 seconds
+[2022-12-23T02:15:51.925+0100] {processor.py:153} INFO - Started process (PID=6860) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:51.928+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:15:51.930+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:51.930+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:51.977+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:15:52.018+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:52.017+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:15:52.056+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:52.056+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:15:52.125+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.209 seconds
+[2022-12-23T02:16:46.903+0100] {processor.py:153} INFO - Started process (PID=6909) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:16:46.906+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:16:46.907+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:46.907+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:16:46.947+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:16:46.986+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:46.986+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:16:47.016+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:47.016+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:16:47.050+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.154 seconds
+[2022-12-23T02:17:25.661+0100] {processor.py:153} INFO - Started process (PID=6948) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:17:25.666+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:17:25.669+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:25.668+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:17:25.718+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:17:25.773+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:25.773+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:17:25.816+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:25.816+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:17:25.857+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.219 seconds
+[2022-12-23T02:18:10.372+0100] {processor.py:153} INFO - Started process (PID=6985) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:10.377+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:18:10.380+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:10.379+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:10.438+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:10.473+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:10.473+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:18:10.502+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:10.502+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:18:10.541+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.182 seconds
+[2022-12-23T02:18:53.983+0100] {processor.py:153} INFO - Started process (PID=7020) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:53.987+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:18:53.991+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:53.989+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:54.032+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:18:54.067+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:54.067+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:18:54.095+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:54.095+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:18:54.131+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.163 seconds
+[2022-12-23T02:19:52.397+0100] {processor.py:153} INFO - Started process (PID=7119) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:19:52.403+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:19:52.404+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:52.404+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:19:52.497+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:19:52.608+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:52.608+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:19:52.751+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:52.751+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:19:52.823+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.439 seconds
+[2022-12-23T02:20:36.401+0100] {processor.py:153} INFO - Started process (PID=7156) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:20:36.408+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:20:36.409+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:36.409+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:20:36.476+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:20:36.607+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:36.607+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:20:36.673+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:36.673+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:20:36.730+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.334 seconds
+[2022-12-23T02:21:18.562+0100] {processor.py:153} INFO - Started process (PID=7192) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:18.566+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:21:18.568+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:18.568+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:18.630+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:18.666+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:18.665+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:21:18.693+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:18.693+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:21:18.726+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.177 seconds
+[2022-12-23T02:21:59.247+0100] {processor.py:153} INFO - Started process (PID=7232) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:59.252+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-23T02:21:59.255+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:59.255+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:59.298+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-23T02:21:59.333+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:59.333+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:21:59.361+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:59.361+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-23T02:21:59.399+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.167 seconds

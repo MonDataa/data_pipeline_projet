@@ -1,0 +1,1054 @@
+[2022-12-22T21:51:38.658+0100] {processor.py:153} INFO - Started process (PID=11171) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:51:38.660+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:51:38.661+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.660+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:51:38.711+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:51:38.918+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.918+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2022-12-22T21:51:38.934+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.933+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2022-12-22T21:51:38.947+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.947+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2022-12-22T21:51:38.947+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.947+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:51:38.965+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.964+0100] {dag.py:2697} INFO - Creating ORM DAG for example_sensors
+[2022-12-22T21:51:38.992+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:51:38.991+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:51:39.037+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.384 seconds
+[2022-12-22T21:52:23.086+0100] {processor.py:153} INFO - Started process (PID=11482) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:52:23.092+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:52:23.093+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:23.093+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:52:23.113+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:52:23.169+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:23.169+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:52:23.185+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:52:23.185+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:52:23.208+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.126 seconds
+[2022-12-22T21:53:08.104+0100] {processor.py:153} INFO - Started process (PID=11546) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:08.105+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:53:08.105+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:08.105+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:08.135+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:08.168+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:08.168+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:53:08.190+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:08.190+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:53:08.222+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.122 seconds
+[2022-12-22T21:53:48.569+0100] {processor.py:153} INFO - Started process (PID=11607) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:48.571+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:53:48.571+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:48.571+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:48.602+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:53:48.638+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:48.638+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:53:48.675+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:53:48.675+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:53:48.719+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.153 seconds
+[2022-12-22T21:54:34.120+0100] {processor.py:153} INFO - Started process (PID=11706) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:54:34.121+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:54:34.123+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:34.122+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:54:34.151+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:54:34.187+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:34.187+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:54:34.241+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:54:34.240+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:54:34.286+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.168 seconds
+[2022-12-22T21:55:16.373+0100] {processor.py:153} INFO - Started process (PID=11749) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:16.380+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:55:16.380+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:16.380+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:16.400+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:16.428+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:16.428+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:55:16.450+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:16.449+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:55:16.483+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.113 seconds
+[2022-12-22T21:55:59.618+0100] {processor.py:153} INFO - Started process (PID=11787) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:59.624+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:55:59.625+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:59.625+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:59.647+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:55:59.673+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:59.673+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:55:59.694+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:55:59.694+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:55:59.724+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2022-12-22T21:56:45.402+0100] {processor.py:153} INFO - Started process (PID=12746) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:56:45.403+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:56:45.404+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:45.403+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:56:45.463+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:56:45.556+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:45.555+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:56:45.624+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:56:45.622+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:56:45.712+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.325 seconds
+[2022-12-22T21:57:29.545+0100] {processor.py:153} INFO - Started process (PID=14243) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:57:29.555+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:57:29.556+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:29.556+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:57:29.593+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:57:29.624+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:29.623+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:57:29.645+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:57:29.644+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:57:29.674+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.133 seconds
+[2022-12-22T21:58:11.810+0100] {processor.py:153} INFO - Started process (PID=14289) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:11.816+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:58:11.817+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:11.816+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:11.891+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:11.923+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:11.923+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:58:11.945+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:11.945+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:58:11.993+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.186 seconds
+[2022-12-22T21:58:52.035+0100] {processor.py:153} INFO - Started process (PID=14413) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:52.043+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:58:52.046+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:52.046+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:52.070+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:58:52.100+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:52.100+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:58:52.123+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:58:52.123+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:58:52.151+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.119 seconds
+[2022-12-22T21:59:34.963+0100] {processor.py:153} INFO - Started process (PID=14517) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:59:34.969+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T21:59:34.970+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:34.969+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:59:35.024+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T21:59:35.086+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:35.086+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T21:59:35.122+0100] {logging_mixin.py:137} INFO - [2022-12-22T21:59:35.122+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T21:59:35.167+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.209 seconds
+[2022-12-22T22:00:17.245+0100] {processor.py:153} INFO - Started process (PID=14567) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:00:17.248+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:00:17.249+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:17.248+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:00:17.275+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:00:17.321+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:17.321+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:00:17.365+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:00:17.365+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:00:17.393+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.155 seconds
+[2022-12-22T22:01:07.808+0100] {processor.py:153} INFO - Started process (PID=14612) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:07.816+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:01:07.816+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:07.816+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:07.861+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:07.909+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:07.909+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:01:07.928+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:07.927+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:01:07.953+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.150 seconds
+[2022-12-22T22:01:46.582+0100] {processor.py:153} INFO - Started process (PID=14650) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:46.584+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:01:46.584+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:46.584+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:46.606+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:01:46.632+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:46.632+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:01:46.648+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:01:46.648+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:01:46.673+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.095 seconds
+[2022-12-22T22:02:27.970+0100] {processor.py:153} INFO - Started process (PID=14689) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:02:27.971+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:02:27.972+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:27.972+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:02:27.993+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:02:28.020+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:28.020+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:02:28.040+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:02:28.040+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:02:28.066+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2022-12-22T22:03:10.409+0100] {processor.py:153} INFO - Started process (PID=14727) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:10.411+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:03:10.411+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:10.411+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:10.436+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:10.467+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:10.467+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:03:10.489+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:10.489+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:03:10.511+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2022-12-22T22:03:49.668+0100] {processor.py:153} INFO - Started process (PID=14766) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:49.669+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:03:49.670+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:49.670+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:49.690+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:03:49.716+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:49.716+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:03:49.737+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:03:49.737+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:03:49.763+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.099 seconds
+[2022-12-22T22:04:28.683+0100] {processor.py:153} INFO - Started process (PID=14811) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:04:28.685+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:04:28.686+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:28.686+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:04:28.718+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:04:28.744+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:28.744+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:04:28.767+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:04:28.767+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:04:28.796+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2022-12-22T22:05:10.828+0100] {processor.py:153} INFO - Started process (PID=14855) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:10.834+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:05:10.835+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:10.835+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:10.869+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:10.897+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:10.897+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:05:10.918+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:10.917+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:05:10.947+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2022-12-22T22:05:51.238+0100] {processor.py:153} INFO - Started process (PID=14903) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:51.239+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:05:51.240+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:51.240+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:51.269+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:05:51.298+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:51.297+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:05:51.317+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:05:51.317+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:05:51.345+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2022-12-22T22:06:33.062+0100] {processor.py:153} INFO - Started process (PID=15047) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:06:33.069+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:06:33.091+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:33.091+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:06:33.116+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:06:33.143+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:33.143+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:06:33.161+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:06:33.161+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:06:33.180+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.122 seconds
+[2022-12-22T22:07:14.618+0100] {processor.py:153} INFO - Started process (PID=15085) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:14.619+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:07:14.620+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:14.620+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:14.643+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:14.671+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:14.671+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:07:14.693+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:14.692+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:07:14.720+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.107 seconds
+[2022-12-22T22:07:56.167+0100] {processor.py:153} INFO - Started process (PID=15128) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:56.168+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:07:56.168+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:56.168+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:56.189+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:07:56.221+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:56.220+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:07:56.244+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:07:56.244+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:07:56.271+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2022-12-22T22:08:37.753+0100] {processor.py:153} INFO - Started process (PID=15178) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:08:37.754+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:08:37.755+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:37.755+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:08:37.779+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:08:37.809+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:37.809+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:08:37.831+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:08:37.831+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:08:37.858+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2022-12-22T22:09:17.173+0100] {processor.py:153} INFO - Started process (PID=15217) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:17.175+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:09:17.183+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:17.182+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:17.224+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:17.253+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:17.253+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:09:17.274+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:17.274+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:09:17.301+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.132 seconds
+[2022-12-22T22:09:57.808+0100] {processor.py:153} INFO - Started process (PID=15261) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:57.809+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:09:57.810+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:57.810+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:57.832+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:09:57.862+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:57.862+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:09:57.885+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:09:57.884+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:09:57.913+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2022-12-22T22:10:45.263+0100] {processor.py:153} INFO - Started process (PID=15300) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:10:45.264+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:10:45.265+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:45.265+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:10:45.308+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:10:45.361+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:45.361+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:10:45.412+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:10:45.412+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:10:45.476+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.221 seconds
+[2022-12-22T22:11:28.972+0100] {processor.py:153} INFO - Started process (PID=15342) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:11:28.974+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:11:28.975+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:28.975+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:11:29.009+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:11:29.112+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:29.111+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:11:29.146+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:11:29.146+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:11:29.188+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.227 seconds
+[2022-12-22T22:12:12.930+0100] {processor.py:153} INFO - Started process (PID=15384) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:12.932+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:12:12.933+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:12.932+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:12.953+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:12.989+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:12.989+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:12:13.031+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:13.031+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:12:13.055+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.129 seconds
+[2022-12-22T22:12:55.467+0100] {processor.py:153} INFO - Started process (PID=15423) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:55.468+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:12:55.468+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:55.468+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:55.489+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:12:55.518+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:55.518+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:12:55.540+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:12:55.540+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:12:55.568+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2022-12-22T22:13:36.502+0100] {processor.py:153} INFO - Started process (PID=15462) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:13:36.504+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:13:36.504+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:36.504+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:13:36.530+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:13:36.562+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:36.562+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:13:36.586+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:13:36.586+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:13:36.696+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.197 seconds
+[2022-12-22T22:14:18.782+0100] {processor.py:153} INFO - Started process (PID=15504) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:14:18.789+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:14:18.791+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:18.791+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:14:18.814+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:14:18.844+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:18.844+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:14:18.867+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:14:18.867+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:14:18.897+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2022-12-22T22:15:00.979+0100] {processor.py:153} INFO - Started process (PID=15545) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:00.984+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:15:00.985+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:00.985+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:01.048+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:01.127+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:01.127+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:15:01.188+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:01.188+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:15:01.248+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.307 seconds
+[2022-12-22T22:15:47.282+0100] {processor.py:153} INFO - Started process (PID=15585) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:47.285+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:15:47.286+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:47.286+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:47.334+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:15:47.425+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:47.425+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:15:47.490+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:15:47.490+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:15:47.538+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.264 seconds
+[2022-12-22T22:16:27.443+0100] {processor.py:153} INFO - Started process (PID=15624) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:16:27.449+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:16:27.450+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:27.450+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:16:27.471+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:16:27.501+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:27.501+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:16:27.522+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:16:27.522+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:16:27.549+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2022-12-22T22:17:05.804+0100] {processor.py:153} INFO - Started process (PID=15666) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:05.805+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:17:05.806+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:05.806+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:05.828+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:05.857+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:05.857+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:17:05.879+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:05.879+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:17:05.906+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2022-12-22T22:17:45.776+0100] {processor.py:153} INFO - Started process (PID=15705) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:45.777+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:17:45.778+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:45.778+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:45.802+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:17:45.830+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:45.830+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:17:45.853+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:17:45.852+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:17:45.879+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2022-12-22T22:18:28.407+0100] {processor.py:153} INFO - Started process (PID=15799) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:18:28.413+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:18:28.414+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:28.414+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:18:28.453+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:18:28.512+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:28.512+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:18:28.552+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:18:28.552+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:18:28.593+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.194 seconds
+[2022-12-22T22:19:13.556+0100] {processor.py:153} INFO - Started process (PID=15857) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:13.565+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:19:13.566+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:13.566+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:13.602+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:13.699+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:13.699+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:19:13.741+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:13.741+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:19:13.830+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.302 seconds
+[2022-12-22T22:19:58.602+0100] {processor.py:153} INFO - Started process (PID=15920) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:58.607+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:19:58.608+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:58.608+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:58.667+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:19:58.756+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:58.756+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:19:58.807+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:19:58.807+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:19:58.864+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.275 seconds
+[2022-12-22T22:20:42.812+0100] {processor.py:153} INFO - Started process (PID=16036) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:20:42.819+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:20:42.820+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:42.820+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:20:42.843+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:20:42.890+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:42.889+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:20:42.925+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:20:42.925+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:20:42.954+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.146 seconds
+[2022-12-22T22:21:23.919+0100] {processor.py:153} INFO - Started process (PID=16130) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:21:23.922+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:21:23.922+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:23.922+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:21:23.966+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:21:23.998+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:23.998+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:21:24.017+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:21:24.017+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:21:24.046+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.135 seconds
+[2022-12-22T22:22:05.840+0100] {processor.py:153} INFO - Started process (PID=16258) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:05.846+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:22:05.848+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:05.847+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:05.869+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:05.905+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:05.905+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:22:05.953+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:05.953+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:22:05.985+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.149 seconds
+[2022-12-22T22:22:49.748+0100] {processor.py:153} INFO - Started process (PID=16382) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:49.749+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:22:49.750+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:49.749+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:49.771+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:22:49.799+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:49.798+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:22:49.821+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:22:49.821+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:22:49.850+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2022-12-22T22:23:28.795+0100] {processor.py:153} INFO - Started process (PID=16430) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:23:28.796+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:23:28.797+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:28.797+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:23:28.822+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:23:28.848+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:28.848+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:23:28.869+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:23:28.869+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:23:28.895+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2022-12-22T22:24:10.899+0100] {processor.py:153} INFO - Started process (PID=16513) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:10.905+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:24:10.906+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:10.906+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:10.933+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:10.966+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:10.965+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:24:10.989+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:10.989+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:24:11.047+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.154 seconds
+[2022-12-22T22:24:53.807+0100] {processor.py:153} INFO - Started process (PID=17358) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:53.813+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:24:53.814+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:53.814+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:53.839+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:24:53.867+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:53.867+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:24:53.887+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:24:53.887+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:24:53.912+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2022-12-22T22:25:34.522+0100] {processor.py:153} INFO - Started process (PID=17476) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:25:34.532+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:25:34.533+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:34.533+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:25:34.554+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:25:34.580+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:34.580+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:25:34.598+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:25:34.598+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:25:34.638+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.120 seconds
+[2022-12-22T22:26:14.915+0100] {processor.py:153} INFO - Started process (PID=17554) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:14.916+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:26:14.917+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:14.917+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:14.944+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:14.974+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:14.974+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:26:14.994+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:14.994+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:26:15.021+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2022-12-22T22:26:54.154+0100] {processor.py:153} INFO - Started process (PID=17625) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:54.155+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:26:54.155+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:54.155+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:54.181+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:26:54.211+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:54.211+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:26:54.245+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:26:54.245+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:26:54.273+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2022-12-22T22:27:33.580+0100] {processor.py:153} INFO - Started process (PID=17713) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:27:33.581+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:27:33.582+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:33.582+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:27:33.612+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:27:33.646+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:33.645+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:27:33.666+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:27:33.666+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:27:33.696+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.121 seconds
+[2022-12-22T22:28:12.865+0100] {processor.py:153} INFO - Started process (PID=17822) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:12.866+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:28:12.868+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:12.868+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:12.891+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:12.938+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:12.938+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:28:12.964+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:12.964+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:28:12.991+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.132 seconds
+[2022-12-22T22:28:54.289+0100] {processor.py:153} INFO - Started process (PID=17921) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:54.296+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:28:54.296+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:54.296+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:54.317+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:28:54.346+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:54.346+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:28:54.367+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:28:54.367+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:28:54.404+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2022-12-22T22:29:35.274+0100] {processor.py:153} INFO - Started process (PID=18015) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:29:35.275+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:29:35.276+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:35.276+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:29:35.302+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:29:35.332+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:35.332+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:29:35.352+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:29:35.352+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:29:35.377+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2022-12-22T22:30:14.812+0100] {processor.py:153} INFO - Started process (PID=18094) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:14.813+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:30:14.813+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:14.813+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:14.835+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:14.876+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:14.876+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:30:14.907+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:14.907+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:30:14.927+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2022-12-22T22:30:58.468+0100] {processor.py:153} INFO - Started process (PID=18500) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:58.474+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:30:58.475+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:58.474+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:58.498+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:30:58.527+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:58.527+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:30:58.547+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:30:58.546+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:30:58.575+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.112 seconds
+[2022-12-22T22:31:41.081+0100] {processor.py:153} INFO - Started process (PID=18803) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:31:41.083+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:31:41.083+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:41.083+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:31:41.110+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:31:41.137+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:41.137+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:31:41.158+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:31:41.158+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:31:41.184+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2022-12-22T22:32:21.686+0100] {processor.py:153} INFO - Started process (PID=19375) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:32:21.687+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:32:21.688+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:21.688+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:32:21.719+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:32:21.743+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:21.742+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:32:21.762+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:32:21.761+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:32:21.786+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2022-12-22T22:33:03.108+0100] {processor.py:153} INFO - Started process (PID=19873) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:03.114+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:33:03.115+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:03.114+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:03.135+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:03.162+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:03.162+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:33:03.185+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:03.185+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:33:03.221+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2022-12-22T22:33:43.599+0100] {processor.py:153} INFO - Started process (PID=19961) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:43.600+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:33:43.601+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:43.601+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:43.625+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:33:43.654+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:43.654+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:33:43.674+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:33:43.674+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:33:43.701+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2022-12-22T22:34:27.455+0100] {processor.py:153} INFO - Started process (PID=20005) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:34:27.457+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:34:27.457+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:27.457+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:34:27.479+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:34:27.517+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:27.517+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:34:27.554+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:34:27.554+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:34:27.579+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.128 seconds
+[2022-12-22T22:35:07.953+0100] {processor.py:153} INFO - Started process (PID=20047) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:07.959+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:35:07.960+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:07.960+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:07.991+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:08.027+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:08.027+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:35:08.065+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:08.065+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:35:08.092+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.142 seconds
+[2022-12-22T22:35:49.884+0100] {processor.py:153} INFO - Started process (PID=20087) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:49.885+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:35:49.886+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:49.885+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:49.904+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:35:49.928+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:49.928+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:35:49.945+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:35:49.945+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:35:49.970+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.089 seconds
+[2022-12-22T22:36:28.229+0100] {processor.py:153} INFO - Started process (PID=20126) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:36:28.232+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:36:28.233+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:28.233+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:36:28.254+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:36:28.281+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:28.281+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:36:28.301+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:36:28.301+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:36:28.323+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2022-12-22T22:37:08.442+0100] {processor.py:153} INFO - Started process (PID=20164) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:08.444+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:37:08.445+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:08.444+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:08.467+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:08.494+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:08.494+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:37:08.514+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:08.514+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:37:08.537+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2022-12-22T22:37:50.002+0100] {processor.py:153} INFO - Started process (PID=20204) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:50.003+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:37:50.003+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:50.003+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:50.024+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:37:50.049+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:50.049+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:37:50.068+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:37:50.068+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:37:50.094+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.096 seconds
+[2022-12-22T22:38:30.246+0100] {processor.py:153} INFO - Started process (PID=20242) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:38:30.247+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:38:30.248+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:30.248+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:38:30.271+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:38:30.298+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:30.298+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:38:30.318+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:38:30.318+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:38:30.341+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.098 seconds
+[2022-12-22T22:39:10.543+0100] {processor.py:153} INFO - Started process (PID=20303) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:10.544+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:39:10.545+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:10.545+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:10.565+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:10.597+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:10.597+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:39:10.623+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:10.622+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:39:10.663+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2022-12-22T22:39:51.259+0100] {processor.py:153} INFO - Started process (PID=20352) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:51.265+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:39:51.266+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:51.266+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:51.289+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:39:51.319+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:51.319+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:39:51.344+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:39:51.343+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:39:51.374+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.118 seconds
+[2022-12-22T22:40:34.028+0100] {processor.py:153} INFO - Started process (PID=20392) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:40:34.037+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:40:34.038+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:34.038+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:40:34.094+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:40:34.180+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:34.180+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:40:34.229+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:40:34.228+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:40:34.248+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.228 seconds
+[2022-12-22T22:41:17.068+0100] {processor.py:153} INFO - Started process (PID=20470) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:17.070+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:41:17.071+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:17.071+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:17.098+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:17.125+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:17.125+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:41:17.150+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:17.150+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:41:17.171+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2022-12-22T22:41:57.823+0100] {processor.py:153} INFO - Started process (PID=21279) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:57.825+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:41:57.826+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:57.825+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:57.848+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:41:57.876+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:57.876+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:41:57.896+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:41:57.896+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:41:57.919+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.100 seconds
+[2022-12-22T22:42:42.812+0100] {processor.py:153} INFO - Started process (PID=21317) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:42:42.815+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T22:42:42.817+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:42.816+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:42:42.855+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T22:42:42.893+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:42.893+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T22:42:42.941+0100] {logging_mixin.py:137} INFO - [2022-12-22T22:42:42.941+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T22:42:42.975+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.174 seconds
+[2022-12-22T23:31:53.539+0100] {processor.py:153} INFO - Started process (PID=21434) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:31:53.556+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:31:53.560+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:31:53.559+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:31:53.678+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:31:53.784+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:31:53.783+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:31:53.902+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:31:53.902+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:31:54.045+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.523 seconds
+[2022-12-22T23:32:45.726+0100] {processor.py:153} INFO - Started process (PID=21472) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:32:45.729+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:32:45.732+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:45.731+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:32:45.811+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:32:45.892+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:45.892+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:32:45.945+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:32:45.945+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:32:46.018+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.302 seconds
+[2022-12-22T23:33:49.149+0100] {processor.py:153} INFO - Started process (PID=21521) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:33:49.153+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:33:49.155+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:49.154+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:33:49.231+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:33:49.299+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:49.299+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:33:49.354+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:33:49.353+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:33:49.428+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.292 seconds
+[2022-12-22T23:34:50.492+0100] {processor.py:153} INFO - Started process (PID=21573) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:34:50.496+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:34:50.498+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:50.498+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:34:50.581+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:34:50.684+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:50.683+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:34:50.762+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:34:50.761+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:34:50.828+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.347 seconds
+[2022-12-22T23:35:48.905+0100] {processor.py:153} INFO - Started process (PID=21618) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:35:48.910+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:35:48.914+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:48.913+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:35:48.991+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:35:49.058+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:49.057+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:35:49.109+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:35:49.109+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:35:49.161+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.272 seconds
+[2022-12-22T23:36:49.573+0100] {processor.py:153} INFO - Started process (PID=21671) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:36:49.584+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:36:49.587+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:49.586+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:36:49.657+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:36:49.725+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:49.724+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:36:49.775+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:36:49.774+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:36:49.830+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.275 seconds
+[2022-12-22T23:37:48.250+0100] {processor.py:153} INFO - Started process (PID=21716) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:37:48.255+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:37:48.258+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:48.257+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:37:48.322+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:37:48.402+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:48.402+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:37:48.483+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:37:48.482+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:37:48.571+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.337 seconds
+[2022-12-22T23:38:46.629+0100] {processor.py:153} INFO - Started process (PID=21760) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:38:46.632+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:38:46.635+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:46.634+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:38:46.710+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:38:46.782+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:46.782+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:38:46.834+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:38:46.834+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:38:46.891+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.274 seconds
+[2022-12-22T23:39:44.983+0100] {processor.py:153} INFO - Started process (PID=21834) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:39:44.988+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:39:44.991+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:44.990+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:39:45.031+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:39:45.071+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:45.071+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:39:45.101+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:39:45.101+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:39:45.130+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.162 seconds
+[2022-12-22T23:40:39.683+0100] {processor.py:153} INFO - Started process (PID=21891) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:40:39.697+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:40:39.698+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:39.698+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:40:39.785+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:40:39.877+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:39.877+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:40:39.943+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:40:39.943+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:40:40.024+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.351 seconds
+[2022-12-22T23:41:37.030+0100] {processor.py:153} INFO - Started process (PID=21941) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:41:37.032+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:41:37.033+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:37.033+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:41:37.065+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:41:37.104+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:37.104+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:41:37.134+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:41:37.134+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:41:37.176+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.150 seconds
+[2022-12-22T23:42:29.513+0100] {processor.py:153} INFO - Started process (PID=21984) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:42:29.517+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:42:29.519+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:29.518+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:42:29.557+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:42:29.610+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:29.610+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:42:29.641+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:42:29.641+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:42:29.676+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.177 seconds
+[2022-12-22T23:43:26.950+0100] {processor.py:153} INFO - Started process (PID=22029) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:43:26.961+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:43:26.964+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:26.964+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:43:27.037+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:43:27.075+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:27.075+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:43:27.105+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:43:27.105+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:43:27.142+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.207 seconds
+[2022-12-22T23:44:19.353+0100] {processor.py:153} INFO - Started process (PID=22074) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:44:19.355+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:44:19.356+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:19.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:44:19.387+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:44:19.449+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:19.449+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:44:19.479+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:44:19.479+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:44:19.519+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2022-12-22T23:45:07.247+0100] {processor.py:153} INFO - Started process (PID=22115) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:07.251+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:45:07.254+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:07.254+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:07.301+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:07.340+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:07.340+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:45:07.368+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:07.368+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:45:07.412+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.180 seconds
+[2022-12-22T23:45:56.118+0100] {processor.py:153} INFO - Started process (PID=22156) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:56.121+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:45:56.122+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:56.122+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:56.177+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:45:56.233+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:56.233+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:45:56.264+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:45:56.263+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:45:56.303+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.193 seconds
+[2022-12-22T23:46:52.014+0100] {processor.py:153} INFO - Started process (PID=22204) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:46:52.016+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:46:52.017+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:52.016+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:46:52.050+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:46:52.091+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:52.090+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:46:52.123+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:46:52.123+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:46:52.188+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.180 seconds
+[2022-12-22T23:47:47.666+0100] {processor.py:153} INFO - Started process (PID=22251) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:47:47.670+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:47:47.673+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:47.672+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:47:47.710+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:47:47.750+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:47.750+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:47:47.781+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:47:47.781+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:47:47.818+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.167 seconds
+[2022-12-22T23:48:37.485+0100] {processor.py:153} INFO - Started process (PID=22306) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:48:37.489+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:48:37.493+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:37.492+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:48:37.593+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:48:37.778+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:37.778+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:48:37.856+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:48:37.852+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:48:37.923+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.452 seconds
+[2022-12-22T23:49:35.309+0100] {processor.py:153} INFO - Started process (PID=22356) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:49:35.314+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:49:35.317+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:35.317+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:49:35.356+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:49:35.399+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:35.398+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:49:35.427+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:49:35.427+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:49:35.461+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.169 seconds
+[2022-12-22T23:50:25.819+0100] {processor.py:153} INFO - Started process (PID=22408) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:50:25.822+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:50:25.826+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:25.825+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:50:25.929+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:50:26.146+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:26.145+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:50:26.215+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:50:26.215+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:50:26.295+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.486 seconds
+[2022-12-22T23:51:23.293+0100] {processor.py:153} INFO - Started process (PID=22464) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:51:23.328+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:51:23.330+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:23.329+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:51:23.395+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:51:23.475+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:23.475+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:51:23.508+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:51:23.508+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:51:23.560+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.276 seconds
+[2022-12-22T23:52:22.302+0100] {processor.py:153} INFO - Started process (PID=22541) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:52:22.304+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:52:22.306+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:22.305+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:52:22.353+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:52:22.413+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:22.413+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:52:22.454+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:52:22.451+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:52:22.553+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2022-12-22T23:53:27.638+0100] {processor.py:153} INFO - Started process (PID=22702) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:53:27.660+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:53:27.661+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:27.661+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:53:27.807+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:53:27.942+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:27.942+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:53:28.010+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:53:28.009+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:53:28.114+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.489 seconds
+[2022-12-22T23:54:21.124+0100] {processor.py:153} INFO - Started process (PID=22770) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:54:21.132+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:54:21.133+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:21.133+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:54:21.205+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:54:21.292+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:21.292+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:54:21.357+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:54:21.356+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:54:21.437+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.324 seconds
+[2022-12-22T23:55:28.547+0100] {processor.py:153} INFO - Started process (PID=22864) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:55:28.556+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:55:28.557+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:55:28.557+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:55:28.614+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:55:28.664+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:55:28.664+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:55:28.694+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:55:28.693+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:55:28.735+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.200 seconds
+[2022-12-22T23:56:20.066+0100] {processor.py:153} INFO - Started process (PID=22919) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:56:20.072+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:56:20.076+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:20.075+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:56:20.117+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:56:20.158+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:20.157+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:56:20.197+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:56:20.197+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:56:20.250+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.200 seconds
+[2022-12-22T23:57:24.357+0100] {processor.py:153} INFO - Started process (PID=23037) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:57:24.359+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:57:24.361+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:24.361+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:57:24.412+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:57:24.488+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:24.487+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:57:24.594+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:57:24.593+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:57:24.661+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.308 seconds
+[2022-12-22T23:58:26.115+0100] {processor.py:153} INFO - Started process (PID=23127) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:58:26.117+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:58:26.118+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:26.118+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:58:26.160+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:58:26.202+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:26.201+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:58:26.242+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:58:26.242+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:58:26.277+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
+[2022-12-22T23:59:11.346+0100] {processor.py:153} INFO - Started process (PID=23283) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:11.353+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:59:11.354+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:11.353+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:11.431+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:11.525+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:11.525+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:59:11.606+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:11.606+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:59:11.682+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.347 seconds
+[2022-12-22T23:59:54.531+0100] {processor.py:153} INFO - Started process (PID=23370) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:54.537+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-22T23:59:54.538+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:54.538+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:54.575+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-22T23:59:54.621+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:54.621+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-22T23:59:54.656+0100] {logging_mixin.py:137} INFO - [2022-12-22T23:59:54.655+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-22T23:59:54.699+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.178 seconds
+[2022-12-23T00:00:52.080+0100] {processor.py:153} INFO - Started process (PID=23508) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:00:52.090+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:00:52.091+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:52.091+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:00:52.145+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:00:52.244+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:52.244+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:00:52.292+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:00:52.291+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:00:52.349+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.281 seconds
+[2022-12-23T00:01:46.359+0100] {processor.py:153} INFO - Started process (PID=23592) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:01:46.366+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:01:46.367+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:46.367+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:01:46.434+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:01:46.557+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:46.557+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:01:46.619+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:01:46.616+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:01:46.723+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.380 seconds
+[2022-12-23T00:03:08.165+0100] {processor.py:153} INFO - Started process (PID=23702) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:08.176+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:03:08.177+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:08.177+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:08.287+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:08.376+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:08.376+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:03:08.486+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:08.485+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:03:08.553+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.401 seconds
+[2022-12-23T00:03:58.335+0100] {processor.py:153} INFO - Started process (PID=23751) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:58.345+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:03:58.349+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:58.348+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:58.460+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:03:58.520+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:58.520+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:03:58.556+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:03:58.555+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:03:58.603+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.289 seconds
+[2022-12-23T00:05:08.250+0100] {processor.py:153} INFO - Started process (PID=23809) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:05:08.259+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:05:08.265+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:08.264+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:05:08.412+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:05:08.604+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:08.603+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:05:08.704+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:05:08.704+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:05:08.820+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.595 seconds
+[2022-12-23T00:06:06.968+0100] {processor.py:153} INFO - Started process (PID=23870) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:06.971+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:06:06.973+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:06.973+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:07.051+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:07.198+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:07.198+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:06:07.247+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:07.246+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:06:07.316+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.354 seconds
+[2022-12-23T00:06:58.225+0100] {processor.py:153} INFO - Started process (PID=23911) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:58.227+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:06:58.229+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:58.229+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:58.285+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:06:58.344+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:58.344+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:06:58.402+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:06:58.402+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:06:58.468+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.250 seconds
+[2022-12-23T00:08:01.940+0100] {processor.py:153} INFO - Started process (PID=23967) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:01.944+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:08:01.946+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:01.945+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:02.100+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:02.300+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:02.299+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:08:02.397+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:02.397+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:08:02.440+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.511 seconds
+[2022-12-23T00:08:51.372+0100] {processor.py:153} INFO - Started process (PID=24004) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:51.377+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:08:51.379+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:51.378+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:51.449+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:08:51.545+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:51.545+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:08:51.601+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:08:51.601+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:08:51.657+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.300 seconds
+[2022-12-23T00:09:55.640+0100] {processor.py:153} INFO - Started process (PID=24082) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:09:55.644+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:09:55.645+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:55.645+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:09:55.864+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:09:56.264+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:56.237+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:09:56.445+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:09:56.418+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:09:56.824+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 1.213 seconds
+[2022-12-23T00:11:28.998+0100] {processor.py:153} INFO - Started process (PID=24399) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:11:29.003+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:11:29.004+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:29.004+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:11:29.181+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:11:29.383+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:29.379+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:11:29.522+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:11:29.521+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:11:29.764+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.817 seconds
+[2022-12-23T00:22:13.635+0100] {processor.py:153} INFO - Started process (PID=24671) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:22:13.653+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:22:13.655+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:22:13.654+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:22:14.710+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:22:15.354+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:22:15.354+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:22:16.081+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:22:16.081+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:22:16.565+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 3.007 seconds
+[2022-12-23T00:25:41.953+0100] {processor.py:153} INFO - Started process (PID=24965) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:25:41.969+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:25:41.971+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:41.971+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:25:42.203+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:25:42.852+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:42.846+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:25:43.057+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:25:43.057+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:25:43.255+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 1.319 seconds
+[2022-12-23T00:29:27.610+0100] {processor.py:153} INFO - Started process (PID=25296) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:29:27.641+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:29:27.643+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:27.643+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:29:27.979+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:29:28.276+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:28.275+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:29:28.522+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:29:28.522+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:29:28.734+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 1.186 seconds
+[2022-12-23T00:32:04.315+0100] {processor.py:153} INFO - Started process (PID=25697) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:32:04.336+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:32:04.338+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:04.338+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:32:04.524+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:32:04.674+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:04.673+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:32:04.828+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:32:04.827+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:32:04.991+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.693 seconds
+[2022-12-23T00:33:12.390+0100] {processor.py:153} INFO - Started process (PID=25821) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:33:12.400+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:33:12.402+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:12.402+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:33:12.471+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:33:12.546+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:12.546+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:33:12.601+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:33:12.601+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:33:12.657+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.287 seconds
+[2022-12-23T00:34:01.435+0100] {processor.py:153} INFO - Started process (PID=25884) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:01.440+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:34:01.444+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:01.443+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:01.507+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:01.571+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:01.571+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:34:01.622+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:01.622+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:34:01.676+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2022-12-23T00:34:54.287+0100] {processor.py:153} INFO - Started process (PID=25922) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:54.293+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:34:54.296+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:54.296+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:54.419+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:34:54.573+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:54.572+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:34:54.661+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:34:54.660+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:34:54.716+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.444 seconds
+[2022-12-23T00:35:43.421+0100] {processor.py:153} INFO - Started process (PID=25956) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:35:43.425+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:35:43.427+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:43.426+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:35:43.502+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:35:43.598+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:43.598+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:35:43.660+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:35:43.659+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:35:43.778+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.371 seconds
+[2022-12-23T00:36:48.946+0100] {processor.py:153} INFO - Started process (PID=26004) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:36:48.951+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:36:48.955+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:48.954+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:36:49.045+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:36:49.112+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:49.112+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:36:49.162+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:36:49.162+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:36:49.217+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.287 seconds
+[2022-12-23T00:37:37.490+0100] {processor.py:153} INFO - Started process (PID=26039) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:37:37.493+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:37:37.494+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:37.494+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:37:37.545+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:37:37.610+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:37.610+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:37:37.657+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:37:37.657+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:37:37.714+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.231 seconds
+[2022-12-23T00:38:25.555+0100] {processor.py:153} INFO - Started process (PID=26080) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:38:25.559+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:38:25.561+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:25.561+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:38:25.614+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:38:25.713+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:25.713+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:38:25.780+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:38:25.779+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:38:25.852+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.315 seconds
+[2022-12-23T00:39:34.155+0100] {processor.py:153} INFO - Started process (PID=26131) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:39:34.161+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:39:34.164+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:34.164+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:39:34.285+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:39:34.477+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:34.476+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:39:34.556+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:39:34.555+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:39:34.658+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.519 seconds
+[2022-12-23T00:40:21.143+0100] {processor.py:153} INFO - Started process (PID=26164) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:40:21.148+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:40:21.151+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:21.151+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:40:21.250+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:40:21.332+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:21.331+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:40:21.392+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:40:21.392+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:40:21.449+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.324 seconds
+[2022-12-23T00:41:12.127+0100] {processor.py:153} INFO - Started process (PID=26200) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:41:12.130+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:41:12.132+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:41:12.132+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:41:12.201+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:41:12.271+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:41:12.271+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:41:12.322+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:41:12.322+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:41:12.403+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.290 seconds
+[2022-12-23T00:42:01.618+0100] {processor.py:153} INFO - Started process (PID=26235) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:01.622+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:42:01.625+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:01.624+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:01.678+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:01.748+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:01.747+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:42:01.799+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:01.799+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:42:01.853+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.255 seconds
+[2022-12-23T00:42:53.630+0100] {processor.py:153} INFO - Started process (PID=26271) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:53.640+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:42:53.643+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:53.642+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:53.777+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:42:53.906+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:53.906+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:42:54.005+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:42:54.005+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:42:54.069+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.454 seconds
+[2022-12-23T00:43:49.679+0100] {processor.py:153} INFO - Started process (PID=26311) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:43:49.686+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:43:49.689+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:49.689+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:43:49.780+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:43:49.844+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:49.844+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:43:49.898+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:43:49.898+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:43:49.950+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.286 seconds
+[2022-12-23T00:44:39.875+0100] {processor.py:153} INFO - Started process (PID=26347) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:44:39.879+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:44:39.883+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:39.882+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:44:40.027+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:44:40.168+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:40.167+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:44:40.258+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:44:40.257+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:44:40.362+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.504 seconds
+[2022-12-23T00:45:44.747+0100] {processor.py:153} INFO - Started process (PID=26397) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:45:44.753+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:45:44.757+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:44.756+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:45:44.812+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:45:44.880+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:44.880+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:45:44.934+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:45:44.933+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:45:45.012+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.284 seconds
+[2022-12-23T00:46:52.319+0100] {processor.py:153} INFO - Started process (PID=26446) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:46:52.323+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:46:52.326+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:52.326+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:46:52.410+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:46:52.511+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:52.509+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:46:52.629+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:46:52.629+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:46:52.723+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.421 seconds
+[2022-12-23T00:47:44.908+0100] {processor.py:153} INFO - Started process (PID=26483) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:47:44.914+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:47:44.917+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:44.917+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:47:44.971+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:47:45.036+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:45.036+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:47:45.091+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:47:45.090+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:47:45.197+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.307 seconds
+[2022-12-23T00:48:39.055+0100] {processor.py:153} INFO - Started process (PID=26521) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:48:39.059+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:48:39.063+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:39.062+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:48:39.183+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:48:39.254+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:39.254+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:48:39.350+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:48:39.349+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:48:39.772+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.733 seconds
+[2022-12-23T00:49:33.938+0100] {processor.py:153} INFO - Started process (PID=26559) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:49:33.949+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:49:33.959+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:33.951+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:49:34.049+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:49:34.114+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:34.114+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:49:34.165+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:49:34.165+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:49:34.218+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.301 seconds
+[2022-12-23T00:50:38.341+0100] {processor.py:153} INFO - Started process (PID=26606) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:50:38.344+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:50:38.346+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:38.345+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:50:38.398+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:50:38.464+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:38.464+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:50:38.514+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:50:38.514+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:50:38.566+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.235 seconds
+[2022-12-23T00:51:24.379+0100] {processor.py:153} INFO - Started process (PID=26641) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:51:24.383+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:51:24.385+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:24.385+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:51:24.433+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:51:24.498+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:24.498+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:51:24.550+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:51:24.550+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:51:24.622+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.259 seconds
+[2022-12-23T00:52:12.110+0100] {processor.py:153} INFO - Started process (PID=26674) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:12.116+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:52:12.120+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:12.119+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:12.216+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:12.281+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:12.280+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:52:12.328+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:12.327+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:52:12.381+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.286 seconds
+[2022-12-23T00:52:59.472+0100] {processor.py:153} INFO - Started process (PID=26711) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:59.475+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:52:59.477+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:59.477+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:59.549+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:52:59.690+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:59.689+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:52:59.763+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:52:59.762+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:52:59.819+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.362 seconds
+[2022-12-23T00:53:57.581+0100] {processor.py:153} INFO - Started process (PID=26753) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:53:57.584+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:53:57.587+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:57.586+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:53:57.645+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:53:57.711+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:57.710+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:53:57.790+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:53:57.790+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:53:58.076+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.514 seconds
+[2022-12-23T00:54:52.360+0100] {processor.py:153} INFO - Started process (PID=26791) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:54:52.366+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:54:52.370+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:52.369+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:54:52.523+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:54:52.656+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:52.655+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:54:52.708+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:54:52.707+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:54:52.761+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.420 seconds
+[2022-12-23T00:55:41.314+0100] {processor.py:153} INFO - Started process (PID=26825) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:55:41.320+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:55:41.323+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:55:41.323+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:55:41.422+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:55:41.511+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:55:41.510+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:55:41.641+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:55:41.640+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:55:41.713+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.415 seconds
+[2022-12-23T00:56:30.086+0100] {processor.py:153} INFO - Started process (PID=26860) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:56:30.092+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:56:30.095+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:30.095+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:56:30.184+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:56:30.298+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:30.298+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:56:30.347+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:56:30.347+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:56:30.399+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.329 seconds
+[2022-12-23T00:57:14.518+0100] {processor.py:153} INFO - Started process (PID=26893) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:57:14.520+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:57:14.521+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:14.521+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:57:14.586+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:57:14.656+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:14.656+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:57:14.708+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:57:14.707+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:57:14.768+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.257 seconds
+[2022-12-23T00:58:22.582+0100] {processor.py:153} INFO - Started process (PID=26945) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:58:22.591+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:58:22.594+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:22.593+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:58:22.834+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:58:22.920+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:22.920+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:58:22.975+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:58:22.975+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:58:23.027+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.472 seconds
+[2022-12-23T00:59:12.991+0100] {processor.py:153} INFO - Started process (PID=26982) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:59:13.003+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-23T00:59:13.007+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:13.006+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:59:13.137+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-23T00:59:13.237+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:13.237+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T00:59:13.278+0100] {logging_mixin.py:137} INFO - [2022-12-23T00:59:13.278+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-23T00:59:13.646+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_sensors.py took 0.691 seconds

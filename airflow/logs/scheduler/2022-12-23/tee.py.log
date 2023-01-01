@@ -1,0 +1,1713 @@
+[2022-12-23T01:43:18.417+0100] {processor.py:153} INFO - Started process (PID=5126) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:43:18.429+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:43:18.454+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:43:18.454+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:43:18.508+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:43:18.507+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:43:18.508+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:43:18.644+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.252 seconds
+[2022-12-23T01:44:08.597+0100] {processor.py:153} INFO - Started process (PID=5170) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:08.599+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:44:08.600+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:08.600+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:08.608+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:08.607+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:44:08.609+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:08.651+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.061 seconds
+[2022-12-23T01:44:27.177+0100] {processor.py:153} INFO - Started process (PID=5196) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:27.179+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:44:27.181+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:27.181+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:27.196+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:27.194+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:44:27.197+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:27.243+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.077 seconds
+[2022-12-23T01:44:45.731+0100] {processor.py:153} INFO - Started process (PID=5211) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:45.737+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:44:45.740+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:45.739+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:45.764+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:44:45.761+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:44:45.766+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:44:45.816+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.099 seconds
+[2022-12-23T01:45:04.141+0100] {processor.py:153} INFO - Started process (PID=5227) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:04.143+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:45:04.144+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:04.144+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:04.153+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:04.152+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:45:04.154+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:04.188+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.053 seconds
+[2022-12-23T01:45:22.597+0100] {processor.py:153} INFO - Started process (PID=5243) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:22.600+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:45:22.602+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:22.602+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:22.620+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:22.618+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:45:22.621+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:22.677+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.090 seconds
+[2022-12-23T01:45:40.011+0100] {processor.py:153} INFO - Started process (PID=5257) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:40.013+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:45:40.015+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:40.014+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:40.029+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:40.027+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:45:40.029+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:40.077+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.073 seconds
+[2022-12-23T01:45:57.455+0100] {processor.py:153} INFO - Started process (PID=5273) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:57.458+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:45:57.460+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:57.460+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:57.482+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:45:57.480+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:45:57.483+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:45:57.550+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.107 seconds
+[2022-12-23T01:46:16.076+0100] {processor.py:153} INFO - Started process (PID=5287) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:16.078+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:46:16.080+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:16.079+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:16.092+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:16.090+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:46:16.092+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:16.133+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.063 seconds
+[2022-12-23T01:46:36.213+0100] {processor.py:153} INFO - Started process (PID=5306) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:36.237+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:46:36.240+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:36.239+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:36.277+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:36.265+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:46:36.279+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:36.361+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.159 seconds
+[2022-12-23T01:46:56.682+0100] {processor.py:153} INFO - Started process (PID=5323) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:56.688+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:46:56.691+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:56.691+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:56.708+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:46:56.707+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:46:56.709+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:46:56.757+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.090 seconds
+[2022-12-23T01:47:18.135+0100] {processor.py:153} INFO - Started process (PID=5339) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:18.138+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:47:18.139+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:18.139+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:18.153+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:18.152+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:47:18.154+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:18.206+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.078 seconds
+[2022-12-23T01:47:39.461+0100] {processor.py:153} INFO - Started process (PID=5357) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:39.464+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:47:39.466+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:39.466+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:39.483+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:47:39.481+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:47:39.484+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:47:39.548+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.098 seconds
+[2022-12-23T01:48:00.219+0100] {processor.py:153} INFO - Started process (PID=5375) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:00.222+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:48:00.225+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:00.224+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:00.243+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:00.242+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:48:00.244+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:00.297+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.088 seconds
+[2022-12-23T01:48:20.957+0100] {processor.py:153} INFO - Started process (PID=5391) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:20.959+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:48:20.961+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:20.960+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:20.975+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:20.972+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:48:20.976+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:21.015+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.064 seconds
+[2022-12-23T01:48:41.114+0100] {processor.py:153} INFO - Started process (PID=5408) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:41.121+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:48:41.124+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:41.124+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:41.139+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:48:41.138+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:48:41.140+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:48:41.190+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.095 seconds
+[2022-12-23T01:49:02.240+0100] {processor.py:153} INFO - Started process (PID=5424) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:02.244+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:49:02.248+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:02.247+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:02.273+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:02.271+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:49:02.275+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:02.340+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.115 seconds
+[2022-12-23T01:49:22.289+0100] {processor.py:153} INFO - Started process (PID=5441) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:22.290+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:49:22.292+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:22.292+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:22.302+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:22.301+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:49:22.303+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:22.332+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.048 seconds
+[2022-12-23T01:49:42.772+0100] {processor.py:153} INFO - Started process (PID=5458) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:42.774+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:49:42.775+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:42.775+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:42.791+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:49:42.789+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:49:42.792+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:49:42.829+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.065 seconds
+[2022-12-23T01:50:03.716+0100] {processor.py:153} INFO - Started process (PID=5474) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:03.718+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:50:03.720+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:03.720+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:03.751+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:03.745+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:50:03.752+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:03.840+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.138 seconds
+[2022-12-23T01:50:26.419+0100] {processor.py:153} INFO - Started process (PID=5494) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:26.420+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:50:26.422+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:26.421+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:26.431+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:26.429+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:50:26.431+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:26.473+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.059 seconds
+[2022-12-23T01:50:45.802+0100] {processor.py:153} INFO - Started process (PID=5510) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:45.810+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:50:45.812+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:45.812+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:45.829+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:50:45.828+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:50:45.830+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:50:45.873+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.078 seconds
+[2022-12-23T01:51:05.301+0100] {processor.py:153} INFO - Started process (PID=5525) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:05.304+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:51:05.306+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:05.306+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:05.333+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:05.331+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:51:05.338+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:05.414+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.122 seconds
+[2022-12-23T01:51:25.785+0100] {processor.py:153} INFO - Started process (PID=5547) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:25.789+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:51:25.792+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:25.791+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:25.815+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:25.812+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:51:25.816+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:25.868+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.098 seconds
+[2022-12-23T01:51:46.134+0100] {processor.py:153} INFO - Started process (PID=5564) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:46.142+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:51:46.145+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:46.144+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:46.172+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:51:46.169+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:51:46.173+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:51:46.245+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.137 seconds
+[2022-12-23T01:52:05.417+0100] {processor.py:153} INFO - Started process (PID=5628) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:05.419+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:52:05.421+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:05.421+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:05.433+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:05.432+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:52:05.434+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:05.467+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.057 seconds
+[2022-12-23T01:52:25.175+0100] {processor.py:153} INFO - Started process (PID=5648) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:25.181+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:52:25.183+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:25.183+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:25.192+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:25.191+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:52:25.192+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:25.233+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.070 seconds
+[2022-12-23T01:52:46.409+0100] {processor.py:153} INFO - Started process (PID=5666) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:46.420+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:52:46.434+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:46.434+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:46.460+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:52:46.459+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:52:46.460+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:52:46.493+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.108 seconds
+[2022-12-23T01:53:08.076+0100] {processor.py:153} INFO - Started process (PID=5683) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:08.080+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:53:08.084+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:08.083+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:08.115+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:08.109+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:53:08.116+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:08.168+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.107 seconds
+[2022-12-23T01:53:28.747+0100] {processor.py:153} INFO - Started process (PID=5700) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:28.753+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:53:28.757+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:28.756+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:28.781+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:28.779+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:53:28.782+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:28.820+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.089 seconds
+[2022-12-23T01:53:49.076+0100] {processor.py:153} INFO - Started process (PID=5716) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:49.081+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:53:49.084+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:49.083+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:49.108+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:53:49.106+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:53:49.108+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:53:49.144+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.086 seconds
+[2022-12-23T01:54:09.841+0100] {processor.py:153} INFO - Started process (PID=5733) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:09.844+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:54:09.846+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:09.846+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:09.862+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:09.860+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:54:09.863+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:09.919+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.086 seconds
+[2022-12-23T01:54:28.242+0100] {processor.py:153} INFO - Started process (PID=5749) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:28.246+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:54:28.249+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:28.248+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:28.268+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:28.267+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:54:28.269+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:28.303+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.074 seconds
+[2022-12-23T01:54:44.257+0100] {processor.py:153} INFO - Started process (PID=5763) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:44.266+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:54:44.267+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:44.267+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:44.279+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:54:44.278+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:54:44.279+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:54:44.311+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.094 seconds
+[2022-12-23T01:55:01.601+0100] {processor.py:153} INFO - Started process (PID=5777) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:01.608+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:55:01.610+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:01.609+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:01.620+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:01.619+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:55:01.620+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:01.654+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.068 seconds
+[2022-12-23T01:55:19.551+0100] {processor.py:153} INFO - Started process (PID=5794) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:19.555+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:55:19.558+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:19.557+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:19.591+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:19.589+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:55:19.592+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:19.633+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.104 seconds
+[2022-12-23T01:55:36.750+0100] {processor.py:153} INFO - Started process (PID=5809) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:36.754+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:55:36.760+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:36.759+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:36.785+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:36.784+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:55:36.786+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:36.820+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.083 seconds
+[2022-12-23T01:55:53.798+0100] {processor.py:153} INFO - Started process (PID=5824) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:53.801+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:55:53.804+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:53.804+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:53.819+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:55:53.817+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:55:53.819+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:55:53.847+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.090 seconds
+[2022-12-23T01:56:12.399+0100] {processor.py:153} INFO - Started process (PID=5838) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:12.402+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:56:12.405+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:12.405+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:12.427+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:12.425+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:56:12.428+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:12.464+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.080 seconds
+[2022-12-23T01:56:32.885+0100] {processor.py:153} INFO - Started process (PID=5857) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:32.888+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:56:32.890+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:32.890+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:32.905+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:32.903+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:56:32.905+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:32.939+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.070 seconds
+[2022-12-23T01:56:54.007+0100] {processor.py:153} INFO - Started process (PID=5875) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:54.011+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:56:54.014+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:54.013+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:54.035+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:56:54.033+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:56:54.036+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:56:54.067+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.074 seconds
+[2022-12-23T01:57:14.088+0100] {processor.py:153} INFO - Started process (PID=5891) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:14.091+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:57:14.093+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:14.092+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:14.104+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:14.103+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:57:14.105+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:14.138+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.063 seconds
+[2022-12-23T01:57:34.210+0100] {processor.py:153} INFO - Started process (PID=5907) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:34.214+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:57:34.217+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:34.216+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:34.240+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:34.238+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 16, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2022-12-23T01:57:34.242+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:34.279+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.084 seconds
+[2022-12-23T01:57:56.086+0100] {processor.py:153} INFO - Started process (PID=5929) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:56.095+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:57:56.107+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:56.107+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:56.115+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:57:56.114+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 11
+    )
+    ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:57:56.116+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:57:56.151+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.089 seconds
+[2022-12-23T01:58:18.830+0100] {processor.py:153} INFO - Started process (PID=5948) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:18.839+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:58:18.840+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:18.840+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:18.851+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:18.842+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 11
+    )
+    ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:58:18.851+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:18.885+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.078 seconds
+[2022-12-23T01:58:40.260+0100] {processor.py:153} INFO - Started process (PID=5968) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:40.263+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:58:40.266+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:40.265+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:40.290+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:58:40.287+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 11
+    )
+    ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:58:40.292+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:58:40.341+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.094 seconds
+[2022-12-23T01:59:01.267+0100] {processor.py:153} INFO - Started process (PID=5988) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:01.268+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:59:01.269+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:01.269+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:01.273+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:01.272+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 11
+    )
+    ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:59:01.273+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:01.314+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.059 seconds
+[2022-12-23T01:59:21.861+0100] {processor.py:153} INFO - Started process (PID=6005) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:21.867+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:59:21.869+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:21.869+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:21.876+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:21.875+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:59:21.877+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:21.915+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.062 seconds
+[2022-12-23T01:59:41.799+0100] {processor.py:153} INFO - Started process (PID=6023) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:41.800+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T01:59:41.807+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:41.807+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:41.813+0100] {logging_mixin.py:137} INFO - [2022-12-23T01:59:41.809+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T01:59:41.813+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T01:59:41.871+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.077 seconds
+[2022-12-23T02:00:02.352+0100] {processor.py:153} INFO - Started process (PID=6044) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:02.354+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:00:02.356+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:02.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:02.360+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:02.358+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:00:02.360+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:02.396+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.049 seconds
+[2022-12-23T02:00:22.411+0100] {processor.py:153} INFO - Started process (PID=6061) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:22.415+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:00:22.424+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:22.418+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:22.432+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:22.429+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:00:22.433+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:22.479+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.088 seconds
+[2022-12-23T02:00:40.959+0100] {processor.py:153} INFO - Started process (PID=6076) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:40.962+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:00:40.963+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:40.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:40.967+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:40.966+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:00:40.968+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:41.000+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.057 seconds
+[2022-12-23T02:00:58.264+0100] {processor.py:153} INFO - Started process (PID=6091) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:58.269+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:00:58.272+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:58.272+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:58.285+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:00:58.282+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,22),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:00:58.286+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:00:58.328+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.077 seconds
+[2022-12-23T02:01:18.132+0100] {processor.py:153} INFO - Started process (PID=6109) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:18.144+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:01:18.146+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:18.145+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:18.153+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:18.149+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:01:18.154+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:18.252+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.135 seconds
+[2022-12-23T02:01:39.396+0100] {processor.py:153} INFO - Started process (PID=6129) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:39.400+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:01:39.403+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:39.402+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:39.411+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:01:39.409+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:01:39.412+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:01:39.486+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.104 seconds
+[2022-12-23T02:02:04.155+0100] {processor.py:153} INFO - Started process (PID=6147) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:04.157+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:02:04.158+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:04.158+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:04.162+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:04.160+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:02:04.163+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:04.208+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.059 seconds
+[2022-12-23T02:02:25.112+0100] {processor.py:153} INFO - Started process (PID=6165) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:25.116+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:02:25.118+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:25.117+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:25.124+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:25.121+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:02:25.124+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:25.171+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.073 seconds
+[2022-12-23T02:02:44.540+0100] {processor.py:153} INFO - Started process (PID=6181) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:44.557+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:02:44.560+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:44.559+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:44.570+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:02:44.567+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:02:44.572+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:02:44.674+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.149 seconds
+[2022-12-23T02:03:03.393+0100] {processor.py:153} INFO - Started process (PID=6197) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:03.401+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:03:03.409+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:03.408+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:03.435+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:03.427+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:03:03.437+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:03.516+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.142 seconds
+[2022-12-23T02:03:25.073+0100] {processor.py:153} INFO - Started process (PID=6214) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:25.079+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:03:25.082+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:25.081+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:25.092+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:25.088+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:03:25.094+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:25.135+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.080 seconds
+[2022-12-23T02:03:42.658+0100] {processor.py:153} INFO - Started process (PID=6233) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:42.661+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:03:42.663+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:42.662+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:42.668+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:03:42.666+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:03:42.669+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:03:42.707+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.062 seconds
+[2022-12-23T02:04:01.091+0100] {processor.py:153} INFO - Started process (PID=6248) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:01.097+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:04:01.099+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:01.098+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:01.102+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:01.101+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:04:01.107+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:01.163+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.091 seconds
+[2022-12-23T02:04:19.399+0100] {processor.py:153} INFO - Started process (PID=6265) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:19.401+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:04:19.402+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:19.402+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:19.408+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:19.405+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:04:19.409+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:19.453+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.061 seconds
+[2022-12-23T02:04:40.207+0100] {processor.py:153} INFO - Started process (PID=6281) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:40.211+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:04:40.215+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:40.214+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:40.226+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:04:40.223+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                 ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:04:40.230+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:04:40.282+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.089 seconds
+[2022-12-23T02:05:01.053+0100] {processor.py:153} INFO - Started process (PID=6298) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:01.062+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:05:01.063+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:01.063+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:01.068+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:01.065+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:05:01.068+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:01.121+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.077 seconds
+[2022-12-23T02:05:22.699+0100] {processor.py:153} INFO - Started process (PID=6316) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:22.709+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:05:22.712+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:22.711+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:22.728+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:22.721+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:05:22.730+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:22.796+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.110 seconds
+[2022-12-23T02:05:43.496+0100] {processor.py:153} INFO - Started process (PID=6334) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:43.499+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:05:43.502+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:43.501+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:43.510+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:05:43.507+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:05:43.511+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:05:43.556+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.072 seconds
+[2022-12-23T02:06:02.999+0100] {processor.py:153} INFO - Started process (PID=6350) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:03.004+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:06:03.007+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:03.007+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:03.018+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:03.014+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:06:03.019+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:03.069+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.084 seconds
+[2022-12-23T02:06:21.038+0100] {processor.py:153} INFO - Started process (PID=6365) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:21.042+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:06:21.044+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:21.044+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:21.058+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:21.055+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:06:21.059+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:21.102+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.076 seconds
+[2022-12-23T02:06:40.514+0100] {processor.py:153} INFO - Started process (PID=6388) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:40.516+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:06:40.518+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:40.518+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:40.523+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:06:40.522+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval=timedelta(days=1),start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                                      ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:06:40.524+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:06:40.565+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.066 seconds
+[2022-12-23T02:07:01.527+0100] {processor.py:153} INFO - Started process (PID=6404) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:01.529+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:07:01.529+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:01.529+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:01.536+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:01.535+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                               ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:07:01.537+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:01.584+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.065 seconds
+[2022-12-23T02:07:23.970+0100] {processor.py:153} INFO - Started process (PID=6423) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:23.980+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:07:23.983+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:23.982+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:23.990+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:23.987+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                               ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:07:23.991+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:24.071+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.113 seconds
+[2022-12-23T02:07:45.386+0100] {processor.py:153} INFO - Started process (PID=6441) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:45.388+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:07:45.389+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:45.389+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:45.392+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:07:45.391+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE))
+                                                                                                                               ^
+SyntaxError: unmatched ')'
+[2022-12-23T02:07:45.393+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:07:45.420+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.046 seconds
+[2022-12-23T02:08:03.904+0100] {processor.py:153} INFO - Started process (PID=6458) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:03.913+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:08:03.915+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:03.914+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:03.931+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:03.930+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:08:03.932+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:03.995+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.102 seconds
+[2022-12-23T02:08:26.326+0100] {processor.py:153} INFO - Started process (PID=6476) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:26.331+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:08:26.334+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:26.333+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:26.353+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:26.349+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:08:26.354+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:26.393+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.082 seconds
+[2022-12-23T02:08:49.542+0100] {processor.py:153} INFO - Started process (PID=6495) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:49.546+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:08:49.548+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:49.547+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:49.559+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:08:49.557+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:08:49.561+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:08:49.619+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.085 seconds
+[2022-12-23T02:09:10.702+0100] {processor.py:153} INFO - Started process (PID=6513) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:10.704+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:09:10.705+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:10.705+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:10.711+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:10.710+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:09:10.711+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:10.743+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.048 seconds
+[2022-12-23T02:09:30.046+0100] {processor.py:153} INFO - Started process (PID=6530) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:30.048+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:09:30.049+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:30.049+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:30.057+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:30.056+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:09:30.057+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:30.092+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.054 seconds
+[2022-12-23T02:09:48.282+0100] {processor.py:153} INFO - Started process (PID=6546) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:48.285+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:09:48.288+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:48.287+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:48.298+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:09:48.296+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:09:48.298+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:09:48.332+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.065 seconds
+[2022-12-23T02:10:08.581+0100] {processor.py:153} INFO - Started process (PID=6568) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:08.609+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:10:08.613+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:08.613+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:08.711+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:08.696+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG(name='d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:10:08.711+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:09.029+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.527 seconds
+[2022-12-23T02:10:31.973+0100] {processor.py:153} INFO - Started process (PID=6588) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:31.979+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:10:31.980+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:31.980+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:32.000+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:31.992+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG(name='d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:10:32.001+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:32.033+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.074 seconds
+[2022-12-23T02:10:51.855+0100] {processor.py:153} INFO - Started process (PID=6606) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:51.859+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:10:51.862+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:51.861+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:51.875+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:10:51.873+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG(name='d1_ddag',description='Our first DAG',schedule_interval='0 12 ***',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:10:51.876+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:10:51.911+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.071 seconds
+[2022-12-23T02:11:13.289+0100] {processor.py:153} INFO - Started process (PID=6624) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:13.293+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:11:13.297+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:13.296+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:13.327+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:13.324+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:11:13.328+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:13.367+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.091 seconds
+[2022-12-23T02:11:34.795+0100] {processor.py:153} INFO - Started process (PID=6644) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:34.798+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:11:34.799+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:34.799+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:34.807+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:34.806+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:11:34.808+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:34.844+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.059 seconds
+[2022-12-23T02:11:56.019+0100] {processor.py:153} INFO - Started process (PID=6662) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:56.020+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:11:56.022+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:56.021+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:56.033+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:11:56.032+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:11:56.035+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:11:56.068+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.063 seconds
+[2022-12-23T02:12:15.675+0100] {processor.py:153} INFO - Started process (PID=6679) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:15.678+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:12:15.680+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:15.680+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:15.689+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:15.688+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:12:15.690+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:15.740+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.079 seconds
+[2022-12-23T02:12:34.870+0100] {processor.py:153} INFO - Started process (PID=6695) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:34.872+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:12:34.873+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:34.873+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:34.880+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:34.879+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:12:34.881+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:34.908+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.042 seconds
+[2022-12-23T02:12:54.218+0100] {processor.py:153} INFO - Started process (PID=6710) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:54.223+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:12:54.227+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:54.227+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:54.257+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:12:54.252+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:12:54.262+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:12:54.311+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.129 seconds
+[2022-12-23T02:13:13.064+0100] {processor.py:153} INFO - Started process (PID=6727) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:13.066+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:13:13.067+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:13.067+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:13.074+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:13.073+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:13:13.074+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:13.107+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.051 seconds
+[2022-12-23T02:13:34.264+0100] {processor.py:153} INFO - Started process (PID=6744) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:34.270+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:13:34.271+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:34.271+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:34.282+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:34.281+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:13:34.286+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:34.330+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.073 seconds
+[2022-12-23T02:13:55.750+0100] {processor.py:153} INFO - Started process (PID=6761) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:55.751+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:13:55.753+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:55.753+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:55.760+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:13:55.758+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:13:55.760+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:13:55.792+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.047 seconds
+[2022-12-23T02:14:18.339+0100] {processor.py:153} INFO - Started process (PID=6779) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:18.346+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:14:18.348+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:18.348+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:18.365+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:18.363+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 5, in <module>
+    dag = DAG('d1_ddag',description='Our first DAG',schedule_interval='0 12 * * *',start_date=datetime(2022,12,21),catchup=FALSE)
+NameError: name 'FALSE' is not defined
+[2022-12-23T02:14:18.366+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:18.411+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.080 seconds
+[2022-12-23T02:14:39.842+0100] {processor.py:153} INFO - Started process (PID=6797) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:39.843+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:14:39.844+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:39.844+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:39.859+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:14:39.846+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:14:39.859+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:14:39.940+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.132 seconds
+[2022-12-23T02:15:03.575+0100] {processor.py:153} INFO - Started process (PID=6818) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:03.589+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:15:03.591+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:03.591+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:03.594+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:03.593+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:15:03.614+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:03.702+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.172 seconds
+[2022-12-23T02:15:25.995+0100] {processor.py:153} INFO - Started process (PID=6837) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:25.999+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:15:26.001+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:26.000+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:26.009+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:26.006+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:15:26.010+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:26.074+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.093 seconds
+[2022-12-23T02:15:43.774+0100] {processor.py:153} INFO - Started process (PID=6853) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:43.784+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:15:43.792+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:43.791+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:43.819+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:15:43.811+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:15:43.827+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:15:43.934+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.201 seconds
+[2022-12-23T02:16:01.314+0100] {processor.py:153} INFO - Started process (PID=6868) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:01.318+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:16:01.322+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:01.320+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:01.329+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:01.327+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:16:01.330+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:01.370+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.070 seconds
+[2022-12-23T02:16:20.513+0100] {processor.py:153} INFO - Started process (PID=6883) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:20.518+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:16:20.521+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:20.521+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:20.532+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:20.529+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:16:20.533+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:20.575+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.078 seconds
+[2022-12-23T02:16:38.871+0100] {processor.py:153} INFO - Started process (PID=6902) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:38.873+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:16:38.874+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:38.874+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:38.878+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:38.877+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:16:38.878+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:38.908+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.041 seconds
+[2022-12-23T02:16:59.546+0100] {processor.py:153} INFO - Started process (PID=6920) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:59.551+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:16:59.554+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:59.553+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:59.564+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:16:59.560+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:16:59.565+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:16:59.611+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.079 seconds
+[2022-12-23T02:17:17.684+0100] {processor.py:153} INFO - Started process (PID=6938) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:17.686+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:17:17.696+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:17.696+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:17.699+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:17.698+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:17:17.700+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:17.732+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.073 seconds
+[2022-12-23T02:17:39.296+0100] {processor.py:153} INFO - Started process (PID=6959) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:39.302+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:17:39.303+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:39.303+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:39.311+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:17:39.310+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:17:39.312+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:17:39.361+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.075 seconds
+[2022-12-23T02:18:02.977+0100] {processor.py:153} INFO - Started process (PID=6979) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:02.981+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:18:02.985+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:02.984+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:02.991+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:02.989+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:18:02.992+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:03.030+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.067 seconds
+[2022-12-23T02:18:25.512+0100] {processor.py:153} INFO - Started process (PID=6997) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:25.514+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:18:25.515+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:25.515+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:25.518+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:25.517+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:18:25.518+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:25.552+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.045 seconds
+[2022-12-23T02:18:46.707+0100] {processor.py:153} INFO - Started process (PID=7014) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:46.710+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:18:46.712+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:46.711+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:46.717+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:18:46.715+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:18:46.718+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:18:46.749+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.056 seconds
+[2022-12-23T02:19:05.224+0100] {processor.py:153} INFO - Started process (PID=7030) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:05.229+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:19:05.232+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:05.232+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:05.260+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:05.259+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:19:05.261+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:05.317+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.107 seconds
+[2022-12-23T02:19:23.489+0100] {processor.py:153} INFO - Started process (PID=7075) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:23.490+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:19:23.495+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:23.495+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:23.501+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:23.500+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:19:23.502+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:23.555+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.075 seconds
+[2022-12-23T02:19:42.902+0100] {processor.py:153} INFO - Started process (PID=7112) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:42.909+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:19:42.915+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:42.914+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:42.922+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:19:42.920+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:19:42.923+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:19:42.966+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.094 seconds
+[2022-12-23T02:20:04.470+0100] {processor.py:153} INFO - Started process (PID=7130) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:04.472+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:20:04.473+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:04.473+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:04.482+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:04.481+0100] {dagbag.py:343} ERROR - Failed to import: /home/momo/airflow/dags/tee.py
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 981, in get_code
+  File "<frozen importlib._bootstrap_external>", line 911, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/momo/airflow/dags/tee.py", line 7
+    dummy1=DummyOperator(task_id="t1",dag=dag)
+    ^
+IndentationError: expected an indented block
+[2022-12-23T02:20:04.482+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:04.520+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.083 seconds
+[2022-12-23T02:20:25.714+0100] {processor.py:153} INFO - Started process (PID=7148) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:25.716+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:20:25.717+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.717+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:25.746+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:25.900+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.900+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:hello_world_dag
+[2022-12-23T02:20:25.931+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.931+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:hello_world_dag
+[2022-12-23T02:20:25.952+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.951+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:hello_world_dag
+[2022-12-23T02:20:25.952+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.952+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:20:25.987+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:25.987+0100] {dag.py:2697} INFO - Creating ORM DAG for hello_world_dag
+[2022-12-23T02:20:26.017+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:26.017+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:19:00+00:00, run_after=2022-12-23T01:20:00+00:00
+[2022-12-23T02:20:26.249+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.540 seconds
+[2022-12-23T02:20:49.615+0100] {processor.py:153} INFO - Started process (PID=7167) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:49.617+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:20:49.619+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:49.619+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:49.665+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:20:49.702+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:49.702+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:20:49.735+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:20:49.735+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:19:00+00:00, run_after=2022-12-23T01:20:00+00:00
+[2022-12-23T02:20:49.772+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.165 seconds
+[2022-12-23T02:21:11.630+0100] {processor.py:153} INFO - Started process (PID=7185) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:11.639+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:21:11.640+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:11.640+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:11.705+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:11.787+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:11.787+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:21:11.865+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:11.860+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:20:00+00:00, run_after=2022-12-23T01:21:00+00:00
+[2022-12-23T02:21:11.928+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.311 seconds
+[2022-12-23T02:21:30.232+0100] {processor.py:153} INFO - Started process (PID=7206) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:30.236+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:21:30.241+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:30.240+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:30.318+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:30.486+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:30.485+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:21:30.552+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:30.552+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:20:00+00:00, run_after=2022-12-23T01:21:00+00:00
+[2022-12-23T02:21:30.623+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.404 seconds
+[2022-12-23T02:21:49.661+0100] {processor.py:153} INFO - Started process (PID=7222) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:49.670+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:21:49.671+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:49.671+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:49.725+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:21:49.811+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:49.811+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:21:49.870+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:21:49.870+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:20:00+00:00, run_after=2022-12-23T01:21:00+00:00
+[2022-12-23T02:21:49.934+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.281 seconds
+[2022-12-23T02:22:13.044+0100] {processor.py:153} INFO - Started process (PID=7243) to work on /home/momo/airflow/dags/tee.py
+[2022-12-23T02:22:13.048+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2022-12-23T02:22:13.051+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:22:13.050+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:22:13.096+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2022-12-23T02:22:13.132+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:22:13.132+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-23T02:22:13.161+0100] {logging_mixin.py:137} INFO - [2022-12-23T02:22:13.161+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2022-12-23T01:21:00+00:00, run_after=2022-12-23T01:22:00+00:00
+[2022-12-23T02:22:13.214+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.184 seconds

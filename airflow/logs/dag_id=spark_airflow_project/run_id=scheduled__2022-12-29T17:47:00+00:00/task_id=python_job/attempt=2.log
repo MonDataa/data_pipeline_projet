@@ -1,0 +1,249 @@
+[2022-12-29T18:55:22.856+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job scheduled__2022-12-29T17:47:00+00:00 [queued]>
+[2022-12-29T18:55:22.878+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.python_job scheduled__2022-12-29T17:47:00+00:00 [queued]>
+[2022-12-29T18:55:22.879+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-29T18:55:22.879+0100] {taskinstance.py:1284} INFO - Starting attempt 2 of 4
+[2022-12-29T18:55:22.879+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-29T18:55:22.906+0100] {taskinstance.py:1304} INFO - Executing <Task(SparkSubmitOperator): python_job> on 2022-12-29 17:47:00+00:00
+[2022-12-29T18:55:22.914+0100] {standard_task_runner.py:55} INFO - Started process 7960 to run task
+[2022-12-29T18:55:22.928+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark_airflow_project', 'python_job', 'scheduled__2022-12-29T17:47:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/spark_airflow.py', '--cfg-path', '/tmp/tmpeooeid59']
+[2022-12-29T18:55:22.931+0100] {standard_task_runner.py:83} INFO - Job 31: Subtask python_job
+[2022-12-29T18:55:23.024+0100] {task_command.py:389} INFO - Running <TaskInstance: spark_airflow_project.python_job scheduled__2022-12-29T17:47:00+00:00 [running]> on host momo-VirtualBox
+[2022-12-29T18:55:23.083+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ranga
+AIRFLOW_CTX_DAG_ID=spark_airflow_project
+AIRFLOW_CTX_TASK_ID=python_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-29T17:47:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-29T17:47:00+00:00
+[2022-12-29T18:55:23.090+0100] {base.py:73} INFO - Using connection ID 'spark_default' for task execution.
+[2022-12-29T18:55:23.091+0100] {spark_submit.py:344} INFO - Spark-Submit cmd: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py
+[2022-12-29T18:55:26.075+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:26 WARN Utils: Your hostname, momo-VirtualBox resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+[2022-12-29T18:55:26.079+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:26 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2022-12-29T18:55:27.427+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SparkContext: Running Spark version 3.3.1
+[2022-12-29T18:55:27.579+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2022-12-29T18:55:27.774+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceUtils: ==============================================================
+[2022-12-29T18:55:27.780+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2022-12-29T18:55:27.783+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceUtils: ==============================================================
+[2022-12-29T18:55:27.784+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SparkContext: Submitted application: arrow-spark
+[2022-12-29T18:55:27.822+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2022-12-29T18:55:27.838+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceProfile: Limiting resource is cpu
+[2022-12-29T18:55:27.839+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2022-12-29T18:55:27.923+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SecurityManager: Changing view acls to: momo
+[2022-12-29T18:55:27.926+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SecurityManager: Changing modify acls to: momo
+[2022-12-29T18:55:27.927+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SecurityManager: Changing view acls groups to:
+[2022-12-29T18:55:27.928+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SecurityManager: Changing modify acls groups to:
+[2022-12-29T18:55:27.930+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(momo); groups with view permissions: Set(); users  with modify permissions: Set(momo); groups with modify permissions: Set()
+[2022-12-29T18:55:28.521+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO Utils: Successfully started service 'sparkDriver' on port 35433.
+[2022-12-29T18:55:28.599+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO SparkEnv: Registering MapOutputTracker
+[2022-12-29T18:55:28.680+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO SparkEnv: Registering BlockManagerMaster
+[2022-12-29T18:55:28.711+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2022-12-29T18:55:28.712+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2022-12-29T18:55:28.723+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2022-12-29T18:55:28.768+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b7028973-fd1e-4b4b-b370-9a7e5564d58c
+[2022-12-29T18:55:28.812+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+[2022-12-29T18:55:28.863+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:28 INFO SparkEnv: Registering OutputCommitCoordinator
+[2022-12-29T18:55:29.442+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:29 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2022-12-29T18:55:29.468+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:29 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+[2022-12-29T18:55:29.829+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:29 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://momo-VirtualBox:7077...
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:29 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master momo-VirtualBox:7077
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:102)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:110)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2022-12-29T18:55:29.963+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - Caused by: java.io.IOException: Failed to connect to momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:288)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - ... 4 more
+[2022-12-29T18:55:29.964+0100] {spark_submit.py:495} INFO - Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connexion refusée: momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - Caused by: java.net.ConnectException: Connexion refusée
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[2022-12-29T18:55:29.965+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[2022-12-29T18:55:29.966+0100] {spark_submit.py:495} INFO - at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[2022-12-29T18:55:29.966+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[2022-12-29T18:55:29.967+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:55:49.825+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:49 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://momo-VirtualBox:7077...
+[2022-12-29T18:55:49.841+0100] {spark_submit.py:495} INFO - 22/12/29 18:55:49 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master momo-VirtualBox:7077
+[2022-12-29T18:55:49.841+0100] {spark_submit.py:495} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2022-12-29T18:55:49.841+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+[2022-12-29T18:55:49.842+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2022-12-29T18:55:49.842+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:102)
+[2022-12-29T18:55:49.842+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:110)
+[2022-12-29T18:55:49.842+0100] {spark_submit.py:495} INFO - at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+[2022-12-29T18:55:49.843+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2022-12-29T18:55:49.844+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[2022-12-29T18:55:49.844+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2022-12-29T18:55:49.844+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2022-12-29T18:55:49.844+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:55:49.844+0100] {spark_submit.py:495} INFO - Caused by: java.io.IOException: Failed to connect to momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:288)
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+[2022-12-29T18:55:49.845+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+[2022-12-29T18:55:49.846+0100] {spark_submit.py:495} INFO - ... 4 more
+[2022-12-29T18:55:49.846+0100] {spark_submit.py:495} INFO - Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connexion refusée: momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:55:49.846+0100] {spark_submit.py:495} INFO - Caused by: java.net.ConnectException: Connexion refusée
+[2022-12-29T18:55:49.846+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[2022-12-29T18:55:49.846+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[2022-12-29T18:55:49.847+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[2022-12-29T18:55:49.848+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[2022-12-29T18:55:49.848+0100] {spark_submit.py:495} INFO - at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[2022-12-29T18:55:49.848+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[2022-12-29T18:55:49.848+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:56:09.831+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:09 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://momo-VirtualBox:7077...
+[2022-12-29T18:56:09.857+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:09 WARN StandaloneAppClient$ClientEndpoint: Failed to connect to master momo-VirtualBox:7077
+[2022-12-29T18:56:09.857+0100] {spark_submit.py:495} INFO - org.apache.spark.SparkException: Exception thrown in awaitResult:
+[2022-12-29T18:56:09.858+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+[2022-12-29T18:56:09.858+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcTimeout.awaitResult(RpcTimeout.scala:75)
+[2022-12-29T18:56:09.858+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRefByURI(RpcEnv.scala:102)
+[2022-12-29T18:56:09.859+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.RpcEnv.setupEndpointRef(RpcEnv.scala:110)
+[2022-12-29T18:56:09.859+0100] {spark_submit.py:495} INFO - at org.apache.spark.deploy.client.StandaloneAppClient$ClientEndpoint$$anon$1.run(StandaloneAppClient.scala:107)
+[2022-12-29T18:56:09.859+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[2022-12-29T18:56:09.859+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[2022-12-29T18:56:09.860+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[2022-12-29T18:56:09.860+0100] {spark_submit.py:495} INFO - at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[2022-12-29T18:56:09.860+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:56:09.861+0100] {spark_submit.py:495} INFO - Caused by: java.io.IOException: Failed to connect to momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:56:09.861+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:288)
+[2022-12-29T18:56:09.862+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:218)
+[2022-12-29T18:56:09.862+0100] {spark_submit.py:495} INFO - at org.apache.spark.network.client.TransportClientFactory.createClient(TransportClientFactory.java:230)
+[2022-12-29T18:56:09.863+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.NettyRpcEnv.createClient(NettyRpcEnv.scala:204)
+[2022-12-29T18:56:09.863+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:202)
+[2022-12-29T18:56:09.863+0100] {spark_submit.py:495} INFO - at org.apache.spark.rpc.netty.Outbox$$anon$1.call(Outbox.scala:198)
+[2022-12-29T18:56:09.864+0100] {spark_submit.py:495} INFO - ... 4 more
+[2022-12-29T18:56:09.864+0100] {spark_submit.py:495} INFO - Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connexion refusée: momo-VirtualBox/127.0.1.1:7077
+[2022-12-29T18:56:09.864+0100] {spark_submit.py:495} INFO - Caused by: java.net.ConnectException: Connexion refusée
+[2022-12-29T18:56:09.865+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[2022-12-29T18:56:09.865+0100] {spark_submit.py:495} INFO - at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+[2022-12-29T18:56:09.865+0100] {spark_submit.py:495} INFO - at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+[2022-12-29T18:56:09.866+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+[2022-12-29T18:56:09.866+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+[2022-12-29T18:56:09.866+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+[2022-12-29T18:56:09.867+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+[2022-12-29T18:56:09.867+0100] {spark_submit.py:495} INFO - at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+[2022-12-29T18:56:09.867+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+[2022-12-29T18:56:09.868+0100] {spark_submit.py:495} INFO - at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[2022-12-29T18:56:09.868+0100] {spark_submit.py:495} INFO - at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[2022-12-29T18:56:09.869+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:56:29.835+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 WARN StandaloneSchedulerBackend: Application ID is not initialized yet.
+[2022-12-29T18:56:29.838+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 ERROR StandaloneSchedulerBackend: Application has been killed. Reason: All masters are unresponsive! Giving up.
+[2022-12-29T18:56:29.918+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 32955.
+[2022-12-29T18:56:29.919+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO NettyBlockTransferService: Server created on 10.0.2.15:32955
+[2022-12-29T18:56:29.930+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2022-12-29T18:56:29.947+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4041
+[2022-12-29T18:56:29.956+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 32955, None)
+[2022-12-29T18:56:29.977+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:32955 with 413.9 MiB RAM, BlockManagerId(driver, 10.0.2.15, 32955, None)
+[2022-12-29T18:56:29.987+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2022-12-29T18:56:29.992+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 32955, None)
+[2022-12-29T18:56:30.001+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO CoarseGrainedSchedulerBackend$DriverEndpoint: Asking each executor to shut down
+[2022-12-29T18:56:30.009+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:29 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 32955, None)
+[2022-12-29T18:56:30.025+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 WARN StandaloneAppClient$ClientEndpoint: Drop UnregisterApplication(null) because has not yet connected to master
+[2022-12-29T18:56:30.072+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2022-12-29T18:56:30.115+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO MemoryStore: MemoryStore cleared
+[2022-12-29T18:56:30.118+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO BlockManager: BlockManager stopped
+[2022-12-29T18:56:30.137+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2022-12-29T18:56:30.146+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2022-12-29T18:56:30.181+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO SparkContext: Successfully stopped SparkContext
+[2022-12-29T18:56:30.541+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 ERROR AsyncEventQueue: Listener AppStatusListener threw an exception
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - java.lang.NullPointerException
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.status.AppStatusListener.onApplicationEnd(AppStatusListener.scala:192)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.SparkListenerBus.doPostEvent(SparkListenerBus.scala:57)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.SparkListenerBus.doPostEvent$(SparkListenerBus.scala:28)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue.doPostEvent(AsyncEventQueue.scala:37)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue.doPostEvent(AsyncEventQueue.scala:37)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.ListenerBus.postToAll(ListenerBus.scala:117)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.ListenerBus.postToAll$(ListenerBus.scala:101)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue.super$postToAll(AsyncEventQueue.scala:105)
+[2022-12-29T18:56:30.542+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue.$anonfun$dispatch$1(AsyncEventQueue.scala:105)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at scala.runtime.java8.JFunction0$mcJ$sp.apply(JFunction0$mcJ$sp.java:23)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue.org$apache$spark$scheduler$AsyncEventQueue$$dispatch(AsyncEventQueue.scala:100)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue$$anon$2.$anonfun$run$1(AsyncEventQueue.scala:96)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at org.apache.spark.util.Utils$.tryOrStopSparkContext(Utils.scala:1446)
+[2022-12-29T18:56:30.543+0100] {spark_submit.py:495} INFO - at org.apache.spark.scheduler.AsyncEventQueue$$anon$2.run(AsyncEventQueue.scala:96)
+[2022-12-29T18:56:30.627+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 ERROR SparkContext: Error initializing SparkContext.
+[2022-12-29T18:56:30.627+0100] {spark_submit.py:495} INFO - java.lang.IllegalArgumentException: requirement failed: Can only call getServletHandlers on a running MetricsSystem
+[2022-12-29T18:56:30.627+0100] {spark_submit.py:495} INFO - at scala.Predef$.require(Predef.scala:281)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at org.apache.spark.metrics.MetricsSystem.getServletHandlers(MetricsSystem.scala:89)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at org.apache.spark.SparkContext.<init>(SparkContext.scala:650)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+[2022-12-29T18:56:30.628+0100] {spark_submit.py:495} INFO - at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at py4j.Gateway.invoke(Gateway.java:238)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+[2022-12-29T18:56:30.629+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:56:30.630+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO SparkContext: SparkContext already stopped.
+[2022-12-29T18:56:30.797+0100] {spark_submit.py:495} INFO - Traceback (most recent call last):
+[2022-12-29T18:56:30.798+0100] {spark_submit.py:495} INFO - File "/home/momo/Bureau/spark_d2.py", line 11, in <module>
+[2022-12-29T18:56:30.798+0100] {spark_submit.py:495} INFO - sc= SparkContext()
+[2022-12-29T18:56:30.798+0100] {spark_submit.py:495} INFO - File "/home/momo/.local/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/context.py", line 197, in __init__
+[2022-12-29T18:56:30.799+0100] {spark_submit.py:495} INFO - File "/home/momo/.local/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/context.py", line 282, in _do_init
+[2022-12-29T18:56:30.799+0100] {spark_submit.py:495} INFO - File "/home/momo/.local/lib/python3.8/site-packages/pyspark/python/lib/pyspark.zip/pyspark/context.py", line 402, in _initialize_context
+[2022-12-29T18:56:30.800+0100] {spark_submit.py:495} INFO - File "/home/momo/.local/lib/python3.8/site-packages/pyspark/python/lib/py4j-0.10.9.5-src.zip/py4j/java_gateway.py", line 1585, in __call__
+[2022-12-29T18:56:30.800+0100] {spark_submit.py:495} INFO - File "/home/momo/.local/lib/python3.8/site-packages/pyspark/python/lib/py4j-0.10.9.5-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2022-12-29T18:56:30.802+0100] {spark_submit.py:495} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+[2022-12-29T18:56:30.802+0100] {spark_submit.py:495} INFO - : java.lang.IllegalArgumentException: requirement failed: Can only call getServletHandlers on a running MetricsSystem
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at scala.Predef$.require(Predef.scala:281)
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at org.apache.spark.metrics.MetricsSystem.getServletHandlers(MetricsSystem.scala:89)
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at org.apache.spark.SparkContext.<init>(SparkContext.scala:650)
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2022-12-29T18:56:30.803+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.Gateway.invoke(Gateway.java:238)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+[2022-12-29T18:56:30.804+0100] {spark_submit.py:495} INFO - at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+[2022-12-29T18:56:30.805+0100] {spark_submit.py:495} INFO - at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+[2022-12-29T18:56:30.805+0100] {spark_submit.py:495} INFO - at java.base/java.lang.Thread.run(Thread.java:829)
+[2022-12-29T18:56:30.809+0100] {spark_submit.py:495} INFO - 
+[2022-12-29T18:56:30.879+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO ShutdownHookManager: Shutdown hook called
+[2022-12-29T18:56:30.881+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO ShutdownHookManager: Deleting directory /tmp/spark-3994ca49-3016-41e3-8444-1a5682bde874
+[2022-12-29T18:56:30.885+0100] {spark_submit.py:495} INFO - 22/12/29 18:56:30 INFO ShutdownHookManager: Deleting directory /tmp/spark-98c83596-a2c2-485b-bb01-1fffc6d3f0ba
+[2022-12-29T18:56:30.964+0100] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/operators/spark_submit.py", line 157, in execute
+    self._hook.submit(self._application)
+  File "/home/momo/.local/lib/python3.8/site-packages/airflow/providers/apache/spark/hooks/spark_submit.py", line 426, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py. Error code is: 1.
+[2022-12-29T18:56:30.968+0100] {taskinstance.py:1322} INFO - Marking task as UP_FOR_RETRY. dag_id=spark_airflow_project, task_id=python_job, execution_date=20221229T174700, start_date=20221229T175522, end_date=20221229T175630
+[2022-12-29T18:56:30.986+0100] {standard_task_runner.py:100} ERROR - Failed to execute job 31 for task python_job (Cannot execute: spark-submit --master spark://momo-VirtualBox:7077 --name arrow-spark --queue root.default /home/momo/Bureau/spark_d2.py. Error code is: 1.; 7960)
+[2022-12-29T18:56:30.995+0100] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-29T18:56:31.009+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
