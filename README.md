@@ -24,7 +24,7 @@ Donc pour realisé cette tache nous avons crées deux groupes :
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/resultat_hdfs.PNG)
 
 **2) nifi regisrtry :**
-- 1) Nous avons créé un repository sur Github, puis généré le Personal access token. - 
+- 1) Nous avons créé un repository sur `Github`, puis généré le Personal access token. - 
 - 2) Nous allons cloner le repository dans le dossier Nifi-Registry. - 
 - 3) Nous modifions le fichier Nifi-registry/conf/providers.xml, et plus précisément la partie flowPersistenceProvider pour mettre nos informations github. Ainsi, les buckets seront enregistré dans notre repository github au lieu de s’enrigster en local. 
 - 4) Nous créons un nouveau bucket sur nifi-registry. 
@@ -50,10 +50,10 @@ Dans le but d'automatiser notre flot de données, nous avons utilisés ce DAGs s
 
 - ce se déclenche chaque heure pour effectuer les traitements qu'on a effectué toutes les operations precedentes :
 
-- 1) Démarrage de spark
-- 2) Démarrage de nifi
-- 3) traitement de donnée de spark
-- 4) Fin spark
-- 5) Fin nifi
+- 1) Démarrage `spark`
+- 2) Démarrage `nifi`
+- 3) traitement de donnée `spark`
+- 4) Fin `spark`
+- 5) Fin `nifi`
 
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/airflow/airflow_dag.PNG)
