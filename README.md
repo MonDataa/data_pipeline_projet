@@ -1,5 +1,9 @@
 # data_pipeline_projet
 
+***TRAVAUX EFFECTUÉS***
+
+***Réalisé par : Mounsif Elkhiyar , Achraf ATTARY , Basel ALASSAAD***
+
 ## 1) Collecte de donnée (Nifi)
 
 **1) nifi data ingestion :**
@@ -23,7 +27,7 @@ Nous avons effectués plusieurs opérations moyennant principalement Pyspark sur
 - 2) Jointure,Merge.
 - 3) Ajout de colonnes (Feature Engineering).
 - 4) Renommer les colonnes
-- 5)Calcul d'agrégation.
+- 5) Calcul d'agrégation.
 
 ## 3) Orchestration des pipelines de donnée (Airlfow)
 
