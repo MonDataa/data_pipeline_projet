@@ -8,6 +8,21 @@
 
 **1) nifi data ingestion :**
 
+
+Pour realisé cette tache nous avons crées deux groupes :
+
+![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow1.PNG)
+
+`Groupe 1` : nous avons créer ce groupe pour convertir les fichiers excel en csv :
+
+![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow1.PNG)
+
+`Groupe 2` : ce groupe sert a etablir un systeme de validation des fichiers csv graces aux processus (ValidationCSV) aprés on a utilisé Kafka 
+
+![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow2.PNG)
+
+![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/resultat_hdfs.PNG)
+
 **2) nifi regisrtry :**
 - 1) Nous avons créé un repository sur Github, puis généré le Personal access token. - 
 - 2) Nous allons cloner le repository dans le dossier Nifi-Registry. - 
@@ -25,7 +40,7 @@ Nous avons effectués plusieurs opérations moyennant principalement Pyspark sur
 
 - 1) Suppression des doublons et les valeur Null.
 - 2) Jointure,Merge.
-- 3) Ajout de colonnes (Feature Engineering).
+- 3) Ajoutes des colonnes (Feature Engineering).
 - 4) Renommer les colonnes
 - 5) Calcul d'agrégation.
 
