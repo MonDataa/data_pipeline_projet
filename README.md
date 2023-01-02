@@ -11,9 +11,11 @@
 
 Pour realisé cette tache nous avons crées deux groupes :
 
+`Groupe 1` : nous avons créer ce groupe pour convertir les fichiers excel en csv :
+
+
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow1.PNG)
 
-`Groupe 1` : nous avons créer ce groupe pour convertir les fichiers excel en csv :
 
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow1.PNG)
 
