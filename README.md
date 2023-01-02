@@ -6,7 +6,7 @@
 
 ## 1) Collecte de donnée (Nifi)
 
-**1) nifi data ingestion :**
+**1) nifi data ingestion :** l'objectif dans cette phase et de collecter les données dans differentes source ,dans notre cas on va travaillé  deux fichier excel d'Election présidentielle des 10 et 24 avril 2022,aprés on va créer des processus pour extraire les données,il faut que les données sont accessible dans differentes source (HDFS,local,kafkaProducer) et implementer une strategie de validation des données
 
 
 Pour realisé cette tache nous avons crées deux groupes :
@@ -17,7 +17,7 @@ Pour realisé cette tache nous avons crées deux groupes :
 
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow1.PNG)
 
-`Groupe 2` : ce groupe sert a etablir un systeme de validation des fichiers csv graces aux processus (ValidationCSV) aprés on a utilisé Kafka 
+`Groupe 2` : ce groupe sert a etablir un systeme de validation des fichiers csv graces aux processus (ValidationCSV) aprés on a utilisé Kafka sur nifi ,on a travaillé par les processeurs consummeKafka et publishKafka pour consommer nos données de nifi dans deux topics ( valid et invalid data ) et les publier dans un fichier (HDFS,local)
 
 ![enter image description here](https://github.com/MonDataa/data_pipeline_projet/blob/master/nifi/nifi_flow2.PNG)
 
