@@ -1,0 +1,14 @@
+[2023-01-02T07:41:19.374+0100] {processor.py:153} INFO - Started process (PID=9223) to work on /home/momo/airflow/dags/tee.py
+[2023-01-02T07:41:19.375+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2023-01-02T07:41:19.376+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:19.376+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2023-01-02T07:41:19.385+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2023-01-02T07:41:19.407+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:19.407+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:41:19.427+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:19.427+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2023-01-02T06:40:00+00:00, run_after=2023-01-02T06:41:00+00:00
+[2023-01-02T07:41:19.453+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.082 seconds
+[2023-01-02T07:42:07.525+0100] {processor.py:153} INFO - Started process (PID=9397) to work on /home/momo/airflow/dags/tee.py
+[2023-01-02T07:42:07.531+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/tee.py for tasks to queue
+[2023-01-02T07:42:07.532+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.532+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/tee.py
+[2023-01-02T07:42:07.542+0100] {processor.py:753} INFO - DAG(s) dict_keys(['hello_world_dag']) retrieved from /home/momo/airflow/dags/tee.py
+[2023-01-02T07:42:07.561+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.561+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:07.580+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.579+0100] {dag.py:3423} INFO - Setting next_dagrun for hello_world_dag to 2023-01-02T06:41:00+00:00, run_after=2023-01-02T06:42:00+00:00
+[2023-01-02T07:42:07.622+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/tee.py took 0.100 seconds

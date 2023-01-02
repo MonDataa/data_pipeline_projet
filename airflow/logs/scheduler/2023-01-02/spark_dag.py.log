@@ -1,0 +1,21 @@
+[2023-01-02T07:36:58.916+0100] {processor.py:153} INFO - Started process (PID=6198) to work on /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:36:58.935+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_dag.py for tasks to queue
+[2023-01-02T07:36:58.936+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:58.936+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:36:59.018+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_spark_operator']) retrieved from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:36:59.197+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:59.196+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:36:59.280+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:59.280+0100] {dag.py:3423} INFO - Setting next_dagrun for example_spark_operator to None, run_after=None
+[2023-01-02T07:36:59.313+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_dag.py took 0.402 seconds
+[2023-01-02T07:40:35.259+0100] {processor.py:153} INFO - Started process (PID=8778) to work on /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:40:35.260+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_dag.py for tasks to queue
+[2023-01-02T07:40:35.261+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:35.261+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:40:35.271+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_spark_operator']) retrieved from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:40:35.310+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:35.310+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:40:35.345+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:35.345+0100] {dag.py:3423} INFO - Setting next_dagrun for example_spark_operator to None, run_after=None
+[2023-01-02T07:40:35.369+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_dag.py took 0.134 seconds
+[2023-01-02T07:42:07.201+0100] {processor.py:153} INFO - Started process (PID=9396) to work on /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:42:07.203+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_dag.py for tasks to queue
+[2023-01-02T07:42:07.203+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.203+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:42:07.212+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_spark_operator']) retrieved from /home/momo/airflow/dags/spark_dag.py
+[2023-01-02T07:42:07.228+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.228+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:07.255+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:07.254+0100] {dag.py:3423} INFO - Setting next_dagrun for example_spark_operator to None, run_after=None
+[2023-01-02T07:42:07.279+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_dag.py took 0.081 seconds

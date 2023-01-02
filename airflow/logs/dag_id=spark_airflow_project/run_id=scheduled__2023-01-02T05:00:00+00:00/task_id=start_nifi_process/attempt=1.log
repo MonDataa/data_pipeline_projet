@@ -1,0 +1,23 @@
+[2023-01-02T07:37:15.765+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.start_nifi_process scheduled__2023-01-02T05:00:00+00:00 [queued]>
+[2023-01-02T07:37:15.870+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: spark_airflow_project.start_nifi_process scheduled__2023-01-02T05:00:00+00:00 [queued]>
+[2023-01-02T07:37:15.871+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T07:37:15.881+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 4
+[2023-01-02T07:37:15.881+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T07:37:15.998+0100] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): start_nifi_process> on 2023-01-02 05:00:00+00:00
+[2023-01-02T07:37:16.009+0100] {standard_task_runner.py:55} INFO - Started process 6269 to run task
+[2023-01-02T07:37:16.047+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'spark_airflow_project', 'start_nifi_process', 'scheduled__2023-01-02T05:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/spark_airflow.py', '--cfg-path', '/tmp/tmpcuo58ejt']
+[2023-01-02T07:37:16.048+0100] {standard_task_runner.py:83} INFO - Job 94: Subtask start_nifi_process
+[2023-01-02T07:37:16.389+0100] {task_command.py:389} INFO - Running <TaskInstance: spark_airflow_project.start_nifi_process scheduled__2023-01-02T05:00:00+00:00 [running]> on host momo-VirtualBox
+[2023-01-02T07:37:16.717+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ranga
+AIRFLOW_CTX_DAG_ID=spark_airflow_project
+AIRFLOW_CTX_TASK_ID=start_nifi_process
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T05:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-02T05:00:00+00:00
+[2023-01-02T07:37:16.789+0100] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-02T07:37:16.826+0100] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=spark_airflow_project, task_id=start_nifi_process, execution_date=20230102T050000, start_date=20230102T063715, end_date=20230102T063716
+[2023-01-02T07:37:16.961+0100] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-02T07:37:17.084+0100] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

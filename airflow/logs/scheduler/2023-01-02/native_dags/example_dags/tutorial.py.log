@@ -1,0 +1,14 @@
+[2023-01-02T07:41:31.072+0100] {processor.py:153} INFO - Started process (PID=9359) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:41:31.073+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-01-02T07:41:31.076+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:31.076+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:41:31.089+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:41:31.110+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:31.110+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:41:31.127+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:31.127+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-01-01T06:41:31.127503+00:00, run_after=2023-01-02T06:41:31.127503+00:00
+[2023-01-02T07:41:31.152+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2023-01-02T07:42:15.121+0100] {processor.py:153} INFO - Started process (PID=9416) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:42:15.123+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-01-02T07:42:15.123+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:15.123+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:42:15.132+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2023-01-02T07:42:15.160+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:15.160+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:15.183+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:15.183+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial to 2023-01-01T06:42:15.183205+00:00, run_after=2023-01-02T06:42:15.183205+00:00
+[2023-01-02T07:42:15.205+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds

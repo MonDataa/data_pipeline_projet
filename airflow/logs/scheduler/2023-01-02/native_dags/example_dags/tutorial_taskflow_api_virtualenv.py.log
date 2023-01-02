@@ -1,0 +1,14 @@
+[2023-01-02T07:41:35.460+0100] {processor.py:153} INFO - Started process (PID=9365) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:41:35.461+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2023-01-02T07:41:35.461+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:35.461+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:41:35.495+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_virtualenv']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:41:35.521+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:35.520+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:41:35.542+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:35.542+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2023-01-02T07:41:35.574+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.118 seconds
+[2023-01-02T07:42:19.142+0100] {processor.py:153} INFO - Started process (PID=9420) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:42:19.143+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2023-01-02T07:42:19.144+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:19.143+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:42:19.159+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_taskflow_api_virtualenv']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-01-02T07:42:19.176+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:19.176+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:19.193+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:19.192+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2023-01-02T07:42:19.223+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.085 seconds

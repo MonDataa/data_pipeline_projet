@@ -1,0 +1,14 @@
+[2023-01-02T07:41:32.224+0100] {processor.py:153} INFO - Started process (PID=9362) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:41:32.228+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-02T07:41:32.229+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:32.228+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:41:32.252+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:41:32.273+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:32.272+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:41:32.292+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:32.292+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group_decorator to 2023-01-01T06:41:32.291664+00:00, run_after=2023-01-02T06:41:32.291664+00:00
+[2023-01-02T07:41:32.326+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.109 seconds
+[2023-01-02T07:42:16.299+0100] {processor.py:153} INFO - Started process (PID=9417) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:42:16.301+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-01-02T07:42:16.301+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:16.301+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:42:16.324+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-01-02T07:42:16.344+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:16.344+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:16.360+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:16.360+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group_decorator to 2023-01-01T06:42:16.359767+00:00, run_after=2023-01-02T06:42:16.359767+00:00
+[2023-01-02T07:42:16.401+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.118 seconds

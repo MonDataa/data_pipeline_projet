@@ -1,0 +1,8 @@
+[2023-01-02T07:41:58.373+0100] {processor.py:153} INFO - Started process (PID=9389) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-02T07:41:58.374+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-01-02T07:41:58.375+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:58.375+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-02T07:41:58.385+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-01-02T07:41:58.405+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:58.405+0100] {dag.py:2676} INFO - Sync 2 DAGs
+[2023-01-02T07:41:58.434+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:58.434+0100] {dag.py:3423} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-01-02T07:41:58.438+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:58.437+0100] {dag.py:3423} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-01-02T07:41:58.468+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.101 seconds

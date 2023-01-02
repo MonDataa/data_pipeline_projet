@@ -1,0 +1,28 @@
+[2023-01-02T07:36:35.481+0100] {processor.py:153} INFO - Started process (PID=5759) to work on /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:36:35.482+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_airflow.py for tasks to queue
+[2023-01-02T07:36:35.482+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:35.482+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:36:35.506+0100] {processor.py:753} INFO - DAG(s) dict_keys(['spark_airflow_project']) retrieved from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:36:35.533+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:35.532+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:36:35.558+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:36:35.557+0100] {dag.py:3423} INFO - Setting next_dagrun for spark_airflow_project to 2023-01-02T05:00:00+00:00, run_after=2023-01-02T06:00:00+00:00
+[2023-01-02T07:36:35.580+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_airflow.py took 0.101 seconds
+[2023-01-02T07:38:12.691+0100] {processor.py:153} INFO - Started process (PID=6755) to work on /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:38:12.692+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_airflow.py for tasks to queue
+[2023-01-02T07:38:12.693+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:38:12.693+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:38:12.703+0100] {processor.py:753} INFO - DAG(s) dict_keys(['spark_airflow_project']) retrieved from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:38:12.721+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:38:12.721+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:38:12.741+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:38:12.741+0100] {dag.py:3423} INFO - Setting next_dagrun for spark_airflow_project to 2023-01-02T06:00:00+00:00, run_after=2023-01-02T07:00:00+00:00
+[2023-01-02T07:38:12.763+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_airflow.py took 0.075 seconds
+[2023-01-02T07:40:14.087+0100] {processor.py:153} INFO - Started process (PID=8274) to work on /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:40:14.101+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_airflow.py for tasks to queue
+[2023-01-02T07:40:14.102+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:14.102+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:40:14.137+0100] {processor.py:753} INFO - DAG(s) dict_keys(['spark_airflow_project']) retrieved from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:40:14.174+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:14.174+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:40:14.258+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:40:14.258+0100] {dag.py:3423} INFO - Setting next_dagrun for spark_airflow_project to 2023-01-02T06:00:00+00:00, run_after=2023-01-02T07:00:00+00:00
+[2023-01-02T07:40:14.318+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_airflow.py took 0.234 seconds
+[2023-01-02T07:42:05.950+0100] {processor.py:153} INFO - Started process (PID=9395) to work on /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:42:05.962+0100] {processor.py:743} INFO - Processing file /home/momo/airflow/dags/spark_airflow.py for tasks to queue
+[2023-01-02T07:42:05.963+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:05.963+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:42:05.976+0100] {processor.py:753} INFO - DAG(s) dict_keys(['spark_airflow_project']) retrieved from /home/momo/airflow/dags/spark_airflow.py
+[2023-01-02T07:42:05.996+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:05.996+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:06.014+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:06.014+0100] {dag.py:3423} INFO - Setting next_dagrun for spark_airflow_project to 2023-01-02T06:00:00+00:00, run_after=2023-01-02T07:00:00+00:00
+[2023-01-02T07:42:06.049+0100] {processor.py:175} INFO - Processing /home/momo/airflow/dags/spark_airflow.py took 0.104 seconds

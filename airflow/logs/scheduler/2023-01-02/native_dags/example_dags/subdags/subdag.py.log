@@ -1,0 +1,10 @@
+[2023-01-02T07:41:40.771+0100] {processor.py:153} INFO - Started process (PID=9372) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:41:40.772+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-02T07:41:40.775+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:40.773+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:41:40.778+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:41:40.793+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py took 0.025 seconds
+[2023-01-02T07:42:23.213+0100] {processor.py:153} INFO - Started process (PID=9425) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:42:23.214+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-02T07:42:23.215+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:23.215+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:42:23.218+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-02T07:42:23.229+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds

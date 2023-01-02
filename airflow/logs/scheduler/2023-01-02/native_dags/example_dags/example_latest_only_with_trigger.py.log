@@ -1,0 +1,14 @@
+[2023-01-02T07:41:53.083+0100] {processor.py:153} INFO - Started process (PID=9384) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:41:53.084+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-01-02T07:41:53.085+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:53.085+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:41:53.092+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:41:53.112+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:53.112+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:41:53.131+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:41:53.131+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-01-02T02:41:53.131083+00:00, run_after=2023-01-02T06:41:53.131083+00:00
+[2023-01-02T07:41:53.171+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.091 seconds
+[2023-01-02T07:42:36.213+0100] {processor.py:153} INFO - Started process (PID=9439) to work on /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:42:36.214+0100] {processor.py:743} INFO - Processing file /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-01-02T07:42:36.215+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:36.215+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:42:36.221+0100] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-01-02T07:42:36.242+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:36.241+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T07:42:36.279+0100] {logging_mixin.py:137} INFO - [2023-01-02T07:42:36.279+0100] {dag.py:3423} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-01-02T02:42:36.278363+00:00, run_after=2023-01-02T06:42:36.278363+00:00
+[2023-01-02T07:42:36.330+0100] {processor.py:175} INFO - Processing /home/momo/.local/lib/python3.8/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.119 seconds
