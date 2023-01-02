@@ -46,9 +46,9 @@ Nous avons effectués plusieurs opérations moyennant principalement Pyspark sur
 
 ## 3) Orchestration des pipelines de donnée (Airlfow)
 
-Dans le but d'automatiser notre flot de données, nous avons utilisés ce DAGs sur Airflow:
+Dans le but d'automatiser notre flot de données, nous avons utilisés un DAGs sur Airflow:
 
-- ce se déclenche chaque heure pour effectuer les traitements qu'on a effectué toutes les operations precedentes :
+- le dag ce se déclenche chaque heure pour effectuer les traitements qu'on a effectué dans les taches precedentes :
 
 - 1) Démarrage `spark`
 - 2) Démarrage `nifi`
